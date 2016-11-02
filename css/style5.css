@@ -1,3 +1,33 @@
-
+.df-events-and-news .df-caption {
+  text-align: center; }
+  .df-events-and-news .df-caption .df-cap {
+    font-size: 42px;
+    color: #363636;
+    font-family: "Conv_pt-serif_[allfont.ru]";
+    margin-right: 28px;
+    display: inline-block; }
+  .df-events-and-news .df-caption .df-allevents {
+    font-size: 16px;
+    color: #636363;
+    font-family: "OpenSans-Regular";
+    border: 1px solid #98be28;
+    padding: 9px 14px;
+    display: inline-block; }
+.df-events-and-news .df-content .df-img img {
+  width: 440px;
+  height: 255px; }
+.df-events-and-news .df-content .df-img .df-img-text {
+  height: 155px;
+  width: 440px;
+  background: #254150; }
+  .df-events-and-news .df-content .df-img .df-img-text em {
+    font-size: 16px;
+    color: #6e8b9a; }
+  .df-events-and-news .df-content .df-img .df-img-text h1 {
+    font-size: 26px;
+    color: #ffffff; }
+  .df-events-and-news .df-content .df-img .df-img-text span {
+    font-size: 15px;
+    color: #6e8b9a; }
 
 /*# sourceMappingURL=style5.css.map */

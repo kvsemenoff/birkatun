@@ -1,10 +1,10 @@
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
+<div class="df-container">
+	<div class="">
+		<div class="">
 			<div class="df-events-and-news">
 				<div class="df-caption">
 					<h3 class="df-cap">Мероприятия и новости</h3>
-					<span class="df-allevents"><a href="#">Все мероприятия</a></span>
+					<span class="df-all-events"><a href="#">Все мероприятия</a></span>
 				</div>
 				<div class="df-content">
 					<div class="df-img">
@@ -17,7 +17,11 @@
 					</div>
 					<div class="df-data-text">
 						<div class="df-data">
-							<span>03 <br> сентября <br> 2016</span>
+							<div>
+								<p class="df-first">03</p>
+								<p>сентября</p>
+								<p>2016</p>
+							</div>
 						</div>
 						<div class="df-text">
 							<h3 class="df-text-caption">Открытие бассейна «Океан»</h3>
@@ -27,31 +31,39 @@
 					</div>
 					<div class="df-data-text">
 						<div class="df-data">
-							<span>29 <br> августа<br> 2016</span>
+							<div>
+								<p class="df-first">29</p>
+								<p>августа</p>
+								<p>2016</p>
+							</div>
 						</div>
 						<div class="df-text">
-							<h3 class="df-text-caption">Открытие бассейна «Океан»</h3>
+							<h3 class="df-text-caption">Концерт Камеди-клаб</h3>
 							<p>Гиперцитата, чтобы уловить хореический ритм или аллитерацию на "л", вероятна. Поэт инстинктивно чувствовал преимущества реального устного исполнения тех стихов, в которых обсценная идиома 
 							</p>
 						</div>
 					</div>
-					<div class="df-data-text">
+					<div class="df-data-text df-border-bot">
 						<div class="df-data">
-							<span>23 <br> августа <br> 2016</span>
+							<div>
+								<p class="df-first">23</p>
+								<p>августа</p>
+								<p>2016</p>
+							</div>
 						</div>
 						<div class="df-text">
-							<h3 class="df-text-caption">Открытие бассейна «Океан»</h3>
+							<h3 class="df-text-caption">Покатушки на квадроциклах</h3>
 							<p>Как весело мы провели время и что успели повидать из уст Ивана Петросяна.
 							</p>
 						</div>
 					</div>
+					<div class="clear"></div>
 
 				</div>
 				
+				
 			</div>
 			
-		</div>
-		
-	</div>
+	
 	
 </div>

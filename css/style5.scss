@@ -12,13 +12,38 @@
 }
 
 
+									// CAPTION FOR FUN.PHP
+.df-caption{
+	text-align: left;
+	padding-left: 62px;			
+	.df-cap{
+		font-size: 38px; color:#363636;		
+		display: inline-block;
+		letter-spacing: 2.02px;
+		margin-right: 18px;
+	}
+	.df-all-events a{
+		font-size: 16px; color:#636363; font-family: "OpenSans-Regular";			
+		padding: 9px 25px;
+		display: inline-block;
+		vertical-align: 25%;
+		background: url(/img/dfbgevents.png) no-repeat right  center;			
+	}
+	.df-cap-subtitle{
+		font-size: 16px;color:#636363; font-family: "OpenSans-Regular";
+		padding-top: 14px;
+	}
+}		
+									//END FOR FUN .PHP
+
+									//EVENTS AND NEWS.PHP
+
 
 .df-events-and-news{
 	.df-caption{
 		text-align: center;		
 		margin-top: 50px;
-		margin-bottom: 28px;			
-				
+		margin-bottom: 28px;				
 		.df-cap{
 			font-size: 38px; color:#363636;		//42	
 			display: inline-block;
@@ -30,6 +55,9 @@
 			display: inline-block;
 			vertical-align: 25%;
 			background: url(/img/dfbgevents.png) no-repeat right  center;			
+		}
+		.df-cap-subtitle{
+			font-size: 16px;color:#636363; font-family: "OpenSans-Regular";
 		}		
 	}
 	.df-content{
@@ -41,6 +69,7 @@
 			img{
 				width: 100%;
 				height: auto;
+				min-height: 260px;
 			}
 			.df-img-text{							 
 				background: #254150;
@@ -94,6 +123,61 @@
 			border-bottom: 1px solid #ebebeb;
 		}
 	}
+}
+										//END EV AND NEWS PHP
+
+
+										//LIVING AND FOOD .PHP
+
+.df-living{
+	.df-caption{
+		text-align: left;
+		padding-left: 62px;			
+		.df-cap{
+			font-size: 38px; color:#363636;		
+			display: inline-block;
+			letter-spacing: 2.02px;
+			margin-right: 18px;
+		}
+		.df-all-events a{
+			font-size: 16px; color:#636363; font-family: "OpenSans-Regular";			
+			padding: 9px 35px 9px 28px;
+			display: inline-block;
+			vertical-align: 25%;
+			background: url(/img/dfbgevents.png) no-repeat right  center;			
+		}
+		.df-cap-subtitle{
+			font-size: 16px;color:#636363; font-family: "OpenSans-Regular";
+			padding-top: 14px;
+		}
+	}
+	.df-liv-img {
+			//float: left;
+			width: 100%;
+			margin-bottom: 20px;
+			img{
+				width: 100%;
+				height: auto;
+			}
+			.df-liv-text{							 
+				background: #254150;
+				padding: 28px 30px 15px 70px; 				
+				h1 a{
+					font-size: 26px; line-height: 28px;
+					color:#ffffff;
+					display: inline-block; 					
+				}
+				span{
+					font-size: 15px; color:#809dad; line-height: 18px;
+				}
+				.df-more{
+					display:inline-block;
+					color:#98be28;
+					padding:  0px 10px 10px 10px;
+					border:1px solid #98be28;
+				}
+			}
+		}												
 }
 
 @media only screen and (min-width : 320px) {
@@ -174,13 +258,12 @@
 					float: left;
 					margin: 0 37px 0 50px;
 					padding-top: 21px;
-
 				}
 				.df-text{
 					padding-top: 18px;
 					float: left;
 					width: 77% !important;
-					height: 134px;
+					height: 134.2px;
 					margin-left: 0%;
 				}
 			}

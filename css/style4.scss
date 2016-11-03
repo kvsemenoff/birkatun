@@ -1,6 +1,6 @@
-.col-md-2{
-	//outline:1px solid red;
-}
+
+
+/*============ footer ===========*/
 
 .dd-footer{
 	background:#254150 !important;
@@ -106,7 +106,24 @@
 }
 
 
+/*============ link.php ============*/
 
+.dd-link{
+	.my-contain{
+		padding-left:0;
+		padding-right:0;
+		.dd-map{
+			max-width:560px;
+			outline: 1px solid red;
+			// float: left;
+		}
+		.dd-form{
+			max-width:760px;
+			background:#98BE28;
+			// float: left;
+		}
+	}
+}
 
 
 

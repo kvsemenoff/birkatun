@@ -5,23 +5,23 @@
 	padding: 0;
 }
 @media only screen and (min-width: 1248px){
-	.imgbox{
+	.dg-imgbox{
 		height: 143px !important;
 	}
 }
 @media (min-width: 1200px) and (max-width: 1247px){
-	.imgbox{
+	.dg-imgbox{
 		height: 127px !important;
 	}
 }
 @media (min-width: 992px) and (max-width: 1200px){
 
-	.imgbox{
+	.dg-imgbox{
 		height: 105px !important;
 	}
 }
 @media (min-width: 768px) and (max-width: 992px){
-	.imgbox{
+	.dg-imgbox{
 			width: 375px !important;
 			height: 167px !important;
 			margin: 0 auto;
@@ -37,26 +37,28 @@
 }
 
 @media only screen and (max-width: 767px){
-	.imgbox{
-		width: 375px !important;
-		height: 167px !important;
+	.dg-imgbox{
+		width: 100% !important;
+		height: auto !important;
 		margin: 0 auto;
+		img{
+			width: 100% !important;
+			height: auto !important;
+		}
 	}
-	img{
-		width: 375px !important;
-		height: 167px !important;
-	}
+	
 }
 @media only screen and (max-width: 405px){
-	.imgbox{
+	.dg-imgbox{
 		width: 305px !important;
 		height: 117px !important;
 		margin: 0 auto;
+		img{
+			width: 305px !important;
+			height: 117px !important;
+		}
 	}
-	img{
-		width: 305px !important;
-		height: 117px !important;
-	}
+	
 }
 .dg-lastevents{
 	.title{
@@ -67,7 +69,7 @@
 	  line-height: 1.25;
 	  margin-bottom: 10px;
 	}
-	.imgbox{
+	.dg-imgbox{
 		position: relative;
 		height: auto;
 		img{

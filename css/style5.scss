@@ -15,7 +15,7 @@
 									// CAPTION FOR FUN.PHP
 .df-caption{
 	text-align: left;
-	padding-left: 62px;			
+	//padding-left: 62px;			
 	.df-cap{
 		font-size: 38px; color:#363636;		
 		display: inline-block;
@@ -132,7 +132,7 @@
 .df-living{
 	.df-caption{
 		text-align: left;
-		padding-left: 62px;			
+		//padding-left: 62px;			
 		.df-cap{
 			font-size: 38px; color:#363636;		
 			display: inline-block;
@@ -163,18 +163,18 @@
 				background: #254150;
 				padding: 28px 30px 15px 70px; 				
 				h1 a{
-					font-size: 26px; line-height: 28px;
+					font-size: 26px; line-height: 28px;font-family: "OpenSans-Regular";
 					color:#ffffff;
 					display: inline-block; 					
 				}
 				span{
-					font-size: 15px; color:#809dad; line-height: 18px;
+					font-size: 15px; color:#809dad; line-height: 18px;font-family: "OpenSans-Regular";
 				}
 				.df-more{
 					display:inline-block;
-					color:#98be28;
-					padding:  0px 10px 10px 10px;
-					border:1px solid #98be28;
+					color:#98be28; font-size: 26px; 
+					padding:  0px 10px 0px 10px;					
+					border:1px solid #98be28;					
 				}
 			}
 		}												

@@ -8,8 +8,7 @@
   font-family: "OpenSans-Regular"; }
 
 .df-caption {
-  text-align: left;
-  padding-left: 62px; }
+  text-align: left; }
   .df-caption .df-cap {
     font-size: 38px;
     color: #363636;
@@ -105,8 +104,7 @@
     border-bottom: 1px solid #ebebeb; }
 
 .df-living .df-caption {
-  text-align: left;
-  padding-left: 62px; }
+  text-align: left; }
   .df-living .df-caption .df-cap {
     font-size: 38px;
     color: #363636;
@@ -138,16 +136,19 @@
     .df-living .df-liv-img .df-liv-text h1 a {
       font-size: 26px;
       line-height: 28px;
+      font-family: "OpenSans-Regular";
       color: #ffffff;
       display: inline-block; }
     .df-living .df-liv-img .df-liv-text span {
       font-size: 15px;
       color: #809dad;
-      line-height: 18px; }
+      line-height: 18px;
+      font-family: "OpenSans-Regular"; }
     .df-living .df-liv-img .df-liv-text .df-more {
       display: inline-block;
       color: #98be28;
-      padding: 0px 10px 10px 10px;
+      font-size: 26px;
+      padding: 0px 10px 0px 10px;
       border: 1px solid #98be28; }
 
 @media only screen and (min-width: 480px) {

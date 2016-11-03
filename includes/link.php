@@ -23,6 +23,7 @@
 					<form class="dd-form" action="#">
 						<input class="dd-input" type="text" placeholder="Как к вам обращаться">
 						<input class="dd-input" type="text" placeholder="Ваш адрес электронной почты">
+						<textarea class="dd-input" placeholder="Ваше обращение"></textarea>
 					</form>
 				</div>	
 				<div class="clearfix"></div>

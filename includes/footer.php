@@ -93,6 +93,7 @@
 			<div class="col-md-3">
 				<div class="dd-phone-footer">+7 (385) 277-89-25</div>
 			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 </section>

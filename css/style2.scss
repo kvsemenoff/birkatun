@@ -6,6 +6,10 @@
 @import "fonts.css";
 
 // *********************
+.db-margin{
+	margin-top: 69px;
+	margin-bottom: 42px;
+}
 .db-inner1{
 	display: block;
 }
@@ -20,7 +24,7 @@
 .db-class1:before{
 	float: left;
 	content:'';
-	margin-top: 44.5%; //было 40%
+	margin-top: 44.5%; // высчитывается от ширины слайда
 	display: inline-block;
 	vertical-align: top;
 	width: 0px;
@@ -29,13 +33,13 @@
 .db-class2{
 	position: relative;
 	width: 100%;
-	// outline: 1px solid red;
-	background-color: red;
+	height: 100%;
+	// background-color: red;
 }
 .db-class2:before{
 	float: left;
 	content:'';
-	margin-top: 44.5%; //было 40%
+	margin-top: 44.5%; // высчитывается от ширины слайда
 	display: inline-block;
 	vertical-align: top;
 	width: 0px;
@@ -43,6 +47,9 @@
 .db-divimg{
 	width: 100%;
 	height: 100%;
+	img{
+		height: 100%;
+	}
 }
 // *******************
 .db-wrapper{
@@ -51,74 +58,92 @@
 	height: 100%;
 }
 .db-div1{
-	font-size: 50px;
-	color: #fff;
 	float: left;
 	width: 25%;
 	height: 100%;
 	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
 	img{
-		width: 100%;
+		position: absolute; //* --- делает картинку не responsiv-ой, внутри слайда и для остальных так же
+		top: 50%; //*
+		left: 50%; //*
+		transform: translate(-50%, -50%); //*
 		height: 100%;
 	}
 }
 .db-div2{
-	font-size: 50px;
-	color: #fff;
+	position: relative;
+	overflow: hidden;
 	float: left;
 	width: 25%;
 	height: 50%;
 	box-sizing: border-box;
 	img{
-		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		height: 100%;
 	}
 }
 .db-div3{
-	font-size: 50px;
-	color: #fff;
+	position: relative;
+	overflow: hidden;
 	float: left;
 	width: 25%;
 	height: 50%;
 	box-sizing: border-box;
 	img{
-		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		height: 100%;
 	}
 }
 .db-div4{
-	font-size: 50px;
-	color: #fff;
+	position: relative;
+	overflow: hidden;
 	float: left;
 	width: 25%;
 	height: 50%;
 	box-sizing: border-box;
 	img{
-		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		height: 100%;
 	}
 }
 .db-div5{
-	font-size: 50px;
-	color: #fff;
+	position: relative;
+	overflow: hidden;
 	float: left;
 	width: 33%;
 	height: 50%;
 	box-sizing: border-box;
 	img{
-		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		height: 100%;
 	}
 }
 .db-div6{
-	font-size: 50px;
-	color: #fff;
+	position: relative;
+	overflow: hidden;
 	float: left;
 	width: 42%;
 	height: 50%;
 	box-sizing: border-box;
 	img{
-		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		height: 100%;
 	}
 }
@@ -138,6 +163,10 @@
 
 
 @media only screen and (min-width : 320px) {
+	.item{
+		height: 500px;
+		overflow: hidden;
+	}
 }
 
 @media only screen and (min-width : 480px) {
@@ -150,9 +179,17 @@
 	.db-inner{
 		display: block;
 	}
+	// .item{
+	// 	height: auto;
+	// 	overflow: none;
+	// }
 }
 
 @media only screen and (min-width : 992px) {
+	.item{
+		height: auto;
+		overflow: none;
+	}
 }
 
 @media only screen and (min-width : 1248px) {

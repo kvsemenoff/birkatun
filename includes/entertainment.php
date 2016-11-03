@@ -1,48 +1,60 @@
 
 <div class="clearfix"></div>
 
-<div class="db-inner1">
-	<div class="ah-blok-slider1">
-		<div class="item">
-			<div class = "db-class2">
-				<div class="db-divimg">
-					<img src="img/db-slidefon.jpg" alt="db-slidefon">
+<div class="container db-margin">
+	<div class="df-caption">
+		<h3 class="df-cap">Развлечения и досуг</h3>
+		<span class="df-all-events"><a href="#">Все мероприятия</a></span>
+		<h4 class="df-cap-subtitle">Вы сможете интересно провести время компанией или семьей с детьми любого возраста.</h4>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="container">
+	<div class="db-inner1">
+		<div class="ah-blok-slider1">
+			<div class="item">
+				<div class = "db-class2">
+					<div class="db-divimg">
+						<img src="img/db-slidefon.jpg" alt="db-slidefon">
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="item">
+				<div class = "db-class2">
+					<div class="db-divimg">
+						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
+					</div>
 				</div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="item">
-			<div class = "db-class2">
-				<div class="db-divimg">
-					<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
+			<div class="item">
+				<div class = "db-class2">
+					<div class="db-divimg">
+						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="item">
-			<div class = "db-class2">
-				<div class="db-divimg">
-					<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
+			<div class="item">
+				<div class = "db-class2">
+					<div class="db-divimg">
+						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="item">
-			<div class = "db-class2">
-				<div class="db-divimg">
-					<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
+			<div class="item">
+				<div class = "db-class2">
+					<div class="db-divimg">
+						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="item">
-			<div class = "db-class2">
-				<div class="db-divimg">
-					<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class = "db-class2">
-				<div class="db-divimg">
-					<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
+			<div class="item">
+				<div class = "db-class2">
+					<div class="db-divimg">
+						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -51,142 +63,144 @@
 
 <div class="clearfix"></div>
 
-<div class="db-inner">
-	<div class="ah-blok-slider">
-		<div class="item">
-			<div class = "db-class1">
-				<div class="db-wrapper">
-					<div class="db-div1">
-						<img src="img/db-slidefon.jpg" alt="db-slidefon">
-					</div>
-					<div class="db-div2">
-						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
-					</div>
-					<div class="db-div3">
-						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
-					</div>
-					<div class="db-div4">
-						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
-					</div>
-					<div class="db-div5">
-						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
-					</div>
-					<div class="db-div6">
-						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="item">
-			<div class = "db-class1">
-				<div class="db-wrapper">
-					<div class="db-div1">
-						<img src="img/db-slidefon.jpg" alt="db-slidefon">
-					</div>
-					<div class="db-div2">
-						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
-					</div>
-					<div class="db-div3">
-						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
-					</div>
-					<div class="db-div4">
-						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
-					</div>
-					<div class="db-div5">
-						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
-					</div>
-					<div class="db-div6">
-						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
+<div class="container">
+	<div class="db-inner">
+		<div class="ah-blok-slider">
+			<div class="item">
+				<div class = "db-class1">
+					<div class="db-wrapper">
+						<div class="db-div1">
+							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
+						</div>
+						<div class="db-div2">
+							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
+						</div>
+						<div class="db-div3">
+							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
+						</div>
+						<div class="db-div4">
+							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
+						</div>
+						<div class="db-div5">
+							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
+						</div>
+						<div class="db-div6">
+							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
+						</div>
+						<div class="clearfix"></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="item">
-			<div class = "db-class1">
-				<div class="db-wrapper">
-					<div class="db-div1">
-						<img src="img/db-slidefon.jpg" alt="db-slidefon">
-					</div>
-					<div class="db-div2">
-						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
-					</div>
-					<div class="db-div3">
-						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
-					</div>
-					<div class="db-div4">
-						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
-					</div>
-					<div class="db-div5">
-						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
-					</div>
-					<div class="db-div6">
-						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
+			<div class="item">
+				<div class = "db-class1">
+					<div class="db-wrapper">
+						<div class="db-div1">
+							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
+						</div>
+						<div class="db-div2">
+							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
+						</div>
+						<div class="db-div3">
+							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
+						</div>
+						<div class="db-div4">
+							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
+						</div>
+						<div class="db-div5">
+							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
+						</div>
+						<div class="db-div6">
+							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
+						</div>
+						<div class="clearfix"></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="item">
-			<div class = "db-class1">
-				<div class="db-wrapper">
-					<div class="db-div1">
-						<img src="img/db-slidefon.jpg" alt="db-slidefon">
-					</div>
-					<div class="db-div2">
-						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
-					</div>
-					<div class="db-div3">
-						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
-					</div>
-					<div class="db-div4">
-						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
-					</div>
-					<div class="db-div5">
-						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
-					</div>
-					<div class="db-div6">
-						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
+			<div class="item">
+				<div class = "db-class1">
+					<div class="db-wrapper">
+						<div class="db-div1">
+							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
+						</div>
+						<div class="db-div2">
+							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
+						</div>
+						<div class="db-div3">
+							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
+						</div>
+						<div class="db-div4">
+							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
+						</div>
+						<div class="db-div5">
+							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
+						</div>
+						<div class="db-div6">
+							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
+						</div>
+						<div class="clearfix"></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="item">
-			<div class = "db-class1">
-				<div class="db-wrapper">
-					<div class="db-div1">
-						<img src="img/db-slidefon.jpg" alt="db-slidefon">
-					</div>
-					<div class="db-div2">
-						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
-					</div>
-					<div class="db-div3">
-						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
-					</div>
-					<div class="db-div4">
-						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
-					</div>
-					<div class="db-div5">
-						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
-					</div>
-					<div class="db-div6">
-						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
+			<div class="item">
+				<div class = "db-class1">
+					<div class="db-wrapper">
+						<div class="db-div1">
+							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
+						</div>
+						<div class="db-div2">
+							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
+						</div>
+						<div class="db-div3">
+							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
+						</div>
+						<div class="db-div4">
+							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
+						</div>
+						<div class="db-div5">
+							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
+						</div>
+						<div class="db-div6">
+							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
+						</div>
+						<div class="clearfix"></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="clear"></div>
+			<div class="item">
+				<div class = "db-class1">
+					<div class="db-wrapper">
+						<div class="db-div1">
+							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
+						</div>
+						<div class="db-div2">
+							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
+						</div>
+						<div class="db-div3">
+							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
+						</div>
+						<div class="db-div4">
+							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
+						</div>
+						<div class="db-div5">
+							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
+						</div>
+						<div class="db-div6">
+							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
 		</div>
 	</div>
 </div>

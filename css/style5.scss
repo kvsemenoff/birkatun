@@ -11,10 +11,7 @@
 	font-family: "OpenSans-Regular";
 }
 
-.df-container{
-	max-width: 1320px;
-	margin: 0 auto;
-}
+
 
 .df-events-and-news{
 	.df-caption{
@@ -149,6 +146,10 @@
 }
 
 @media only screen and (min-width : 1248px) {
+	.df-container{
+	width: 1320px;
+	margin: 0 auto;
+	}
 	.df-events-and-news{
 		.df-content{
 			.df-img{

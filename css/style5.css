@@ -7,10 +7,6 @@
 .df-allevents, .df-img-text span, .df-text-caption p {
   font-family: "OpenSans-Regular"; }
 
-.df-container {
-  max-width: 1320px;
-  margin: 0 auto; }
-
 .df-events-and-news .df-caption {
   text-align: center; }
   .df-events-and-news .df-caption .df-cap {
@@ -95,6 +91,10 @@
       float: left;
       width: 85% !important; } }
 @media only screen and (min-width: 1248px) {
+  .df-container {
+    width: 1320px;
+    margin: 0 auto; }
+
   .df-events-and-news .df-content .df-img {
     width: 35% !important; }
   .df-events-and-news .df-content .df-img-text {

@@ -44,6 +44,8 @@
 	<?php require_once('includes/last-events.php'); ?>
 	<?php require_once('includes/fun.php'); ?>
 	<?php require_once('includes/living-and-food.php'); ?>
+	<?php require_once('includes/host.php'); ?>
+	<?php require_once('includes/suvenir.php'); ?>
 	<?php require_once('includes/entertainment.php'); ?>
 	<?php require_once('includes/link.php'); ?>
 	<?php require_once('includes/footer.php'); ?>

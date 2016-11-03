@@ -2,41 +2,34 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="title">Прошедшие мероприятия</p>
+				<p class="title">А еще у нас есть Магазин сувениров</p>
 			</div>
 			<div class="col-md-3 col-sm-6 nopadding">
 				<a href="#">
 					<div class="dg-imgbox">
-						<img src="img/last1.png" alt="">
-						<div class="gradient"></div>
-						<span>Автозвук EMMA</span>
+						<img src="img/suv0.png" alt="">
+						<span class="dg-suv">Сувенирная лавка</span>
 					</div>
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-6 nopadding">
 				<a href="#">
 					<div class="dg-imgbox">
-						<img src="img/last2.png" alt="">
-						<div class="gradient"></div>
-						<span>Концерт Beatels</span>
+						<img src="img/suv1.png" alt="">
 					</div>
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-6 nopadding">
 				<a href="#">
 					<div class="dg-imgbox">
-						<img src="img/last3.png" alt="">
-						<div class="gradient"></div>
-						<span>eX-2</span>
+						<img src="img/suv2.png" alt="">
 					</div>
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-6 nopadding">
 				<a href="#">
 					<div class="dg-imgbox">
-						<img src="img/last4.png" alt="">
-						<div class="gradient"></div>
-						<span>Open-air</span>
+						<img src="img/suv3.png" alt="">
 					</div>
 				</a>
 			</div>

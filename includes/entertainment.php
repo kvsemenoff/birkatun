@@ -14,28 +14,35 @@
 		<div class="item">
 			<div class = "db-class2">
 				<div class="db-divimg">
-					<img src="img/db-slidefon.jpg" alt="db-slidefon">
+					<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
 				</div>
 			</div>
 		</div>
 		<div class="item">
 			<div class = "db-class2">
 				<div class="db-divimg">
-					<img src="img/db-slidefon.jpg" alt="db-slidefon">
+					<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
 				</div>
 			</div>
 		</div>
 		<div class="item">
 			<div class = "db-class2">
 				<div class="db-divimg">
-					<img src="img/db-slidefon.jpg" alt="db-slidefon">
+					<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
 				</div>
 			</div>
 		</div>
 		<div class="item">
 			<div class = "db-class2">
 				<div class="db-divimg">
-					<img src="img/db-slidefon.jpg" alt="db-slidefon">
+					<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class = "db-class2">
+				<div class="db-divimg">
+					<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
 				</div>
 			</div>
 		</div>
@@ -50,22 +57,22 @@
 			<div class = "db-class1">
 				<div class="db-wrapper">
 					<div class="db-div1">
-						<span>1</span>
+						<img src="img/db-slidefon.jpg" alt="db-slidefon">
 					</div>
 					<div class="db-div2">
-						<span>2_1</span>
+						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
 					</div>
 					<div class="db-div3">
-						<span>2_2</span>
+						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
 					</div>
 					<div class="db-div4">
-						<span>2_3</span>
+						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
 					</div>
 					<div class="db-div5">
-						<span>3_1</span>
+						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
 					</div>
 					<div class="db-div6">
-						<span>3_2</span>
+						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -77,22 +84,22 @@
 			<div class = "db-class1">
 				<div class="db-wrapper">
 					<div class="db-div1">
-						<span>1</span>
+						<img src="img/db-slidefon.jpg" alt="db-slidefon">
 					</div>
 					<div class="db-div2">
-						<span>2_1</span>
+						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
 					</div>
 					<div class="db-div3">
-						<span>2_2</span>
+						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
 					</div>
 					<div class="db-div4">
-						<span>2_3</span>
+						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
 					</div>
 					<div class="db-div5">
-						<span>3_1</span>
+						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
 					</div>
 					<div class="db-div6">
-						<span>3_2</span>
+						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -104,22 +111,22 @@
 			<div class = "db-class1">
 				<div class="db-wrapper">
 					<div class="db-div1">
-						<span>1</span>
+						<img src="img/db-slidefon.jpg" alt="db-slidefon">
 					</div>
 					<div class="db-div2">
-						<span>2_1</span>
+						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
 					</div>
 					<div class="db-div3">
-						<span>2_2</span>
+						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
 					</div>
 					<div class="db-div4">
-						<span>2_3</span>
+						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
 					</div>
 					<div class="db-div5">
-						<span>3_1</span>
+						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
 					</div>
 					<div class="db-div6">
-						<span>3_2</span>
+						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -131,22 +138,22 @@
 			<div class = "db-class1">
 				<div class="db-wrapper">
 					<div class="db-div1">
-						<span>1</span>
+						<img src="img/db-slidefon.jpg" alt="db-slidefon">
 					</div>
 					<div class="db-div2">
-						<span>2_1</span>
+						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
 					</div>
 					<div class="db-div3">
-						<span>2_2</span>
+						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
 					</div>
 					<div class="db-div4">
-						<span>2_3</span>
+						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
 					</div>
 					<div class="db-div5">
-						<span>3_1</span>
+						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
 					</div>
 					<div class="db-div6">
-						<span>3_2</span>
+						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -158,22 +165,22 @@
 			<div class = "db-class1">
 				<div class="db-wrapper">
 					<div class="db-div1">
-						<span>1</span>
+						<img src="img/db-slidefon.jpg" alt="db-slidefon">
 					</div>
 					<div class="db-div2">
-						<span>2_1</span>
+						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
 					</div>
 					<div class="db-div3">
-						<span>2_2</span>
+						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
 					</div>
 					<div class="db-div4">
-						<span>2_3</span>
+						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
 					</div>
 					<div class="db-div5">
-						<span>3_1</span>
+						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
 					</div>
 					<div class="db-div6">
-						<span>3_2</span>
+						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
 					</div>
 					<div class="clearfix"></div>
 				</div>

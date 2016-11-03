@@ -15,7 +15,7 @@
 .db-class1{
 	position: relative;
 	width: 100%;
-	outline: 1px solid red;
+	// outline: 1px solid red;
 }
 .db-class1:before{
 	float: left;
@@ -29,7 +29,7 @@
 .db-class2{
 	position: relative;
 	width: 100%;
-	outline: 1px solid red;
+	// outline: 1px solid red;
 	background-color: red;
 }
 .db-class2:before{
@@ -56,8 +56,11 @@
 	float: left;
 	width: 25%;
 	height: 100%;
-	background-color: #98be28;
 	box-sizing: border-box;
+	img{
+		width: 100%;
+		height: 100%;
+	}
 }
 .db-div2{
 	font-size: 50px;
@@ -65,8 +68,11 @@
 	float: left;
 	width: 25%;
 	height: 50%;
-	background-color: #ca805e;
 	box-sizing: border-box;
+	img{
+		width: 100%;
+		height: 100%;
+	}
 }
 .db-div3{
 	font-size: 50px;
@@ -74,8 +80,11 @@
 	float: left;
 	width: 25%;
 	height: 50%;
-	background-color: #dfef89;
 	box-sizing: border-box;
+	img{
+		width: 100%;
+		height: 100%;
+	}
 }
 .db-div4{
 	font-size: 50px;
@@ -83,8 +92,11 @@
 	float: left;
 	width: 25%;
 	height: 50%;
-	background-color: #367d56;
 	box-sizing: border-box;
+	img{
+		width: 100%;
+		height: 100%;
+	}
 }
 .db-div5{
 	font-size: 50px;
@@ -92,8 +104,11 @@
 	float: left;
 	width: 33%;
 	height: 50%;
-	background-color: #254150;
 	box-sizing: border-box;
+	img{
+		width: 100%;
+		height: 100%;
+	}
 }
 .db-div6{
 	font-size: 50px;
@@ -101,8 +116,11 @@
 	float: left;
 	width: 42%;
 	height: 50%;
-	background-color: red;
 	box-sizing: border-box;
+	img{
+		width: 100%;
+		height: 100%;
+	}
 }
 
 

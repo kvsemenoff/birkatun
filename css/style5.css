@@ -59,7 +59,7 @@
     .df-events-and-news .df-content .df-img img {
       width: 100%;
       height: auto;
-      min-height: 260px; }
+      max-height: 260px; }
     .df-events-and-news .df-content .df-img .df-img-text {
       background: #254150;
       padding: 5px 55px 30px 28px; }
@@ -103,8 +103,39 @@
   .df-events-and-news .df-content .df-border-bot {
     border-bottom: 1px solid #ebebeb; }
 
+.df-price, .df-price-sel, .df-liv-text h1 a {
+  font-family: "Conv_pt-serif_[allfont.ru]"; }
+
+.df-all-events a, .df-cap-subtitle, .df-price em, .df-liv-text span {
+  font-family: "OpenSans-Regular"; }
+
+.df-left, .df-right {
+  width: 43px;
+  height: 50px; }
+
+.df-left {
+  position: absolute;
+  left: -20px;
+  background: url(/img/df-left.png) no-repeat center;
+  width: 43px;
+  height: 50px;
+  background-color: #98be28; }
+
+.df-right {
+  position: absolute;
+  right: -20px;
+  background: url(/img/df-right.png) no-repeat center;
+  width: 43px;
+  height: 50px;
+  background-color: #98be28; }
+
+.df-left, .df-right {
+  bottom: 50%;
+  top: 50%; }
+
 .df-living .df-caption {
-  text-align: left; }
+  text-align: center;
+  margin-bottom: 35px; }
   .df-living .df-caption .df-cap {
     font-size: 38px;
     color: #363636;
@@ -114,7 +145,6 @@
   .df-living .df-caption .df-all-events a {
     font-size: 16px;
     color: #636363;
-    font-family: "OpenSans-Regular";
     padding: 9px 35px 9px 28px;
     display: inline-block;
     vertical-align: 25%;
@@ -122,21 +152,56 @@
   .df-living .df-caption .df-cap-subtitle {
     font-size: 16px;
     color: #636363;
-    font-family: "OpenSans-Regular";
     padding-top: 14px; }
 .df-living .df-liv-img {
   width: 100%;
-  margin-bottom: 20px; }
-  .df-living .df-liv-img img {
+  margin: 0 auto;
+  margin-bottom: 15px; }
+  .df-living .df-liv-img .df-imgandprice {
     width: 100%;
-    height: auto; }
+    position: relative; }
+    .df-living .df-liv-img .df-imgandprice img {
+      width: 100%;
+      height: 255px; }
+    .df-living .df-liv-img .df-imgandprice .df-prices {
+      background: rgba(37, 65, 80, 0.5);
+      display: inline-block;
+      color: #fff;
+      padding: 0 20px 5px 20px;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+      .df-living .df-liv-img .df-imgandprice .df-prices .df-price {
+        display: inline-block;
+        font-size: 26px;
+        padding: 10px 0px;
+        margin-right: 30px; }
+        .df-living .df-liv-img .df-imgandprice .df-prices .df-price em {
+          font-size: 16px; }
+      .df-living .df-liv-img .df-imgandprice .df-prices .df-price-sel {
+        font-size: 11px;
+        display: inline-block; }
+        .df-living .df-liv-img .df-imgandprice .df-prices .df-price-sel em {
+          font-size: 16px;
+          text-decoration: line-through; }
+      .df-living .df-liv-img .df-imgandprice .df-prices .df-help a {
+        width: 20px;
+        height: 20px;
+        color: #fff;
+        display: inline-block;
+        background: #98be28;
+        border: 1px solid #98be28;
+        border-radius: 50px;
+        text-align: center; }
   .df-living .df-liv-img .df-liv-text {
     background: #254150;
-    padding: 28px 30px 15px 70px; }
+    padding: 15px 20px 10px 30px;
+    min-height: 172px;
+    width: inherit;
+    border-right: 1px solid #345b70; }
     .df-living .df-liv-img .df-liv-text h1 a {
       font-size: 26px;
       line-height: 28px;
-      font-family: "OpenSans-Regular";
       color: #ffffff;
       display: inline-block; }
     .df-living .df-liv-img .df-liv-text span {
@@ -147,16 +212,34 @@
     .df-living .df-liv-img .df-liv-text .df-more {
       display: inline-block;
       color: #98be28;
-      font-size: 26px;
-      padding: 0px 10px 0px 10px;
-      border: 1px solid #98be28; }
+      font-size: 35px;
+      line-height: 0;
+      border: 1px solid #98be28;
+      width: 39px;
+      height: 23px;
+      text-align: center; }
 
+@media only screen and (min-width: 320px) {
+  .df-left, .df-right {
+    bottom: 45%;
+    top: 55%; } }
 @media only screen and (min-width: 480px) {
+  .df-left, .df-right {
+    bottom: 40%;
+    top: 60%; }
+
   .df-events-and-news .df-content .df-img .df-img-text {
     padding: 21px 45px 30px 28px !important; }
     .df-events-and-news .df-content .df-img .df-img-text h1 a {
       font-size: 26px !important;
       padding: 7px 0 !important; } }
+@media only screen and (min-width: 768px) {
+  .df-left, .df-right {
+    bottom: 38%;
+    top: 62%; }
+
+  .df-prices {
+    width: 330px; } }
 @media only screen and (min-width: 992px) {
   .df-events-and-news .df-caption {
     text-align: left;
@@ -174,7 +257,19 @@
       text-align: left; }
     .df-events-and-news .df-content .df-data-text .df-text {
       float: left;
-      margin-left: 5%; } }
+      margin-left: 5%; }
+
+  .df-living .df-caption {
+    text-align: left;
+    padding-left: 62px; }
+  .df-living .df-liv-img {
+    margin: 0; }
+    .df-living .df-liv-img .df-imgandprice .df-prices {
+      width: 330px; }
+
+  .df-left, .df-right {
+    bottom: 38%;
+    top: 62%; } }
 @media only screen and (min-width: 1248px) {
   .container {
     width: 1320px; }
@@ -196,6 +291,10 @@
       float: left;
       width: 77% !important;
       height: 134.2px;
-      margin-left: 0%; } }
+      margin-left: 0%; }
+
+  .df-liv-img {
+    width: 442px;
+    height: 425px; } }
 
 /*# sourceMappingURL=style5.css.map */

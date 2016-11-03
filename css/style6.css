@@ -31,7 +31,8 @@
     margin: 0 auto; }
     .dg-imgbox img {
       width: 100% !important;
-      height: auto !important; } }
+      height: auto !important;
+      margin-bottom: -4px; } }
 @media only screen and (max-width: 405px) {
   .dg-imgbox {
     width: 305px !important;
@@ -68,12 +69,31 @@
   background-color: rgba(52, 91, 112, 0.74); }
 .dg-lastevents span {
   position: absolute;
-  bottom: 37px;
   left: 30px;
   color: #fff;
   font-size: 22px;
   line-height: 1.182;
-  text-decoration: underline;
-  font-family: "Conv_pt-serif_[allfont.ru]"; }
+  font-family: "Conv_pt-serif_[allfont.ru]";
+  top: 70%;
+  -webkit-transform: translateY(-70%);
+  -ms-transform: translateY(-70%);
+      transform: translateY(-70%); }
+.dg-lastevents span:hover {
+  text-decoration: underline; }
+.dg-lastevents .special {
+  background-color: #ca805e;
+  height: 143px; }
+.dg-lastevents .dg-suv {
+  position: absolute;
+  left: 30px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.182;
+  font-family: "Conv_pt-serif_[allfont.ru]";
+  top: 30%;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+      transform: translateY(-30%);
+  width: 122px; }
 
 /*# sourceMappingURL=style6.css.map */

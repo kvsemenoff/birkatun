@@ -69,7 +69,7 @@
 			img{
 				width: 100%;
 				height: auto;
-				min-height: 260px;
+				max-height: 260px;
 			}
 			.df-img-text{							 
 				background: #254150;
@@ -128,11 +128,40 @@
 
 
 										//LIVING AND FOOD .PHP
+.df-price, .df-price-sel, .df-liv-text h1 a{
+	font-family: "Conv_pt-serif_[allfont.ru]";
+}
+.df-all-events a, .df-cap-subtitle, .df-price em, .df-liv-text span{
+	font-family: "OpenSans-Regular";		
+}
 
-.df-living{
+
+.df-left, .df-right{
+	width: 43px; height: 50px; //<< left right owl carousel
+}
+.df-left{
+	position: absolute;
+	left: -20px;	
+	background: url(/img/df-left.png) no-repeat center;
+	width: 43px; height: 50px; background-color: #98be28;	
+}
+.df-right{
+	position: absolute;
+	right:-20px;	
+	background: url(/img/df-right.png) no-repeat center;
+	width: 43px; height: 50px; background-color: #98be28;	
+}
+.df-left, .df-right{
+	bottom:50%;
+	top:50%;
+}	
+
+
+.df-living{	
 	.df-caption{
-		text-align: left;
-		//padding-left: 62px;			
+		text-align: center; //left;
+		//padding-left: 62px;
+		margin-bottom: 35px;			
 		.df-cap{
 			font-size: 38px; color:#363636;		
 			display: inline-block;
@@ -140,30 +169,76 @@
 			margin-right: 18px;
 		}
 		.df-all-events a{
-			font-size: 16px; color:#636363; font-family: "OpenSans-Regular";			
+			font-size: 16px; color:#636363; 	
 			padding: 9px 35px 9px 28px;
 			display: inline-block;
 			vertical-align: 25%;
 			background: url(/img/dfbgevents.png) no-repeat right  center;			
 		}
 		.df-cap-subtitle{
-			font-size: 16px;color:#636363; font-family: "OpenSans-Regular";
+			font-size: 16px;color:#636363; 
 			padding-top: 14px;
 		}
-	}
+	}	
 	.df-liv-img {
-			//float: left;
-			width: 100%;
-			margin-bottom: 20px;
-			img{
+		// width: 442px;
+		// height: 425px;
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 15px;		
+		.df-imgandprice{				
 				width: 100%;
-				height: auto;
+				// margin-bottom: 20px;
+				position: relative;
+				img{
+					width: 100%;
+					height: 255px;					
+				}
+				.df-prices{
+					background: rgba(#254150, 0.5);
+					display: inline-block;
+					color:#fff;
+					//text-align: center;
+					padding: 0 20px 5px 20px;
+					position: absolute;
+					bottom: 0;
+					left:0;
+					.df-price{
+						display: inline-block;
+						font-size: 26px;
+						padding: 10px 0px;//20
+						margin-right: 30px;
+						em{
+							font-size: 16px;
+						}
+					}
+					.df-price-sel{
+						font-size: 11px;
+						display: inline-block;
+
+						em{
+							font-size: 16px;
+							text-decoration: line-through;
+						}
+					}
+					.df-help a{
+						width: 20px; height: 20px; color:#fff;
+						display: inline-block;
+						background: #98be28; //<<green
+						border:1px solid #98be28;
+						border-radius: 50px;
+						text-align: center;						
+					}
+				}
 			}
 			.df-liv-text{							 
 				background: #254150;
-				padding: 28px 30px 15px 70px; 				
+				padding: 15px 20px 10px 30px; //28 70 15 30
+				min-height: 172px;
+				width: inherit;
+				border-right: 1px solid #345b70; 				
 				h1 a{
-					font-size: 26px; line-height: 28px;font-family: "OpenSans-Regular";
+					font-size: 26px; line-height: 28px;
 					color:#ffffff;
 					display: inline-block; 					
 				}
@@ -172,19 +247,28 @@
 				}
 				.df-more{
 					display:inline-block;
-					color:#98be28; font-size: 26px; 
-					padding:  0px 10px 0px 10px;					
-					border:1px solid #98be28;					
+					color:#98be28; font-size: 35px; line-height: 0;								
+					border:1px solid #98be28;
+					width: 39px; height: 23px;
+					text-align: center;								
 				}
-			}
-		}												
+			}	
+	}												
 }
 
 @media only screen and (min-width : 320px) {
-	
+	.df-left, .df-right{
+		bottom:45%;
+		top:55%;
+	}	
 }
 
 @media only screen and (min-width : 480px) {
+	.df-left, .df-right{
+		bottom:40%;
+		top:60%;
+	}	
+
 	.df-events-and-news{
 		.df-content{
 			.df-img{	
@@ -193,7 +277,6 @@
 					h1 a{
 						font-size: 26px !important;					
 						padding: 7px 0 !important;
-
 					}
 				}
 			}
@@ -203,6 +286,14 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.df-left, .df-right{
+		bottom:38%;
+		top:62%;
+	}
+
+	.df-prices{
+		width: 330px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -233,7 +324,31 @@
 				}
 			}
 		}
+	}
+	
+
+	.df-living{
+	.df-caption{
+		text-align: left; 
+		padding-left: 62px;		
 	}	
+	.df-liv-img {
+		 // width: 442px;
+		 // height: 425px;
+		 margin: 0;
+	.df-imgandprice{
+			.df-prices{
+				width: 330px;
+			}				
+		}				
+	}												
+}
+.df-left, .df-right{
+	bottom:38%;
+	top:62%;
+}
+	
+	
 }
 
 @media only screen and (min-width : 1248px) {
@@ -268,6 +383,11 @@
 				}
 			}
 		}
+	}
+
+	.df-liv-img {
+		width: 442px;
+		height: 425px;
 	}	
 }
 

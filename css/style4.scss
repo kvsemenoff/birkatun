@@ -188,6 +188,7 @@
 				}
 				.dd-input:last-child{
 					resize: none;
+					width: 100%;
 				}
 			}
 		}
@@ -291,6 +292,7 @@
 				float: left;
 				padding-top:50px;
 				padding-left:50px;
+				padding-right:50px;
 				.dd-form-txt{
 					.dd-form-title{
 						text-align: left;
@@ -315,7 +317,7 @@
 						width: 310px;
 					}
 					.dd-input:nth-child(2){
-						margin-left: 38px !important;
+						margin-left: 36px !important;
 					}
 				}	
 			}	

@@ -15,18 +15,22 @@
 
 .df-events-and-news{
 	.df-caption{
-		text-align: center;
+		text-align: center;		
+		margin-top: 50px;
+		margin-bottom: 28px;			
+				
 		.df-cap{
-			font-size: 42px; color:#363636;
-			margin-right: 28px;
+			font-size: 38px; color:#363636;		//42	
 			display: inline-block;
+			letter-spacing: 2.2px;
 		}
-		.df-all-events{
-			font-size: 16px; color:#636363; 
-			border: 1px solid #98be28;
-			padding: 9px 14px;
+		.df-all-events a{
+			font-size: 16px; color:#636363; font-family: "OpenSans-Regular";			
+			padding: 9px 25px;
 			display: inline-block;
-		}
+			vertical-align: 25%;
+			background: url(/img/dfbgevents.png) no-repeat right  center;			
+		}		
 	}
 	.df-content{
 		margin-bottom: 20px;
@@ -38,18 +42,16 @@
 				width: 100%;
 				height: auto;
 			}
-			.df-img-text{
-				height: 155px;				 
+			.df-img-text{							 
 				background: #254150;
-				padding: 5px 55px 30px 28px; // 21 55 28
+				padding: 5px 55px 30px 28px; 
 				em{
 					font-size: 16px; color:#6e8b9a;
-
 				}
-				h1{
+				h1 a{
 					font-size: 19px;//26
-					color:#ffffff; 
-					//padding: 7px 0;
+					color:#ffffff;
+					display: inline-block; 					
 				}
 				span{
 					font-size: 15px; color:#6e8b9a;
@@ -64,10 +66,9 @@
 			width: 100%;			
 			.df-data {
 				width: 65px;				
-				color:#363636;
-				//float: left;
-				//margin-top: 5%;
-				margin:0 auto;
+				color:#363636;				
+				margin: 0 auto;
+				text-align: center;
 				.df-first{
 					font-size: 40px;
 					line-height: 25px;
@@ -77,12 +78,12 @@
 					font-size: 16px;					
 				}
 			}
-			.df-text{
-				//float: left;				
+			.df-text{								
 				margin:0 auto;
-				.df-text-caption{
+				.df-text-caption a{
 					font-size: 26px; color:#0070ac;
-					padding-bottom: 10px;					
+					padding-bottom: 5px;
+					display: inline-block;					
 				}
 				p{
 					font-size: 15px; color:#363636;font-family: "OpenSans-Regular";
@@ -104,10 +105,11 @@
 		.df-content{
 			.df-img{	
 				.df-img-text{
-					padding: 21px 55px 30px 28px !important; 
-					h1{
+					padding: 21px 45px 30px 28px !important; 
+					h1 a{
 						font-size: 26px !important;					
 						padding: 7px 0 !important;
+
 					}
 				}
 			}
@@ -121,24 +123,29 @@
 
 @media only screen and (min-width : 992px) {
 	.df-events-and-news{
-		.df-caption{
-			margin-bottom: 35px;
+		.df-caption{					
+			text-align: left;
+			padding-left: 62px;			
+			.df-cap{
+				margin-right: 18px;
+			}		
 		}
 		.df-content{
 			.df-img{
-				width: 35% !important;						
+				width: 34% !important;						
 			}
 			.df-data-text{
 				padding: 10px 0;
 				width: 65%;
 				.df-data{
 					float: left;
-					margin: 0 20px;
-
+					margin: 0 37px 0 5%;
+					text-align: left;
 				}
 				.df-text{
 					float: left;
-					width: 85% !important;
+					//width: 77% !important;
+					margin-left: 5%;
 				}
 			}
 		}
@@ -155,7 +162,7 @@
 	.df-events-and-news{
 		.df-content{
 			.df-img{
-				width: 33% !important;						
+									
 			}
 			.df-img-text{
 				height: 152px;
@@ -173,7 +180,8 @@
 					padding-top: 18px;
 					float: left;
 					width: 77% !important;
-					height: 135px;
+					height: 134px;
+					margin-left: 0%;
 				}
 			}
 		}

@@ -6,7 +6,7 @@
 			</div>
 			<div class="col-md-3 col-sm-6 nopadding">
 				<a href="#">
-					<div class="imgbox">
+					<div class="dg-imgbox">
 						<img src="img/last1.png" alt="">
 						<div class="gradient"></div>
 						<span>Автозвук EMMA</span>
@@ -15,7 +15,7 @@
 			</div>
 			<div class="col-md-3 col-sm-6 nopadding">
 				<a href="#">
-					<div class="imgbox">
+					<div class="dg-imgbox">
 						<img src="img/last2.png" alt="">
 						<div class="gradient"></div>
 						<span>Концерт Beatels</span>
@@ -24,7 +24,7 @@
 			</div>
 			<div class="col-md-3 col-sm-6 nopadding">
 				<a href="#">
-					<div class="imgbox">
+					<div class="dg-imgbox">
 						<img src="img/last3.png" alt="">
 						<div class="gradient"></div>
 						<span>eX-2</span>
@@ -33,7 +33,7 @@
 			</div>
 			<div class="col-md-3 col-sm-6 nopadding">
 				<a href="#">
-					<div class="imgbox">
+					<div class="dg-imgbox">
 						<img src="img/last4.png" alt="">
 						<div class="gradient"></div>
 						<span>Open-air</span>

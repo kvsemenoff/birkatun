@@ -217,11 +217,162 @@
 	}
 }
 
+/*============ Header ============*/
 
+/*menu Анзара*/
 
+    #check_1{
+        display: none;
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        font-size: 50px; 
+    }
+    .anz-perspective{
+        position: fixed;
+        top: 0px;
+        height: 100%;
+        -webkit-perspective: 500px; 
+        perspective: 500px;
+        z-index: 6;
+    }
+    .menu-list-pressed{
+        
+    }
+    #check_1:checked ~ .anz-perspective{
+        transition: all 1s ease-in-out;
+        left: 0px;
+    }
+    #check_1 ~ .anz-perspective{
+        transition: all 1s ease-in-out;
+        left: -330px;
+    }
+    #check_1:checked ~ .anz-perspective .menu-list-pressed{
+        transition: all 1s ease-in-out;
+        transform: rotateY(0deg);
+    }
+    #check_1 ~ .anz-perspective .menu-list-pressed{
+        transition: all 1s ease-in-out;
+        transform: rotateY(90deg);
+    }
+    .anz-menu-ch{
+        cursor: pointer;    
+    }
 
+/*конец menu Анзара*/
 
+/*menu styles*/
+.anz-menu{
+    text-align: right;
+}
+.az-header1{
+    padding-top: 40px;
+}
+.menu-list-pressed{
+    border: 1px solid #000;
+    width: 228px;
+    height: 100%;
+    padding: 30px;
+    line-height: 40px;
+    background: #fff;
+}
+.anz-menu-ch{
+    display: inline-block;
+    width: 41px;
+    height: 43px;
+    font-size: 30px;
+    position: fixed;
+    top: 25px;
+    right:25px;
+    opacity: 0.4;
+    z-index: 500;
+}
+.anz-menu-ch:hover{
+    opacity: 0.3;
+}
+.main-menu{
+    text-align: left;
+}
+.anz-menu-ch1{
+    display: inline-block;
+    width: 41px;
+    height: 43px;
+    font-size: 30px;
+    position: fixed;
+    top: 25px;
+    right:25px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.anz-menu-ch1:hover{
+    opacity: 0.3;
+}
 
+/*menu styles*/
+
+.dd-header{
+	background:#EBEBEB;
+	display:none;
+	.dd-nav{
+		float: left;
+		.dd-mainmenu{
+
+			li{
+				display: inline-block;
+				margin-top: 30px;
+				a{
+					font-family: "Conv_pt-serif_[allfont.ru]";
+					font-size:16px;
+					color:#363636;
+					//outline: 1px solid red;
+					padding: 26px 12px 24px;
+				}
+				a:hover{
+					border-top:5px solid black;
+				}
+
+			}
+			li:first-child{
+				a{
+					padding-left:0;
+				}
+			}
+		}
+	}
+	.dd-nav-phone{
+		float: left;
+		padding:12px 42px 17px 30px;
+		span:first-child{
+			font-family: "OpenSans-Semibold";
+			font-size: 11px;
+			color:#909A9F;
+			text-transform: uppercase;
+		}
+		span:last-child{
+			font-family: "Conv_pt-serif_[allfont.ru]";
+			font-size:22px;
+			color:#363636;
+			position:relative;
+			padding-left:26px;
+		}
+		span:last-child:after{
+			position:absolute;
+			content: "";
+			background: url("../img/dd-tel2.png") no-repeat center;
+			left:0;
+			top: 5px;
+			width: 20px;
+			height: 20px;
+		}
+	}
+	.dd-border{
+		border-left:1px solid #D7D7D7;
+		border-right:1px solid #D7D7D7;
+	}
+	.dd-border2{
+		border-right:1px solid #D7D7D7;
+	}
+}
 
 
 
@@ -235,9 +386,49 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-header{
+		.dd-nav{
+			float: left;
+			.dd-mainmenu{
+				li{
+					margin-top: 30px;
+					a{
+						padding: 26px 1px 24px;
+						font-size: 15px;
+					}
+					a:hover{
+						border-top:5px solid black;
+					}
+
+				}
+				li:first-child{
+					a{
+						padding-left:0;
+					}
+				}
+			}
+		}
+		.dd-phone-wrap{
+			float: right;
+			.dd-nav-phone{
+				padding: 12px 22px 17px 19px;
+				span:last-child{
+					padding-left:26px;
+					font-size: 15px;
+				}
+			}
+			.dd-border{
+				margin-left: 34px;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 992px) {
+
+		.dd-header{
+		display:block;
+	}
 
 	.dd-footer{
 		.dd-footer-box{
@@ -250,6 +441,34 @@
 }
 
 @media only screen and (min-width : 1248px) {
+
+	.dd-header{
+		.dd-nav{
+			.dd-mainmenu{
+				li{
+					margin-top: 30px;
+					a{
+						font-size:16px;
+						padding: 26px 12px 24px;
+					}
+				}
+			}
+		}
+		.dd-phone-wrap{
+			.dd-nav-phone{
+				padding:12px 42px 17px 30px;
+				span:last-child{
+					padding-left:26px;
+					font-size: 22px;
+				}
+			}
+			.dd-border{
+				margin-left: 34px;
+			}
+		}
+	}
+
+
 
 	.dd-footer{
 		background:#254150 !important;

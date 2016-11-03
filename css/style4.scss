@@ -116,8 +116,12 @@
 			max-width:560px;
 			outline: 1px solid red;
 			// float: left;
+			#YMapsID{
+				width: 100%;
+				height: 400px;
+			}
 		}
-		.dd-form{
+		.dd-form-wrap{
 			max-width:760px;
 			background:#98BE28;
 			// float: left;

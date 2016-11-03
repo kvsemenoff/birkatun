@@ -23,7 +23,13 @@
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<!-- <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<script type="text/javascript">
+        YMaps.jQuery(function () {
+            var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+            map.setCenter(new YMaps.GeoPoint(85.33803, 51.944666), 14);
+        })
+    </script> -->
 
 	<script>
     	new WOW().init();

@@ -1,11 +1,11 @@
-.col-md-2{
-	//outline:1px solid red;
-}
+
+
+/*============ footer ===========*/
 
 .dd-footer{
-	background:#254150;
-	padding-left: 10px;
-	padding-right: 10px;
+	background:#254150 !important;
+	// padding-left: 10px;
+	// padding-right: 10px;
 	padding-top:35px;
 	.dd-footer-box{
 		text-align: center;
@@ -97,7 +97,7 @@
 		margin-bottom: 0;
 		.dd-soc-item{
 			float: left;
-			padding-left:42px;
+			padding-left:39px;
 		}
 		.dd-soc-item:first-child{
 			padding-left:0;
@@ -106,7 +106,28 @@
 }
 
 
+/*============ link.php ============*/
 
+.dd-link{
+	.my-contain{
+		padding-left:0;
+		padding-right:0;
+		.dd-map{
+			max-width:560px;
+			outline: 1px solid red;
+			// float: left;
+			#YMapsID{
+				width: 100%;
+				height: 400px;
+			}
+		}
+		.dd-form-wrap{
+			max-width:760px;
+			background:#98BE28;
+			// float: left;
+		}
+	}
+}
 
 
 
@@ -143,7 +164,8 @@
 @media only screen and (min-width : 1248px) {
 
 	.dd-footer{
-		width:1320px !important;
+		background:#254150 !important;
+		//width:1320px !important;
 		position:relative;
 		.dd-my-col{
 			width: 21% !important;
@@ -183,6 +205,11 @@
 			border-top:1px solid #4D6572;
 			padding-bottom:24px;
 			margin-top: 10px;
+		}
+		.dd-soc-wrap{
+			.dd-soc-item{
+				padding-left:42px;
+			}	
 		}
 	}	
 }

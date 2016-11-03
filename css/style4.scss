@@ -127,9 +127,64 @@
 			// float: left;
 			.dd-form-txt{
 				.dd-form-title{
+					padding-bottom:52px;
+					text-align: center;
 					font-family: "Conv_pt-serif_[allfont.ru]";
 					font-size:42px;
 					color:#fff;
+				}
+				.dd-form-phone{
+					text-align: center;
+					span{
+						display: inline-block;
+						position:relative;
+						padding-bottom:40px;
+					}
+					span:first-child{
+						font-family: "Conv_pt-serif_[allfont.ru]";
+						font-size:22px;
+						color:#fff;
+						padding-left: 32px;
+					}
+					span:last-child{
+						font-family: "OpenSans-Regular";
+						font-size:13px;
+						color:#fff;
+						padding-left: 32px;
+					}
+					span:first-child:after{
+						content: "";
+						position:absolute;
+						background:url(../img/dd-trubka.png) center;
+						width: 20px;
+						height: 20px;
+						left: 0;
+						top: 4px;
+					}
+					span:last-child:after{
+						content: "";
+						position:absolute;
+						background:url(../img/dd-mesto.png) center;
+						width: 18px;
+						height: 23px;
+						left: 0;
+						top: 4px;
+					}
+				}
+			}
+			.dd-form{
+				text-align: center;
+				margin-bottom: 21px;
+				.dd-input{
+					width: 250px;
+					outline: none;
+					border:none;
+					background:#8DB122;
+					border-bottom:2px solid #5F7C0B;
+					font-family: "OpenSans-Regular";
+					font-size:15px;
+					color:#5F7C0B;
+					padding:19px 21px;
 				}
 			}
 		}
@@ -218,7 +273,51 @@
 				padding-left:42px;
 			}	
 		}
-	}	
+	}
+
+	/*======== form ========= */
+	.dd-link{
+		.my-contain{
+			.dd-map{
+				width:560px;
+				float: left;
+			}
+			.dd-form-wrap{
+				width:760px;
+				background:#98BE28;
+				float: left;
+				padding-top:50px;
+				padding-left:50px;
+				.dd-form-txt{
+					.dd-form-title{
+						text-align: left;
+					}
+					.dd-form-phone{
+						text-align: left;
+						span{
+							display: block;
+							float: left;
+						}
+						span:last-child{
+							margin-left: 68px;
+						}
+						.dd-br{
+							display: none;
+						}
+					}
+				}
+				.dd-form{
+					text-align: left;
+					.dd-input{
+						width: 310px;
+					}
+					.dd-input:last-child{
+						margin-left: 38px;
+					}
+				}	
+			}	
+		}
+	}				
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

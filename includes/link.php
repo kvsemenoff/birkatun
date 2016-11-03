@@ -13,14 +13,18 @@
 							Связь с нами
 						</div>
 						<div class="dd-form-phone">
-							<span>+7 (385) 277-89-25</span>
-							<span>659650, Алтайский край, с. Алтайское,
+							<span>+7 (385) 277-89-25</span><br class="dd-br">
+							<span>659650, Алтайский край, с. Алтайское,<br>
 								  ул. Советская, д. 94
 							</span>
 						</div>
+						<div class="clearfix"></div>
 					</div>
-					dd
-				</dd>
+					<form class="dd-form" action="#">
+						<input class="dd-input" type="text" placeholder="Как к вам обращаться">
+						<input class="dd-input" type="text" placeholder="Ваш адрес электронной почты">
+					</form>
+				</div>	
 				<div class="clearfix"></div>
 			</div>
 		</div>

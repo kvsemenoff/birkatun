@@ -44,6 +44,7 @@
 		img{
 			width: 100% !important;
 			height: auto !important;
+			margin-bottom: -4px;
 		}
 	}
 	
@@ -95,20 +96,42 @@
 		background-color: rgba(52, 91, 112, 0.74);
 
 	}
-
 	span{
-		position: absolute;
-		bottom: 37px;
+		position: absolute;	
 		left: 30px;
 		color: #fff;
 		font-size: 22px;
 		line-height: 1.182;
-		text-decoration: underline;
 		font-family: "Conv_pt-serif_[allfont.ru]";
+		top: 70%;
+	    -webkit-transform: translateY(-70%);
+	    -o-transform: translateY(-70%);
+	    transform: translateY(-70%);
+	}
+	span:hover{
+		text-decoration: underline;
+	}
+	.special{
+		background-color: #ca805e;
+		height: 143px;
 	}
 	
+	.dg-suv{
+		position: absolute;	
+		left: 30px;
+		color: #fff;
+		font-size: 22px;
+		line-height: 1.182;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		top: 30%;
+	    -webkit-transform: translateY(-30%);
+	    -o-transform: translateY(-30%);
+	    transform: translateY(-30%);
+	    width: 122px;
+	}
 	
 }
+
 .col-md-3{
 	//outline: 1px solid red;
 }

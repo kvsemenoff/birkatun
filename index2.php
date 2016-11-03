@@ -15,29 +15,8 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
 
-<!-- <style>
-.db-class{
-padding: 0px 20px;
-}
-.db-class1{
-position: relative;
-width: 100%;
-outline: 1px solid red;
-/*padding: 10px;*/
-box-sizing: border-box;
-}
-.db-class1:before{
-float: left;
-content:'';
-margin-top: 40%;
-display: inline-block;
-vertical-align: top;
-width: 0px;
-}
-</style> -->
-
 </head>
-<body class = "db-class">
+<body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -53,9 +32,8 @@ width: 0px;
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
+<div class="clearfix"></div>
 
-
-<!-- ********************************************************************** -->
 <div class="db-inner1">
 	<div class="ah-blok-slider1">
 		<div class="item">
@@ -238,86 +216,52 @@ width: 0px;
 		</div>
 	</div>
 </div>
-<!-- ********************************************************************** -->
 
-
-
-
-
-
-
-	<div class="clearfix"></div>
-
-	<!-- <div class = "db-class1">
-		<div class="db-wrapper">
-			<div class="db-div1">
-				<span>1</span>
-			</div>
-			<div class="db-div2">
-				<span>2_1</span>
-			</div>
-			<div class="db-div3">
-				<span>2_2</span>
-			</div>
-			<div class="db-div4">
-				<span>2_3</span>
-			</div>
-			<div class="db-div5">
-				<span>3_1</span>
-			</div>
-			<div class="db-div6">
-				<span>3_2</span>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="clearfix"></div> -->
+<div class="clearfix"></div>
 	
 <script>
 
-	$(".ah-blok-slider").owlCarousel({
-	    loop:true,
-	    margin:0,
-	    nav:true,
-	    autoplay:false,
-	    smartSpeed:1000,
-	    autoplayTimeout:2000,
-	    navText:['<span class="prev_arrs1"></span>', '<span class="next_arrs1"></span>'],
-	    responsive:{
-	        0:{
-	            items:1
-	        },
-	        600:{
-	            items:1
-	        },
-	        1000:{
-	            items:1
-	        }
-	    }
-	});
+$(".ah-blok-slider").owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    autoplay:false,
+    smartSpeed:1000,
+    autoplayTimeout:2000,
+    navText:['<span class="prev_arrs1"></span>', '<span class="next_arrs1"></span>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
 
-	$(".ah-blok-slider1").owlCarousel({
-	    loop:true,
-	    margin:0,
-	    nav:true,
-	    autoplay:false,
-	    smartSpeed:1000,
-	    autoplayTimeout:2000,
-	    navText:['<span class="prev_arrs1"></span>', '<span class="next_arrs1"></span>'],
-	    responsive:{
-	        0:{
-	            items:1
-	        },
-	        600:{
-	            items:1
-	        },
-	        1000:{
-	            items:1
-	        }
-	    }
-	});
+$(".ah-blok-slider1").owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    autoplay:false,
+    smartSpeed:1000,
+    autoplayTimeout:2000,
+    navText:['<span class="prev_arrs1"></span>', '<span class="next_arrs1"></span>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
 
 </script>
 

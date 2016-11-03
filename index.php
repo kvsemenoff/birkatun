@@ -42,6 +42,7 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/events-and-news.php'); ?>
 	<?php require_once('includes/last-events.php'); ?>
+	<?php require_once('includes/fun.php'); ?>
 	<?php require_once('includes/entertainment.php'); ?>
 	<?php require_once('includes/link.php'); ?>
 	<?php require_once('includes/footer.php'); ?>

@@ -11,10 +11,7 @@
 	font-family: "OpenSans-Regular";
 }
 
-.df-container{
-	max-width: 1320px;
-	margin: 0 auto;
-}
+
 
 .df-events-and-news{
 	.df-caption{
@@ -149,10 +146,16 @@
 }
 
 @media only screen and (min-width : 1248px) {
+	.container{
+		width: 1320px;
+	}
+	.df-width{	
+	margin: 0 auto;
+	}
 	.df-events-and-news{
 		.df-content{
 			.df-img{
-				width: 35% !important;						
+				width: 33% !important;						
 			}
 			.df-img-text{
 				height: 152px;
@@ -162,14 +165,14 @@
 				width: 65%;
 				.df-data{
 					float: left;
-					margin: 0 25px;
-					padding-top: 10px;
+					margin: 0 37px 0 50px;
+					padding-top: 21px;
 
 				}
 				.df-text{
-					padding-top: 7px;
+					padding-top: 18px;
 					float: left;
-					width: 85% !important;
+					width: 77% !important;
 					height: 135px;
 				}
 			}

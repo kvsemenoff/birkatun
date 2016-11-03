@@ -1,3 +1,201 @@
+.clear {
+  clear: both; }
 
+.df-cap, .df-img-text, .df-data, .df-text-caption {
+  font-family: "Conv_pt-serif_[allfont.ru]"; }
+
+.df-allevents, .df-img-text span, .df-text-caption p {
+  font-family: "OpenSans-Regular"; }
+
+.df-caption {
+  text-align: left; }
+  .df-caption .df-cap {
+    font-size: 38px;
+    color: #363636;
+    display: inline-block;
+    letter-spacing: 2.02px;
+    margin-right: 18px; }
+  .df-caption .df-all-events a {
+    font-size: 16px;
+    color: #636363;
+    font-family: "OpenSans-Regular";
+    padding: 9px 25px;
+    display: inline-block;
+    vertical-align: 25%;
+    background: url(/img/dfbgevents.png) no-repeat right center; }
+  .df-caption .df-cap-subtitle {
+    font-size: 16px;
+    color: #636363;
+    font-family: "OpenSans-Regular";
+    padding-top: 14px; }
+
+.df-events-and-news .df-caption {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 28px; }
+  .df-events-and-news .df-caption .df-cap {
+    font-size: 38px;
+    color: #363636;
+    display: inline-block;
+    letter-spacing: 2.2px; }
+  .df-events-and-news .df-caption .df-all-events a {
+    font-size: 16px;
+    color: #636363;
+    font-family: "OpenSans-Regular";
+    padding: 9px 25px;
+    display: inline-block;
+    vertical-align: 25%;
+    background: url(/img/dfbgevents.png) no-repeat right center; }
+  .df-events-and-news .df-caption .df-cap-subtitle {
+    font-size: 16px;
+    color: #636363;
+    font-family: "OpenSans-Regular"; }
+.df-events-and-news .df-content {
+  margin-bottom: 20px; }
+  .df-events-and-news .df-content .df-img {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px; }
+    .df-events-and-news .df-content .df-img img {
+      width: 100%;
+      height: auto;
+      min-height: 260px; }
+    .df-events-and-news .df-content .df-img .df-img-text {
+      background: #254150;
+      padding: 5px 55px 30px 28px; }
+      .df-events-and-news .df-content .df-img .df-img-text em {
+        font-size: 16px;
+        color: #6e8b9a; }
+      .df-events-and-news .df-content .df-img .df-img-text h1 a {
+        font-size: 19px;
+        color: #ffffff;
+        display: inline-block; }
+      .df-events-and-news .df-content .df-img .df-img-text span {
+        font-size: 15px;
+        color: #6e8b9a; }
+  .df-events-and-news .df-content .df-data-text {
+    float: left;
+    border-top: 1px solid #ebebeb;
+    padding: 5% 0;
+    width: 100%; }
+    .df-events-and-news .df-content .df-data-text .df-data {
+      width: 65px;
+      color: #363636;
+      margin: 0 auto;
+      text-align: center; }
+      .df-events-and-news .df-content .df-data-text .df-data .df-first {
+        font-size: 40px;
+        line-height: 25px;
+        padding: 5px 0; }
+      .df-events-and-news .df-content .df-data-text .df-data p {
+        font-size: 16px; }
+    .df-events-and-news .df-content .df-data-text .df-text {
+      margin: 0 auto; }
+      .df-events-and-news .df-content .df-data-text .df-text .df-text-caption a {
+        font-size: 26px;
+        color: #0070ac;
+        padding-bottom: 5px;
+        display: inline-block; }
+      .df-events-and-news .df-content .df-data-text .df-text p {
+        font-size: 15px;
+        color: #363636;
+        font-family: "OpenSans-Regular"; }
+  .df-events-and-news .df-content .df-border-bot {
+    border-bottom: 1px solid #ebebeb; }
+
+.df-living .df-caption {
+  text-align: left; }
+  .df-living .df-caption .df-cap {
+    font-size: 38px;
+    color: #363636;
+    display: inline-block;
+    letter-spacing: 2.02px;
+    margin-right: 18px; }
+  .df-living .df-caption .df-all-events a {
+    font-size: 16px;
+    color: #636363;
+    font-family: "OpenSans-Regular";
+    padding: 9px 35px 9px 28px;
+    display: inline-block;
+    vertical-align: 25%;
+    background: url(/img/dfbgevents.png) no-repeat right center; }
+  .df-living .df-caption .df-cap-subtitle {
+    font-size: 16px;
+    color: #636363;
+    font-family: "OpenSans-Regular";
+    padding-top: 14px; }
+.df-living .df-liv-img {
+  width: 100%;
+  margin-bottom: 20px; }
+  .df-living .df-liv-img img {
+    width: 100%;
+    height: auto; }
+  .df-living .df-liv-img .df-liv-text {
+    background: #254150;
+    padding: 28px 30px 15px 70px; }
+    .df-living .df-liv-img .df-liv-text h1 a {
+      font-size: 26px;
+      line-height: 28px;
+      font-family: "OpenSans-Regular";
+      color: #ffffff;
+      display: inline-block; }
+    .df-living .df-liv-img .df-liv-text span {
+      font-size: 15px;
+      color: #809dad;
+      line-height: 18px;
+      font-family: "OpenSans-Regular"; }
+    .df-living .df-liv-img .df-liv-text .df-more {
+      display: inline-block;
+      color: #98be28;
+      font-size: 26px;
+      padding: 0px 10px 0px 10px;
+      border: 1px solid #98be28; }
+
+@media only screen and (min-width: 480px) {
+  .df-events-and-news .df-content .df-img .df-img-text {
+    padding: 21px 45px 30px 28px !important; }
+    .df-events-and-news .df-content .df-img .df-img-text h1 a {
+      font-size: 26px !important;
+      padding: 7px 0 !important; } }
+@media only screen and (min-width: 992px) {
+  .df-events-and-news .df-caption {
+    text-align: left;
+    padding-left: 62px; }
+    .df-events-and-news .df-caption .df-cap {
+      margin-right: 18px; }
+  .df-events-and-news .df-content .df-img {
+    width: 34% !important; }
+  .df-events-and-news .df-content .df-data-text {
+    padding: 10px 0;
+    width: 65%; }
+    .df-events-and-news .df-content .df-data-text .df-data {
+      float: left;
+      margin: 0 37px 0 5%;
+      text-align: left; }
+    .df-events-and-news .df-content .df-data-text .df-text {
+      float: left;
+      margin-left: 5%; } }
+@media only screen and (min-width: 1248px) {
+  .container {
+    width: 1320px; }
+
+  .df-width {
+    margin: 0 auto; }
+
+  .df-events-and-news .df-content .df-img-text {
+    height: 152px; }
+  .df-events-and-news .df-content .df-data-text {
+    padding: 0px;
+    width: 65%; }
+    .df-events-and-news .df-content .df-data-text .df-data {
+      float: left;
+      margin: 0 37px 0 50px;
+      padding-top: 21px; }
+    .df-events-and-news .df-content .df-data-text .df-text {
+      padding-top: 18px;
+      float: left;
+      width: 77% !important;
+      height: 134.2px;
+      margin-left: 0%; } }
 
 /*# sourceMappingURL=style5.css.map */

@@ -1,8 +1,6 @@
 .clear{
 	clear:both;
 }
-
-
 .df-cap, .df-img-text, .df-data, .df-text-caption {
 	font-family: "Conv_pt-serif_[allfont.ru]";
 }
@@ -27,14 +25,25 @@
 		padding: 9px 25px;
 		display: inline-block;
 		vertical-align: 25%;
-		background: url(/img/dfbgevents.png) no-repeat right  center;			
+		background: url(/img/dfbgevents.png) no-repeat right  center;
+		transition: background 0.5s ease-in-out, color 0.5s;
+		-webkit-transition: background 0.5s ease-in-out, color 0.5s;
+		-moz-transition: background 0.5s ease-in-out, color 0.5s;
+		-o-transition:	background 0.5s ease-in-out, color 0.5s;					
 	}
+	.df-all-events a:hover{
+			background:url(/img/dfbgevents2.png)no-repeat right  center;
+			padding: 9px 25px;
+			vertical-align: 25%;
+			color:#fff;
+		}
 	.df-cap-subtitle{
 		font-size: 16px;color:#636363; font-family: "OpenSans-Regular";
 		padding-top: 14px;
 	}
 }		
 									//END FOR FUN .PHP
+
 
 									//EVENTS AND NEWS.PHP
 
@@ -55,7 +64,17 @@
 			padding: 9px 25px;
 			display: inline-block;
 			vertical-align: 25%;
-			background: url(/img/dfbgevents.png) no-repeat right  center;			
+			background: url(/img/dfbgevents.png) no-repeat right  center;
+			transition: background 0.5s ease-in-out, color 0.5s;
+			-webkit-transition: background 0.5s ease-in-out, color 0.5s;
+ 			-moz-transition: background 0.5s ease-in-out, color 0.5s;
+ 			-o-transition:	background 0.5s ease-in-out, color 0.5s;		
+		}
+		.df-all-events a:hover{
+			background:url(/img/dfbgevents2.png)no-repeat right  center;
+			padding: 9px 25px;
+			vertical-align: 25%;
+			color:#fff;
 		}
 		.df-cap-subtitle{
 			font-size: 16px;color:#636363; font-family: "OpenSans-Regular";
@@ -73,7 +92,12 @@
 			}
 			.df-img-text{							 
 				background: #254150;
-				padding: 5px 55px 30px 28px; 
+				padding: 5px 55px 30px 28px;
+				cursor:pointer;
+				-webkit-transition: background 0.5s; 
+     			-moz-transition: background 0.5s; 
+     			-o-transition: background 0.5s; 
+				transition: background 0.5s; 
 				em{
 					font-size: 16px; color:#6e8b9a;
 				}
@@ -85,6 +109,12 @@
 				span{
 					font-size: 15px; color:#6e8b9a;
 				}
+				h1 a:hover{
+					text-decoration:underline;					
+				}
+			}
+			.df-img-text:hover{
+				background:#345b70;
 			}
 		}
 
@@ -114,6 +144,9 @@
 					padding-bottom: 5px;
 					display: inline-block;					
 				}
+				.df-text-caption a:hover{
+					text-decoration: underline;
+				}
 				p{
 					font-size: 15px; color:#363636;font-family: "OpenSans-Regular";
 				}
@@ -135,7 +168,7 @@
 	font-family: "OpenSans-Regular";		
 }
 
-
+			//leftand right
 .df-left, .df-right{
 	width: 43px; height: 50px; //<< left right owl carousel
 }
@@ -154,8 +187,22 @@
 .df-left, .df-right{
 	bottom:45%;
 	top:55%;
-}	
+}
+.df-left, .df-right{
+	background-color: #98be28;	
+	transition: background 0.5s ease-in-out;
+	-webkit-transition: background 0.5s ease-in-out;
+	-moz-transition: background 0.5s ease-in-out;
+	-o-transition:	background 0.5s ease-in-out;	
+}
+.df-right:hover{
+	background-color:#5f7c0b;
+}
+.df-left:hover{
+	background-color:#d7d7d7;
+}
 
+ //end left & right
 
 .df-living{
 	background:#fff;		
@@ -174,7 +221,17 @@
 			padding: 9px 35px 9px 28px;
 			display: inline-block;
 			vertical-align: 25%;
-			background: url(/img/dfbgevents.png) no-repeat right  center;			
+			background: url(/img/dfbgevents.png) no-repeat right  center;
+			transition: background 0.5s ease-in-out, color 0.5s;
+			-webkit-transition: background 0.5s ease-in-out, color 0.5s;
+			-moz-transition: background 0.5s ease-in-out, color 0.5s;
+			-o-transition:	background 0.5s ease-in-out, color 0.5s;			
+		}
+		.df-all-events a:hover{
+			background:url(/img/dfbgevents2.png)no-repeat right  center;
+			padding: 9px 35px 9px 28px;
+			vertical-align: 25%;
+			color:#fff;
 		}
 		.df-cap-subtitle{
 			font-size: 16px;color:#636363; 
@@ -238,12 +295,20 @@
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #345b70;
-				position: relative; 				
+				position: relative;
+				cursor:pointer;
+				-webkit-transition: background 0.5s; 
+     			-moz-transition: background 0.5s; 
+     			-o-transition: background 0.5s; 
+				transition: background 0.5s;  				
 				h1 a{
 					font-size: 26px; line-height: 26px;
 					color:#ffffff;
 					display: inline-block;
 					padding: 25px 0px 10px 0; 					
+				}
+				h1 a:hover{
+					text-decoration: underline;
 				}
 				span{
 					font-size: 15px; color:#809dad; line-height: 18px;font-family: "OpenSans-Regular";
@@ -258,6 +323,9 @@
 					bottom: 15px; 
 					right:15px;								
 				}
+			}
+			.df-liv-text:hover{
+				background:#345b70;
 			}	
 	}												
 }
@@ -286,7 +354,17 @@
 			padding: 9px 35px 9px 28px;
 			display: inline-block;
 			vertical-align: 25%;
-			background: url(/img/dfbgevents.png) no-repeat right  center;			
+			background: url(/img/dfbgevents.png) no-repeat right  center;
+			transition: background 0.5s ease-in-out, color 0.5s;
+			-webkit-transition: background 0.5s ease-in-out, color 0.5s;
+			-moz-transition: background 0.5s ease-in-out, color 0.5s;
+			-o-transition:	background 0.5s ease-in-out, color 0.5s;			
+		}
+		.df-all-events a:hover{
+			background:url(/img/dfbgevents2.png)no-repeat right  center;
+			padding: 9px 35px 9px 28px;
+			vertical-align: 25%;
+			color:#fff;
 		}		
 	}	
 	.df-food-img {
@@ -305,13 +383,21 @@
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #2a6645;
-				position: relative; 				
+				position: relative;
+				cursor:pointer;
+				-webkit-transition: background 0.5s; 
+     			-moz-transition: background 0.5s; 
+     			-o-transition: background 0.5s; 
+				transition: background 0.5s;  	 				
 				h1 a{
 					font-size: 26px; line-height: 26px;
 					color:#ffffff;
 					display: inline-block;
 					padding: 15px 0px 10px 0;
 					font-family: "Conv_pt-serif_[allfont.ru]"; 					
+				}
+				h1 a:hover{
+					text-decoration: underline;
 				}
 				span{
 					font-size: 15px; 
@@ -334,11 +420,25 @@
 					bottom: 15px; 
 					right:15px;								
 				}
+			}
+			.df-food-text:hover{
+				background:#479f6f;
 			}	
 	}												
 }
 
-
+.df-all-events a{	
+	transition: background 0.5s ease-in-out, color 0.5s;
+	-webkit-transition: background 0.5s ease-in-out, color 0.5s;
+	-moz-transition: background 0.5s ease-in-out, color 0.5s;
+	-o-transition:	background 0.5s ease-in-out, color 0.5s;	
+}
+.df-all-events a:hover{
+	background:url(/img/dfbgevents2.png)no-repeat right  center;
+	padding: 9px 25px;
+	vertical-align: 25%;
+	color:#fff;
+}
 
 
 @media only screen and (min-width : 320px) {

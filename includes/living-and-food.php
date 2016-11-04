@@ -1,5 +1,5 @@
 
-<div class="container df-width">	
+<div class="container df-width nopadding">	
 	<div class="df-living">
 		<div class="df-caption">
 			<h3 class="df-cap">Проживание</h3>

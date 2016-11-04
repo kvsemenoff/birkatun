@@ -225,15 +225,75 @@
       height: 23px;
       text-align: center;
       position: absolute;
-      bottom: 18px;
-      right: 28px; }
+      bottom: 15px;
+      right: 15px; }
+
+.df-food .df-caption {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 31px; }
+  .df-food .df-caption .df-cap {
+    font-size: 38px;
+    color: #363636;
+    display: inline-block;
+    letter-spacing: 2.02px;
+    margin-right: 15px; }
+  .df-food .df-caption .df-all-events a {
+    font-size: 16px;
+    color: #636363;
+    padding: 9px 35px 9px 28px;
+    display: inline-block;
+    vertical-align: 25%;
+    background: url(/img/dfbgevents.png) no-repeat right center; }
+.df-food .df-food-img {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+  .df-food .df-food-img img {
+    width: 100%;
+    height: 255px; }
+  .df-food .df-food-img .df-food-text {
+    background: #367d56;
+    padding: 0px 45px 0px 30px;
+    min-height: 172px;
+    width: inherit;
+    border-right: 1px solid #2a6645;
+    position: relative; }
+    .df-food .df-food-img .df-food-text h1 a {
+      font-size: 26px;
+      line-height: 26px;
+      color: #ffffff;
+      display: inline-block;
+      padding: 15px 0px 10px 0;
+      font-family: "Conv_pt-serif_[allfont.ru]"; }
+    .df-food .df-food-img .df-food-text span {
+      font-size: 15px;
+      color: #fff;
+      line-height: 18px;
+      font-family: "OpenSans-Regular";
+      display: block;
+      margin: 2px 0; }
+      .df-food .df-food-img .df-food-text span em {
+        color: #98be28; }
+    .df-food .df-food-img .df-food-text .df-fmore {
+      display: inline-block;
+      color: #98be28;
+      font-size: 35px;
+      line-height: 0;
+      border: 1px solid #98be28;
+      width: 39px;
+      height: 23px;
+      text-align: center;
+      position: absolute;
+      bottom: 15px;
+      right: 15px; }
 
 @media only screen and (min-width: 320px) {
   .df-left, .df-right {
     bottom: 47%;
     top: 53%; } }
 @media only screen and (min-width: 480px) {
-  .df-more {
+  .df-more, .df-fmore {
     left: 28px; }
 
   .df-events-and-news .df-content .df-img .df-img-text {
@@ -278,7 +338,19 @@
 
   .df-left, .df-right {
     bottom: 40%;
-    top: 60%; } }
+    top: 60%; }
+
+  .df-food .df-caption {
+    text-align: left;
+    padding-left: 62px;
+    margin-top: 70px !important; }
+  .df-food .df-food-img {
+    margin: 0;
+    margin-bottom: 15px;
+    max-height: 425px;
+    overflow: hidden; }
+    .df-food .df-food-img .df-food-text h1 a {
+      padding: 25px 0px 10px 0; } }
 @media only screen and (min-width: 1248px) {
   .container {
     width: 1320px; }

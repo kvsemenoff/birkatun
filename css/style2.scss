@@ -47,8 +47,19 @@
 .db-divimg{
 	width: 100%;
 	height: 100%;
+	position: relative;
 	img{
 		height: 100%;
+	}
+	span{
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		display: block;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
 	}
 }
 // *******************
@@ -71,6 +82,16 @@
 		transform: translate(-50%, -50%); //*
 		height: 100%;
 	}
+	span{
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		display: block;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
+	}
 }
 .db-div2{
 	position: relative;
@@ -85,6 +106,16 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		height: 100%;
+	}
+	span{
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		display: block;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
 	}
 }
 .db-div3{
@@ -101,6 +132,16 @@
 		transform: translate(-50%, -50%);
 		height: 100%;
 	}
+	span{
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		display: block;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
+	}
 }
 .db-div4{
 	position: relative;
@@ -115,6 +156,16 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		height: 100%;
+	}
+	span{
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		display: block;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
 	}
 }
 .db-div5{
@@ -131,6 +182,16 @@
 		transform: translate(-50%, -50%);
 		height: 100%;
 	}
+	span{
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		display: block;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
+	}
 }
 .db-div6{
 	position: relative;
@@ -146,10 +207,41 @@
 		transform: translate(-50%, -50%);
 		height: 100%;
 	}
+	span{
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		display: block;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
+	}
 }
-
-
-
+.ah-blok-slider{
+	position: relative;
+}
+.prev_arrs1{
+	display: block;
+	position: absolute;
+	width: 43px; 
+	height: 50px;
+	left: 0px;
+	top: 46%;
+	background: url(../img/db-arr-left.png) center center no-repeat;
+}
+.next_arrs1{
+	display: block;
+	position: absolute;
+	width: 43px; 
+	height: 50px;
+	right: 0px;
+	top: 46%;
+	background: url(../img/db-arr-right.png) center center no-repeat;
+}
+// .db-hoverbox{
+// 	display: none;
+// }
 
 
 
@@ -189,6 +281,24 @@
 	.item{
 		height: auto;
 		overflow: none;
+	}
+	.prev_arrs1{
+		display: block;
+		position: absolute;
+		width: 43px; 
+		height: 50px;
+		left: -22px;
+		top: 46%;
+		background: url(../img/db-arr-left.png) center center no-repeat;
+	}
+	.next_arrs1{
+		display: block;
+		position: absolute;
+		width: 43px; 
+		height: 50px;
+		right: -22px;
+		top: 46%;
+		background: url(../img/db-arr-right.png) center center no-repeat;
 	}
 }
 

@@ -1,4 +1,4 @@
-Рыбалка<div clasКонные туры</div>
+<div class="clearfix"></div>
 
 <div class="container db-margin nopadding">
 	<div class="df-caption">

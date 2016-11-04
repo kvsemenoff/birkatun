@@ -40,9 +40,10 @@
 
 
 .df-events-and-news{
+	background: #fff;
 	.df-caption{
 		text-align: center;		
-		margin-top: 50px;
+		padding-top: 50px;
 		margin-bottom: 28px;				
 		.df-cap{
 			font-size: 38px; color:#363636;		//42	
@@ -64,8 +65,7 @@
 		margin-bottom: 20px;
 		.df-img {
 			float: left;
-			width: 100%;
-			margin-bottom: 20px;
+			width: 100%;			
 			img{
 				width: 100%;
 				height: auto;
@@ -90,7 +90,7 @@
 
 		.df-data-text{
 			float:left;			
-			border-top: 1px solid #ebebeb;
+			border-top: 1px solid #D1D1D1;			
 			padding: 5% 0;
 			width: 100%;			
 			.df-data {
@@ -120,7 +120,7 @@
 			}
 		}
 		.df-border-bot{
-			border-bottom: 1px solid #ebebeb;
+			border-bottom: 1px solid #D1D1D1;
 		}
 	}
 }
@@ -141,13 +141,13 @@
 }
 .df-left{
 	position: absolute;
-	left: -20px;	
+	left: 0px;	
 	background: url(/img/df-left.png) no-repeat center;
 	width: 43px; height: 50px; background-color: #98be28;	
 }
 .df-right{
 	position: absolute;
-	right:-20px;	
+	right:0px; //-20px	
 	background: url(/img/df-right.png) no-repeat center;
 	width: 43px; height: 50px; background-color: #98be28;	
 }
@@ -157,11 +157,12 @@
 }	
 
 
-.df-living{	
+.df-living{
+	background:#fff;		
 	.df-caption{
 		text-align: center; //left;
-		margin-top:25px; //65px
-		margin-bottom: 35px;			
+		padding-top:25px; //65px
+		padding-bottom: 35px;			
 		.df-cap{
 			font-size: 38px; color:#363636;		
 			display: inline-block;
@@ -232,7 +233,8 @@
 			}
 			.df-liv-text{							 
 				background: #254150;
-				padding: 0px 45px 0px 30px; //28 70 15 30
+				padding:0 7% 0 14%;
+				//padding: 0px 45px 0px 30px; 
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #345b70;
@@ -266,11 +268,13 @@
 												//FOOD.PHP
 
 
-.df-food{	
+.df-food{
+	
 	.df-caption{
 		text-align: center; //left;
-		margin-top:25px; //65px
-		margin-bottom: 31px;			
+		padding-top:25px; //65px
+		padding-bottom: 31px;
+		background:#fff;				
 		.df-cap{
 			font-size: 38px; color:#363636;		
 			display: inline-block;
@@ -296,7 +300,8 @@
 			}			
 			.df-food-text{							 
 				background: #367d56;
-				padding: 0px 45px 0px 30px; //28 70 15 30
+				padding:0 7% 0 14%;
+				//padding: 0px 45px 0px 30px; //28 70 15 30
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #2a6645;
@@ -391,7 +396,8 @@
 		}
 		.df-content{
 			.df-img{
-				width: 34% !important;						
+				width: 34% !important;
+				margin-bottom: 0;						
 			}
 			.df-data-text{
 				padding: 10px 0;
@@ -417,7 +423,7 @@
 	.df-caption{
 		text-align: left; 
 		padding-left: 62px;
-		margin-top:65px !important;					
+		padding-top:65px !important;					
 	}	
 	.df-liv-img {		 
 		margin: 0;
@@ -438,13 +444,15 @@
 }
 
 
+
 //food.php
 
 .df-food{	
 	.df-caption{
 		text-align: left; 
 		padding-left: 62px;
-		margin-top:70px !important;					
+		padding-top:60px !important;
+		margin-top:7px;					
 	}	
 	.df-food-img {		 
 		margin: 0;
@@ -467,9 +475,10 @@
 	.container{
 		width: 1320px;
 	}
-	.df-width{	
-	//margin: 0 auto;
-	}
+	
+.df-right{right:-20px;}
+.df-left{left:-20px;}
+
 	.df-events-and-news{
 		.df-content{			
 			.df-img-text{
@@ -477,7 +486,7 @@
 			}
 			.df-data-text{
 				padding: 0px ;
-				width: 65%;
+				width: 66%;
 				.df-data{
 					float: left;
 					margin: 0 37px 0 50px;
@@ -487,12 +496,15 @@
 					padding-top: 18px;
 					float: left;
 					width: 77% !important;
-					height: 134.2px;
+					height: 135.8px;
 					margin-left: 0%;
 				}
 			}
 		}
-	}	
+	}
+
+	.df-liv-text{padding: 0px 45px 0px 30px !important; }
+	.df-food-text{padding: 0px 45px 0px 30px !important; }		
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

@@ -1,4 +1,6 @@
-
+body{
+	background:#EBEBEB;
+}
 
 /*============ footer ===========*/
 
@@ -358,6 +360,8 @@
 	overflow:hidden;
 	z-index:50;
 	width:100%;
+
+	//outline:1px solid red;
 	.dd-color-header{
 		background:#EBEBEB;
 		.dd-nav{
@@ -432,9 +436,13 @@
 
 /*========== header img ===========*/
 
+
+
 .dd-headerimg-wrap{
-	// background:url("../img/bg-header.jpg") no-repeat center;
-	//height:480px;
+	background:url("../img/bg-header.jpg") no-repeat center;
+	background-size:cover;
+	min-height:480px;
+	padding-top:70px;
 	.dd-header-title{
 		outline: 1px solid red;
 		 font-family: "PtSerifBold";

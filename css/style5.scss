@@ -92,8 +92,7 @@
 			}
 			.df-img-text{							 
 				background: #254150;
-				padding: 5px 55px 30px 28px;
-				cursor:pointer;
+				padding: 5px 55px 30px 28px;			
 				-webkit-transition: background 0.5s; 
      			-moz-transition: background 0.5s; 
      			-o-transition: background 0.5s; 
@@ -108,13 +107,13 @@
 				}
 				span{
 					font-size: 15px; color:#6e8b9a;
-				}
-				h1 a:hover{
-					text-decoration:underline;					
-				}
+				}				
 			}
 			.df-img-text:hover{
 				background:#345b70;
+				h1 a{
+					text-decoration:underline;	
+				}
 			}
 		}
 
@@ -295,8 +294,7 @@
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #345b70;
-				position: relative;
-				cursor:pointer;
+				position: relative;				
 				-webkit-transition: background 0.5s; 
      			-moz-transition: background 0.5s; 
      			-o-transition: background 0.5s; 
@@ -307,9 +305,7 @@
 					display: inline-block;
 					padding: 25px 0px 10px 0; 					
 				}
-				h1 a:hover{
-					text-decoration: underline;
-				}
+				
 				span{
 					font-size: 15px; color:#809dad; line-height: 18px;font-family: "OpenSans-Regular";
 				}
@@ -326,6 +322,9 @@
 			}
 			.df-liv-text:hover{
 				background:#345b70;
+				h1 a{
+					text-decoration: underline;
+				}
 			}	
 	}												
 }
@@ -383,8 +382,7 @@
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #2a6645;
-				position: relative;
-				cursor:pointer;
+				position: relative;				
 				-webkit-transition: background 0.5s; 
      			-moz-transition: background 0.5s; 
      			-o-transition: background 0.5s; 
@@ -394,11 +392,9 @@
 					color:#ffffff;
 					display: inline-block;
 					padding: 15px 0px 10px 0;
-					font-family: "Conv_pt-serif_[allfont.ru]"; 					
+					font-family: "Conv_pt-serif_[allfont.ru]";									
 				}
-				h1 a:hover{
-					text-decoration: underline;
-				}
+				
 				span{
 					font-size: 15px; 
 					color:#fff; 
@@ -423,22 +419,14 @@
 			}
 			.df-food-text:hover{
 				background:#479f6f;
+				h1 a{
+					text-decoration: underline;
+				}
 			}	
 	}												
 }
 
-.df-all-events a{	
-	transition: background 0.5s ease-in-out, color 0.5s;
-	-webkit-transition: background 0.5s ease-in-out, color 0.5s;
-	-moz-transition: background 0.5s ease-in-out, color 0.5s;
-	-o-transition:	background 0.5s ease-in-out, color 0.5s;	
-}
-.df-all-events a:hover{
-	background:url(/img/dfbgevents2.png)no-repeat right  center;
-	padding: 9px 25px;
-	vertical-align: 25%;
-	color:#fff;
-}
+
 
 
 @media only screen and (min-width : 320px) {

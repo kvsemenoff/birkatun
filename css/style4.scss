@@ -1,4 +1,6 @@
-
+body{
+	background:#EBEBEB;
+}
 
 /*============ footer ===========*/
 
@@ -234,7 +236,7 @@
         height: 100%;
         -webkit-perspective: 500px; 
         perspective: 500px;
-        z-index: 6;
+        z-index: 150;
     }
     .menu-list-pressed{
         
@@ -270,10 +272,21 @@
 				font-family: "Conv_pt-serif_[allfont.ru]";
 				font-size:16px;
 				color:#363636;
+				position:relative;
     		}
-    		a:hover{
-    			border-top:2px solid #363636;
-    		}
+		    a:before{
+		        position: absolute;
+		        bottom: -2px;
+		        left: 0px;
+		        content: '';
+		        width: 0%;
+		        height: 3px;
+		        background: #777;//#cd1719;
+		        transition: width 0.5s ease-in-out;
+		    }
+		    a:hover:before{
+		        width: 100%;
+		    }
     	}
     }
     .dd-phone-wrap{
@@ -311,10 +324,10 @@
     height: 43px;
     font-size: 30px;
     position: fixed;
-    top: 25px;
+    top: 22px;
     right:25px;
     opacity: 0.4;
-    z-index: 500;
+    z-index: 9999;
 }
 .anz-menu-ch:hover{
     opacity: 0.3;
@@ -341,13 +354,19 @@
 
 .dd-header{
 	background:#EBEBEB;
-	display:none;
+	display:block;
+	position:fixed;
+	height:70px;
+	overflow:hidden;
+	z-index:50;
+	width:100%;
+
+	//outline:1px solid red;
 	.dd-color-header{
 		background:#EBEBEB;
 		.dd-nav{
 			float: left;
 			.dd-mainmenu{
-
 				li{
 					display: inline-block;
 					margin-top: 30px;
@@ -357,10 +376,22 @@
 						color:#363636;
 						//outline: 1px solid red;
 						padding: 26px 12px 24px;
+						position: relative;
 					}
-					a:hover{
-						border-top:5px solid black;
-					}
+				    a:before{
+				        position: absolute;
+				        //bottom: -2px;
+				        top: 0;
+				        left: 0px;
+				        content: '';
+				        width: 0%;
+				        height: 3px;
+				        background: #777;//#cd1719;
+				        transition: width 0.5s ease-in-out;
+				    }
+				    a:hover:before{
+				        width: 100%;
+				    }
 
 				}
 				li:first-child{
@@ -400,13 +431,25 @@
 			border-left:1px solid #D7D7D7;
 			border-right:1px solid #D7D7D7;
 		}
-		.dd-border2{
-			//border-right:1px solid #D7D7D7;
-		}
 	}	
 }
 
+/*========== header img ===========*/
 
+
+
+.dd-headerimg-wrap{
+	background:url("../img/bg-header.jpg") no-repeat center;
+	background-size:cover;
+	min-height:480px;
+	padding-top:70px;
+	.dd-header-title{
+		outline: 1px solid red;
+		 font-family: "PtSerifBold";
+		 color: black;
+		 font-size: 50px;
+	}
+}
 
 
 
@@ -428,10 +471,6 @@
 						padding: 26px 1px 24px;
 						font-size: 12px !important;
 					}
-					a:hover{
-						border-top:5px solid black;
-					}
-
 				}
 				li:first-child{
 					a{
@@ -463,7 +502,7 @@
 @media only screen and (min-width : 992px) {
 
 	.dd-header{
-		display:block;
+		//display:block;
 		.dd-nav{
 			float: left;
 			.dd-mainmenu{

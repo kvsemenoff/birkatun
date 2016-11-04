@@ -292,7 +292,7 @@ body {
           content: '';
           width: 0%;
           height: 3px;
-          background: #777;
+          background: #254150;
           transition: width 0.5s ease-in-out; }
         .dd-header .dd-color-header .dd-nav .dd-mainmenu li a:hover:before {
           width: 100%; }
@@ -336,8 +336,10 @@ body {
   .dd-headerimg-wrap .dd-header-title {
     font-family: "PtSerifBold";
     color: #fff;
-    font-size: 30px;
+    font-size: 28px;
     padding-top: 150px; }
+    .dd-headerimg-wrap .dd-header-title .dd-line {
+      margin-bottom: 26px; }
     .dd-headerimg-wrap .dd-header-title img {
       margin: 0 auto; }
   .dd-headerimg-wrap .dd-socico {
@@ -385,6 +387,13 @@ body {
   .dd-footer .dd-footer-txt {
     text-align: left; } }
 @media only screen and (min-width: 1248px) {
+  .dd-headerimg-wrap .dd-whitelogo {
+    left: -53px;
+    top: 100px; }
+  .dd-headerimg-wrap .dd-header-title {
+    padding-top: 136px;
+    font-size: 50px; }
+
   .dd-header .dd-color-header {
     border-right: 1px solid #D7D7D7; }
     .dd-header .dd-color-header .dd-nav .dd-mainmenu li a {

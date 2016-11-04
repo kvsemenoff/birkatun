@@ -18,6 +18,11 @@
 					<div class="db-divimg">
 						<img src="img/db-slidefon.jpg" alt="db-slidefon">
 						<span>Горные сплавы</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Горные сплавы</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -27,6 +32,11 @@
 					<div class="db-divimg">
 						<img src="img/db-slidefon1.jpg" alt="db-slidefon1">
 						<span>Квадроциклы</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Квадроциклы</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -35,6 +45,11 @@
 					<div class="db-divimg">
 						<img src="img/db-slidefon2.jpg" alt="db-slidefon2">
 						<span>Картинг</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Картинг</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -43,6 +58,11 @@
 					<div class="db-divimg">
 						<img src="img/db-slidefon3.jpg" alt="db-slidefon3">
 						<span>Велосипеды</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Велосипеды</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -51,6 +71,11 @@
 					<div class="db-divimg">
 						<img src="img/db-slidefon4.jpg" alt="db-slidefon4">
 						<span>Рыбалка</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Рыбалка</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -59,6 +84,11 @@
 					<div class="db-divimg">
 						<img src="img/db-slidefon5.jpg" alt="db-slidefon5">
 						<span>Конные туры</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Конные туры</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -77,30 +107,56 @@
 						<div class="db-div1">
 							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
 							<span>Горные сплавы</span>
-							<div class="db-hoverbox">
-								<span>Горные сплавы</span>
-								<p>Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox1">
+								<p class="db-p1">Горные сплавы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
 							</div>
 						</div>
 						<div class="db-div2">
 							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
 							<span>Квадроциклы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Квадроциклы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div3">
 							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
 							<span>Картинг</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Картинг</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div4">
 							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
 							<span>Велосипеды</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Велосипеды</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div5">
 							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
 							<span>Рыбалка</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Рыбалка</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div6">
 							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
 							<span>Конные туры</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Конные туры</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -114,26 +170,56 @@
 						<div class="db-div1">
 							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
 							<span>Горные сплавы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox1">
+								<p class="db-p1">Горные сплавы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div2">
 							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
 							<span>Квадроциклы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Квадроциклы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div3">
 							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
 							<span>Картинг</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Картинг</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div4">
 							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
 							<span>Велосипеды</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Велосипеды</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div5">
 							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
 							<span>Рыбалка</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Рыбалка</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div6">
 							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
 							<span>Конные туры</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Конные туры</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -147,26 +233,56 @@
 						<div class="db-div1">
 							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
 							<span>Горные сплавы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox1">
+								<p class="db-p1">Горные сплавы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div2">
 							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
 							<span>Квадроциклы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Квадроциклы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div3">
 							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
 							<span>Картинг</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Картинг</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div4">
 							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
 							<span>Велосипеды</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Велосипеды</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div5">
 							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
 							<span>Рыбалка</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Рыбалка</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div6">
 							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
 							<span>Конные туры</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Конные туры</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -180,26 +296,56 @@
 						<div class="db-div1">
 							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
 							<span>Горные сплавы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox1">
+								<p class="db-p1">Горные сплавы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div2">
 							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
 							<span>Квадроциклы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Квадроциклы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div3">
 							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
 							<span>Картинг</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Картинг</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div4">
 							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
 							<span>Велосипеды</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Велосипеды</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div5">
 							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
 							<span>Рыбалка</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Рыбалка</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div6">
 							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
 							<span>Конные туры</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Конные туры</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -213,26 +359,56 @@
 						<div class="db-div1">
 							<img src="img/db-slidefon0.jpg" alt="db-slidefon0">
 							<span>Горные сплавы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox1">
+								<p class="db-p1">Горные сплавы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div2">
 							<img src="img/db-slidefon11.jpg" alt="db-slidefon11">
 							<span>Квадроциклы</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Квадроциклы</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div3">
 							<img src="img/db-slidefon22.jpg" alt="db-slidefon22">
 							<span>Картинг</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Картинг</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div4">
 							<img src="img/db-slidefon33.jpg" alt="db-slidefon33">
 							<span>Велосипеды</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Велосипеды</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div5">
 							<img src="img/db-slidefon44.jpg" alt="db-slidefon44">
 							<span>Рыбалка</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Рыбалка</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="db-div6">
 							<img src="img/db-slidefon55.jpg" alt="db-slidefon55">
 							<span>Конные туры</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Конные туры</p>
+								<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+							</div>
 						</div>
 						<div class="clearfix"></div>
 					</div>

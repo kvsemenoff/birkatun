@@ -381,7 +381,7 @@ body{
 				        content: '';
 				        width: 0%;
 				        height: 3px;
-				        background: #777;//#cd1719;
+				        background: #254150;//#cd1719;
 				        transition: width 0.5s ease-in-out;
 				    }
 				    a:hover:before{
@@ -442,8 +442,11 @@ body{
 	.dd-header-title{
 		font-family: "PtSerifBold";
 		color: #fff;
-		font-size: 30px;
+		font-size: 28px;
 		padding-top:150px;
+		.dd-line{
+			margin-bottom:26px;
+		}
 		img{
 			margin:0 auto;
 		}
@@ -539,18 +542,28 @@ body{
 
 @media only screen and (min-width : 1248px) {
 
+	.dd-headerimg-wrap{
+		.dd-whitelogo{
+			left: -53px;
+			top:100px;
+		}
+		.dd-header-title{
+			padding-top:136px;
+			font-size: 50px;
+		}
+	}
+
 	.dd-header{
 		.dd-color-header{
 			border-right:1px solid #D7D7D7;
-			
+
 			.dd-nav{
 				.dd-mainmenu{
 					li{
 						a{
-							font-size:16px !important;
-							padding-top: 24px;
-							display: inline-block;
-							
+						font-size:16px !important;
+						padding-top: 24px;
+						display: inline-block;
 						}
 					}	
 				}
@@ -562,9 +575,6 @@ body{
 						padding-left:26px;
 						font-size: 22px;
 					}
-				}
-				.dd-border{
-					//margin-left: 34px;
 				}
 				.dd-border2{
 					padding:4px 70px 17px 30px;
@@ -581,7 +591,6 @@ body{
 
 	.dd-footer{
 		background:#254150 !important;
-		//width:1320px !important;
 		position:relative;
 		.dd-my-col{
 			width: 21% !important;
@@ -593,7 +602,6 @@ body{
 			
 		}
 		.dd-footer-box2{
-
 			padding-left:61px;
 		}
 		.dd-footer-box3{
@@ -603,7 +611,6 @@ body{
 			
 		}
 		.dd-footer-menu2{
-			//outline: 1px solid #fff;
 			padding-right:60px; 
 		}
 		.dd-soc-wrap{

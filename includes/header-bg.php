@@ -4,11 +4,12 @@
 			<div class="dd-whitelogo">
 				<img class="img-responsive" src="img/dd-logo.jpg" alt="">
 			</div>
-			<!-- <div class="dd-line">
-				<img class="img-responsive" src="img/dd-line.png" alt="">
-			</div> -->
+			
 			<div class="dd-header-title">
-			<img class="img-responsive" src="img/dd-line.png" alt="">
+			<div class="dd-line">
+				<img class="img-responsive" src="img/dd-line.png" alt="">
+			</div>
+			<!-- <img class="img-responsive" src="img/dd-line.png" alt=""> -->
 				Центр семейного отдыха в<br>
 				самом сердце Алтая
 			</div>

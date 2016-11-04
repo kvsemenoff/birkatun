@@ -37,10 +37,6 @@ body{
 			  font-size: 16px;
 			}
 		}
-		.dd-footer-menu2{
-			//outline: 1px solid #fff;
-			//padding-right:80px; dekstop
-		}
 		.dd-footer-title-last{
 			ul{
 				li{
@@ -272,6 +268,7 @@ body{
 				font-family: "Conv_pt-serif_[allfont.ru]";
 				font-size:16px;
 				color:#363636;
+				display: inline-block;
 				position:relative;
     		}
 		    a:before{
@@ -369,18 +366,16 @@ body{
 			.dd-mainmenu{
 				li{
 					display: inline-block;
-					margin-top: 30px;
+					//margin-top: 24px;
 					a{
 						font-family: "Conv_pt-serif_[allfont.ru]";
 						font-size:16px;
 						color:#363636;
-						//outline: 1px solid red;
-						padding: 26px 12px 24px;
+						// padding: 26px 12px 24px;
 						position: relative;
 					}
 				    a:before{
 				        position: absolute;
-				        //bottom: -2px;
 				        top: 0;
 				        left: 0px;
 				        content: '';
@@ -436,18 +431,38 @@ body{
 
 /*========== header img ===========*/
 
-
-
 .dd-headerimg-wrap{
 	background:url("../img/bg-header.jpg") no-repeat center;
 	background-size:cover;
 	min-height:480px;
-	padding-top:70px;
+	padding-top:100px;
+	padding-bottom:26px;
+	text-align:center;
+	position:relative;
 	.dd-header-title{
-		outline: 1px solid red;
-		 font-family: "PtSerifBold";
-		 color: black;
-		 font-size: 50px;
+		font-family: "PtSerifBold";
+		color: #fff;
+		font-size: 30px;
+		padding-top:150px;
+		img{
+			margin:0 auto;
+		}
+	}
+	.dd-socico{
+		//outline: 1px solid red;
+		//margin: 0 auto;
+		position:absolute;
+		bottom:26px;
+		right: 22px; 
+		width: 271px;
+		.dd-k{
+			margin-left:34px;
+		}
+	}
+	.dd-whitelogo{
+		position:absolute;
+		left: 0;
+		top:105px;
 	}
 }
 
@@ -466,16 +481,15 @@ body{
 			float: left;
 			.dd-mainmenu{
 				li{
-					margin-top: 30px;
+					margin-left: 25px;
 					a{
-						padding: 26px 1px 24px;
+						padding-top: 24px;
+						display: inline-block;
 						font-size: 12px !important;
 					}
 				}
 				li:first-child{
-					a{
-						padding-left:0;
-					}
+					margin-left: 0;
 				}
 			}
 		}
@@ -492,9 +506,6 @@ body{
 
 				}
 			}
-			.dd-border{
-				//margin-left: 34px;
-			}
 		}
 	}
 }
@@ -502,16 +513,14 @@ body{
 @media only screen and (min-width : 992px) {
 
 	.dd-header{
-		//display:block;
 		.dd-nav{
 			float: left;
 			.dd-mainmenu{
 				li{
-					margin-top: 30px;
-					a{
-						padding: 26px 1px 24px;
-						//font-size: 15px !important;
-					}
+					margin-left: 25px;
+				}
+				li:first-child{
+					margin-left: 0;
 				}
 			}
 		}	
@@ -536,17 +545,18 @@ body{
 			.dd-nav{
 				.dd-mainmenu{
 					li{
-						margin-top: 30px;
 						a{
 							font-size:16px !important;
-							padding: 26px 12px 24px;
+							padding-top: 24px;
+							display: inline-block;
+							
 						}
-					}
+					}	
 				}
 			}
 			.dd-phone-wrap{
 				.dd-border{
-					padding:12px 39px 17px 30px;
+					padding: 5px 43px 18px 29px;
 					span:last-child{
 						padding-left:26px;
 						font-size: 22px;
@@ -556,7 +566,7 @@ body{
 					//margin-left: 34px;
 				}
 				.dd-border2{
-					padding:12px 12px 17px 30px;
+					padding:4px 70px 17px 30px;
 					span:last-child{
 						padding-left:26px;
 						font-size: 22px;

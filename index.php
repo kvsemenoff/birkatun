@@ -40,6 +40,7 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/header-bg.php'); ?>
 	<?php require_once('includes/header-bottom.php'); ?>
 	<?php require_once('includes/events-and-news.php'); ?>
 	<?php require_once('includes/last-events.php'); ?>

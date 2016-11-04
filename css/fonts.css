@@ -93,3 +93,11 @@
   src: local("☺"), url("../fonts/MicrosoftSansSerif/MicrosoftSansSerif.woff") format("woff"), url("../fonts/MicrosoftSansSerif/MicrosoftSansSerif.ttf") format("truetype"), url("../fonts/MicrosoftSansSerif/MicrosoftSansSerif.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+  @font-face {
+  font-family: "PtSerifBold";
+  src: url("../fonts/PtSerifBold/PtSerifBold.eot");
+  src: local("☺"), url("../fonts/PtSerifBold/PtSerifBold.woff") format("woff"), url("../fonts/PtSerifBold/PtSerifBold.ttf") format("truetype"), url("../fonts/PtSerifBold/PtSerifBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

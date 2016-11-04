@@ -191,9 +191,25 @@
 /*menu styles*/
 .anz-menu {
   text-align: right; }
-
-.az-header1 {
-  padding-top: 40px; }
+  .anz-menu .dd-mainmenu li a {
+    font-family: "Conv_pt-serif_[allfont.ru]";
+    font-size: 16px;
+    color: #363636; }
+  .anz-menu .dd-mainmenu li a:hover {
+    border-top: 2px solid #363636; }
+  .anz-menu .dd-phone-wrap {
+    padding-top: 10px; }
+    .anz-menu .dd-phone-wrap .dd-nav-phone span:first-child {
+      font-family: "OpenSans-Semibold";
+      font-size: 11px;
+      color: #909A9F;
+      text-transform: uppercase; }
+    .anz-menu .dd-phone-wrap .dd-nav-phone span:last-child {
+      font-family: "Conv_pt-serif_[allfont.ru]";
+      font-size: 16px;
+      color: #363636;
+      position: relative;
+      padding-left: 6px; }
 
 .menu-list-pressed {
   border: 1px solid #000;
@@ -201,7 +217,8 @@
   height: 100%;
   padding: 30px;
   line-height: 40px;
-  background: #fff; }
+  background: #fff;
+  text-align: left; }
 
 .anz-menu-ch {
   display: inline-block;
@@ -226,8 +243,8 @@
   height: 43px;
   font-size: 30px;
   position: fixed;
-  top: 25px;
-  right: 25px;
+  top: 0px;
+  right: -8px;
   opacity: 0.4;
   cursor: pointer; }
 
@@ -238,47 +255,47 @@
 .dd-header {
   background: #EBEBEB;
   display: none; }
-  .dd-header .dd-nav {
-    float: left; }
-    .dd-header .dd-nav .dd-mainmenu li {
-      display: inline-block;
-      margin-top: 30px; }
-      .dd-header .dd-nav .dd-mainmenu li a {
+  .dd-header .dd-color-header {
+    background: #EBEBEB; }
+    .dd-header .dd-color-header .dd-nav {
+      float: left; }
+      .dd-header .dd-color-header .dd-nav .dd-mainmenu li {
+        display: inline-block;
+        margin-top: 30px; }
+        .dd-header .dd-color-header .dd-nav .dd-mainmenu li a {
+          font-family: "Conv_pt-serif_[allfont.ru]";
+          font-size: 16px;
+          color: #363636;
+          padding: 26px 12px 24px; }
+        .dd-header .dd-color-header .dd-nav .dd-mainmenu li a:hover {
+          border-top: 5px solid black; }
+      .dd-header .dd-color-header .dd-nav .dd-mainmenu li:first-child a {
+        padding-left: 0; }
+    .dd-header .dd-color-header .dd-nav-phone {
+      float: left;
+      padding: 12px 42px 17px 30px; }
+      .dd-header .dd-color-header .dd-nav-phone span:first-child {
+        font-family: "OpenSans-Semibold";
+        font-size: 11px;
+        color: #909A9F;
+        text-transform: uppercase; }
+      .dd-header .dd-color-header .dd-nav-phone span:last-child {
         font-family: "Conv_pt-serif_[allfont.ru]";
-        font-size: 16px;
+        font-size: 22px;
         color: #363636;
-        padding: 26px 12px 24px; }
-      .dd-header .dd-nav .dd-mainmenu li a:hover {
-        border-top: 5px solid black; }
-    .dd-header .dd-nav .dd-mainmenu li:first-child a {
-      padding-left: 0; }
-  .dd-header .dd-nav-phone {
-    float: left;
-    padding: 12px 42px 17px 30px; }
-    .dd-header .dd-nav-phone span:first-child {
-      font-family: "OpenSans-Semibold";
-      font-size: 11px;
-      color: #909A9F;
-      text-transform: uppercase; }
-    .dd-header .dd-nav-phone span:last-child {
-      font-family: "Conv_pt-serif_[allfont.ru]";
-      font-size: 22px;
-      color: #363636;
-      position: relative;
-      padding-left: 26px; }
-    .dd-header .dd-nav-phone span:last-child:after {
-      position: absolute;
-      content: "";
-      background: url("../img/dd-tel2.png") no-repeat center;
-      left: 0;
-      top: 5px;
-      width: 20px;
-      height: 20px; }
-  .dd-header .dd-border {
-    border-left: 1px solid #D7D7D7;
-    border-right: 1px solid #D7D7D7; }
-  .dd-header .dd-border2 {
-    border-right: 1px solid #D7D7D7; }
+        position: relative;
+        padding-left: 26px; }
+      .dd-header .dd-color-header .dd-nav-phone span:last-child:after {
+        position: absolute;
+        content: "";
+        background: url("../img/dd-tel2.png") no-repeat center;
+        left: 0;
+        top: 5px;
+        width: 20px;
+        height: 20px; }
+    .dd-header .dd-color-header .dd-border {
+      border-left: 1px solid #D7D7D7;
+      border-right: 1px solid #D7D7D7; }
 
 @media only screen and (min-width: 768px) {
   .dd-header .dd-nav {
@@ -287,7 +304,7 @@
       margin-top: 30px; }
       .dd-header .dd-nav .dd-mainmenu li a {
         padding: 26px 1px 24px;
-        font-size: 15px; }
+        font-size: 12px !important; }
       .dd-header .dd-nav .dd-mainmenu li a:hover {
         border-top: 5px solid black; }
     .dd-header .dd-nav .dd-mainmenu li:first-child a {
@@ -296,32 +313,43 @@
     float: right; }
     .dd-header .dd-phone-wrap .dd-nav-phone {
       padding: 12px 22px 17px 19px; }
+      .dd-header .dd-phone-wrap .dd-nav-phone span:first-child {
+        padding-left: 27px; }
       .dd-header .dd-phone-wrap .dd-nav-phone span:last-child {
         padding-left: 26px;
-        font-size: 15px; }
-    .dd-header .dd-phone-wrap .dd-border {
-      margin-left: 34px; } }
+        font-size: 15px; } }
 @media only screen and (min-width: 992px) {
   .dd-header {
     display: block; }
+    .dd-header .dd-nav {
+      float: left; }
+      .dd-header .dd-nav .dd-mainmenu li {
+        margin-top: 30px; }
+        .dd-header .dd-nav .dd-mainmenu li a {
+          padding: 26px 1px 24px; }
 
   .dd-footer .dd-footer-box {
     text-align: left; }
   .dd-footer .dd-footer-txt {
     text-align: left; } }
 @media only screen and (min-width: 1248px) {
-  .dd-header .dd-nav .dd-mainmenu li {
-    margin-top: 30px; }
-    .dd-header .dd-nav .dd-mainmenu li a {
-      font-size: 16px;
-      padding: 26px 12px 24px; }
-  .dd-header .dd-phone-wrap .dd-nav-phone {
-    padding: 12px 42px 17px 30px; }
-    .dd-header .dd-phone-wrap .dd-nav-phone span:last-child {
-      padding-left: 26px;
-      font-size: 22px; }
-  .dd-header .dd-phone-wrap .dd-border {
-    margin-left: 34px; }
+  .dd-header .dd-color-header {
+    border-right: 1px solid #D7D7D7; }
+    .dd-header .dd-color-header .dd-nav .dd-mainmenu li {
+      margin-top: 30px; }
+      .dd-header .dd-color-header .dd-nav .dd-mainmenu li a {
+        font-size: 16px !important;
+        padding: 26px 12px 24px; }
+    .dd-header .dd-color-header .dd-phone-wrap .dd-border {
+      padding: 12px 39px 17px 30px; }
+      .dd-header .dd-color-header .dd-phone-wrap .dd-border span:last-child {
+        padding-left: 26px;
+        font-size: 22px; }
+    .dd-header .dd-color-header .dd-phone-wrap .dd-border2 {
+      padding: 12px 12px 17px 30px; }
+      .dd-header .dd-color-header .dd-phone-wrap .dd-border2 span:last-child {
+        padding-left: 26px;
+        font-size: 22px; }
 
   .dd-footer {
     background: #254150 !important;

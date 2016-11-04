@@ -1,5 +1,5 @@
 <section class="dd-header">
-	<div class="container">
+	<div class="container dd-color-header">
 		<div class="col-md-12">
 			<div class="dd-nav">
 				<ul class="dd-mainmenu">
@@ -17,7 +17,7 @@
 					<span>+7 (385) 277-89-25</span>
 				</div>
 					<div class="dd-nav-phone dd-border2">
-					<span>бронирование</span><br>
+					<span>администрация</span><br>
 					<span>+7 (385) 277-89-25</span>
 				</div>
 			</div>
@@ -39,6 +39,16 @@
 				<li><a href="#">Мероприятия</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
+			<div class="dd-phone-wrap">
+				<div class="dd-nav-phone dd-border">
+					<span>бронирование</span><br>
+					<span>+7 (385) 277-89-25</span>
+				</div>
+					<div class="dd-nav-phone dd-border2">
+					<span>администрация</span><br>
+					<span>+7 (385) 277-89-25</span>
+				</div>
+			</div>
         </div>
     </div>
 </div>

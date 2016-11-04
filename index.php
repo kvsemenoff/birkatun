@@ -46,6 +46,7 @@
 	<?php require_once('includes/entertainment.php'); ?>
 	<?php require_once('includes/living-and-food.php'); ?>
 	<?php require_once('includes/host.php'); ?>
+	<?php require_once('includes/food.php'); ?>
 	<?php require_once('includes/suvenir.php'); ?>
 	<?php require_once('includes/link.php'); ?>
 	<?php require_once('includes/footer.php'); ?>

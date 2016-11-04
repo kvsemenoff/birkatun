@@ -48,6 +48,7 @@
 	width: 100%;
 	height: 100%;
 	position: relative;
+	// overflow: hidden;
 	img{
 		height: 100%;
 	}
@@ -239,11 +240,96 @@
 	top: 46%;
 	background: url(../img/db-arr-right.png) center center no-repeat;
 }
-// .db-hoverbox{
-// 	display: none;
+
+
+
+// ********************* Эфеты для ХОВЕРА *******************
+
+// у родительского блока должны быть такие параметры
+// они у меня были поэтому я их отключил здесь
+//это для наглядности
+
+// .db-div1 ..... .db-div6 {
+//   width: 100%;
+//   height: 100%;
+//   float: left;
+//   overflow: hidden;
+//   position: relative;
+//   text-align: center;
+//   cursor: default;
 // }
 
+//стили для появляющегося дива с контентом
+.db-hoverbox, .db-hoverbox1{
+	position: absolute;
+	overflow: hidden;
+	width: 70%;
+	left: 8%;
+	bottom: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	-ms-transform: scale(0,1);
+	transform: scale(0,1);
+	.db-p1, .db-p2{
+		display: block;
+		color: #fff;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0,100%,0);
+		transform: translate3d(0,100%,0);
+	}
+	.db-p1{
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		font-size: 26px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	.db-p2{
+		font-family: "OpenSans-Regular";
+		font-size: 15px;
+		line-height: 18px;
+	}
+}
+.db-hoverbox{
+	height: 45%;
+}
+.db-hoverbox1{
+	height: 25%;
+}
+.db-divimg:hover, .db-div1:hover, .db-div2:hover, .db-div3:hover, .db-div4:hover, .db-div5:hover, .db-div6:hover{
+	cursor: pointer;
+	span{
+		display: none;
+	}
+	.db-hoverbox2{ //этот див стоит как маска над дивом с контентом. Помещен в ховер
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(51,71,81,0.5);
+		z-index: 1;
+	}
+	.db-hoverbox, .db-hoverbox1{
+		z-index: 2;
+		opacity: 1;
+		filter: alpha(opacity=100);
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+		.db-p1, .db-p2{
+			opacity: 1;
+			filter: alpha(opacity=100);
+			-webkit-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
+		}
+	}
+}
 
+// ********************* Эфеты для ХОВЕРА *******************
 
 
 
@@ -265,19 +351,81 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.prev_arrs1{
+		display: block;
+		position: absolute;
+		width: 43px; 
+		height: 50px;
+		left: 0px;
+		top: 26%;
+		background: url(../img/db-arr-left.png) center center no-repeat;
+	}
+	.next_arrs1{
+		display: block;
+		position: absolute;
+		width: 43px; 
+		height: 50px;
+		right: 0px;
+		top: 26%;
+		background: url(../img/db-arr-right.png) center center no-repeat;
+	}
 	.db-inner1{
 		display: none;
 	}
 	.db-inner{
 		display: block;
 	}
-	// .item{
-	// 	height: auto;
-	// 	overflow: none;
-	// }
+	// *********
+	.db-hoverbox, .db-hoverbox1{
+		position: absolute;
+		overflow: hidden;
+		width: 90%;
+		left: 8%;
+		bottom: 0;
+		.db-p1{
+			font-size: 20px;
+			line-height: 21px;
+			margin-bottom: 5px;
+		}
+		.db-p2{
+			font-size: 14px;
+			line-height: 18px;
+		}
+	}
+	.db-hoverbox{
+		height: 90%;
+	}
+	.db-hoverbox1{
+		height: 65%;
+	}
+	// *********
 }
 
 @media only screen and (min-width : 992px) {
+	.db-hoverbox, .db-hoverbox1{
+		position: absolute;
+		overflow: hidden;
+		width: 70%;
+		left: 8%;
+		bottom: 0;
+		.db-p1{
+			font-family: "Conv_pt-serif_[allfont.ru]";
+			font-size: 26px;
+			line-height: 26px;
+			margin-bottom: 15px;
+		}
+		.db-p2{
+			font-family: "OpenSans-Regular";
+			font-size: 15px;
+			line-height: 18px;
+		}
+	}
+	.db-hoverbox{
+		height: 45%;
+	}
+	.db-hoverbox1{
+		height: 25%;
+	}
 	.item{
 		height: auto;
 		overflow: none;

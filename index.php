@@ -49,6 +49,7 @@
 	<?php require_once('includes/host.php'); ?>
 	<?php require_once('includes/food.php'); ?>
 	<?php require_once('includes/suvenir.php'); ?>
+	<?php require_once('includes/foto.php'); ?>
 	<?php require_once('includes/link.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 

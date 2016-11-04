@@ -22,7 +22,16 @@
     padding: 9px 25px;
     display: inline-block;
     vertical-align: 25%;
-    background: url(/img/dfbgevents.png) no-repeat right center; }
+    background: url(/img/dfbgevents.png) no-repeat right center;
+    transition: background 0.5s ease-in-out, color 0.5s;
+    -webkit-transition: background 0.5s ease-in-out, color 0.5s;
+    -moz-transition: background 0.5s ease-in-out, color 0.5s;
+    -o-transition: background 0.5s ease-in-out, color 0.5s; }
+  .df-caption .df-all-events a:hover {
+    background: url(/img/dfbgevents2.png) no-repeat right center;
+    padding: 9px 25px;
+    vertical-align: 25%;
+    color: #fff; }
   .df-caption .df-cap-subtitle {
     font-size: 16px;
     color: #636363;
@@ -47,7 +56,16 @@
       padding: 9px 25px;
       display: inline-block;
       vertical-align: 25%;
-      background: url(/img/dfbgevents.png) no-repeat right center; }
+      background: url(/img/dfbgevents.png) no-repeat right center;
+      transition: background 0.5s ease-in-out, color 0.5s;
+      -webkit-transition: background 0.5s ease-in-out, color 0.5s;
+      -moz-transition: background 0.5s ease-in-out, color 0.5s;
+      -o-transition: background 0.5s ease-in-out, color 0.5s; }
+    .df-events-and-news .df-caption .df-all-events a:hover {
+      background: url(/img/dfbgevents2.png) no-repeat right center;
+      padding: 9px 25px;
+      vertical-align: 25%;
+      color: #fff; }
     .df-events-and-news .df-caption .df-cap-subtitle {
       font-size: 16px;
       color: #636363;
@@ -63,7 +81,12 @@
         max-height: 260px; }
       .df-events-and-news .df-content .df-img .df-img-text {
         background: #254150;
-        padding: 5px 55px 30px 28px; }
+        padding: 5px 55px 30px 28px;
+        cursor: pointer;
+        -webkit-transition: background 0.5s;
+        -moz-transition: background 0.5s;
+        -o-transition: background 0.5s;
+        transition: background 0.5s; }
         .df-events-and-news .df-content .df-img .df-img-text em {
           font-size: 16px;
           color: #6e8b9a; }
@@ -74,6 +97,10 @@
         .df-events-and-news .df-content .df-img .df-img-text span {
           font-size: 15px;
           color: #6e8b9a; }
+        .df-events-and-news .df-content .df-img .df-img-text h1 a:hover {
+          text-decoration: underline; }
+      .df-events-and-news .df-content .df-img .df-img-text:hover {
+        background: #345b70; }
     .df-events-and-news .df-content .df-data-text {
       float: left;
       border-top: 1px solid #D1D1D1;
@@ -97,6 +124,8 @@
           color: #0070ac;
           padding-bottom: 5px;
           display: inline-block; }
+        .df-events-and-news .df-content .df-data-text .df-text .df-text-caption a:hover {
+          text-decoration: underline; }
         .df-events-and-news .df-content .df-data-text .df-text p {
           font-size: 15px;
           color: #363636;
@@ -134,6 +163,19 @@
   bottom: 45%;
   top: 55%; }
 
+.df-left, .df-right {
+  background-color: #98be28;
+  transition: background 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out; }
+
+.df-right:hover {
+  background-color: #5f7c0b; }
+
+.df-left:hover {
+  background-color: #d7d7d7; }
+
 .df-living {
   background: #fff; }
   .df-living .df-caption {
@@ -152,7 +194,16 @@
       padding: 9px 35px 9px 28px;
       display: inline-block;
       vertical-align: 25%;
-      background: url(/img/dfbgevents.png) no-repeat right center; }
+      background: url(/img/dfbgevents.png) no-repeat right center;
+      transition: background 0.5s ease-in-out, color 0.5s;
+      -webkit-transition: background 0.5s ease-in-out, color 0.5s;
+      -moz-transition: background 0.5s ease-in-out, color 0.5s;
+      -o-transition: background 0.5s ease-in-out, color 0.5s; }
+    .df-living .df-caption .df-all-events a:hover {
+      background: url(/img/dfbgevents2.png) no-repeat right center;
+      padding: 9px 35px 9px 28px;
+      vertical-align: 25%;
+      color: #fff; }
     .df-living .df-caption .df-cap-subtitle {
       font-size: 16px;
       color: #636363;
@@ -206,13 +257,20 @@
       min-height: 172px;
       width: inherit;
       border-right: 1px solid #345b70;
-      position: relative; }
+      position: relative;
+      cursor: pointer;
+      -webkit-transition: background 0.5s;
+      -moz-transition: background 0.5s;
+      -o-transition: background 0.5s;
+      transition: background 0.5s; }
       .df-living .df-liv-img .df-liv-text h1 a {
         font-size: 26px;
         line-height: 26px;
         color: #ffffff;
         display: inline-block;
         padding: 25px 0px 10px 0; }
+      .df-living .df-liv-img .df-liv-text h1 a:hover {
+        text-decoration: underline; }
       .df-living .df-liv-img .df-liv-text span {
         font-size: 15px;
         color: #809dad;
@@ -230,6 +288,8 @@
         position: absolute;
         bottom: 15px;
         right: 15px; }
+    .df-living .df-liv-img .df-liv-text:hover {
+      background: #345b70; }
 
 .df-food .df-caption {
   text-align: center;
@@ -248,7 +308,16 @@
     padding: 9px 35px 9px 28px;
     display: inline-block;
     vertical-align: 25%;
-    background: url(/img/dfbgevents.png) no-repeat right center; }
+    background: url(/img/dfbgevents.png) no-repeat right center;
+    transition: background 0.5s ease-in-out, color 0.5s;
+    -webkit-transition: background 0.5s ease-in-out, color 0.5s;
+    -moz-transition: background 0.5s ease-in-out, color 0.5s;
+    -o-transition: background 0.5s ease-in-out, color 0.5s; }
+  .df-food .df-caption .df-all-events a:hover {
+    background: url(/img/dfbgevents2.png) no-repeat right center;
+    padding: 9px 35px 9px 28px;
+    vertical-align: 25%;
+    color: #fff; }
 .df-food .df-food-img {
   width: 100%;
   margin: 0 auto;
@@ -262,7 +331,12 @@
     min-height: 172px;
     width: inherit;
     border-right: 1px solid #2a6645;
-    position: relative; }
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: background 0.5s; }
     .df-food .df-food-img .df-food-text h1 a {
       font-size: 26px;
       line-height: 26px;
@@ -270,6 +344,8 @@
       display: inline-block;
       padding: 15px 0px 10px 0;
       font-family: "Conv_pt-serif_[allfont.ru]"; }
+    .df-food .df-food-img .df-food-text h1 a:hover {
+      text-decoration: underline; }
     .df-food .df-food-img .df-food-text span {
       font-size: 15px;
       color: #fff;
@@ -291,6 +367,20 @@
       position: absolute;
       bottom: 15px;
       right: 15px; }
+  .df-food .df-food-img .df-food-text:hover {
+    background: #479f6f; }
+
+.df-all-events a {
+  transition: background 0.5s ease-in-out, color 0.5s;
+  -webkit-transition: background 0.5s ease-in-out, color 0.5s;
+  -moz-transition: background 0.5s ease-in-out, color 0.5s;
+  -o-transition: background 0.5s ease-in-out, color 0.5s; }
+
+.df-all-events a:hover {
+  background: url(/img/dfbgevents2.png) no-repeat right center;
+  padding: 9px 25px;
+  vertical-align: 25%;
+  color: #fff; }
 
 @media only screen and (min-width: 320px) {
   .df-left, .df-right {

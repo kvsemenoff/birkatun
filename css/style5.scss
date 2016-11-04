@@ -40,9 +40,10 @@
 
 
 .df-events-and-news{
+	background: #fff;
 	.df-caption{
 		text-align: center;		
-		margin-top: 50px;
+		padding-top: 50px;
 		margin-bottom: 28px;				
 		.df-cap{
 			font-size: 38px; color:#363636;		//42	
@@ -64,8 +65,7 @@
 		margin-bottom: 20px;
 		.df-img {
 			float: left;
-			width: 100%;
-			margin-bottom: 20px;
+			width: 100%;			
 			img{
 				width: 100%;
 				height: auto;
@@ -90,8 +90,7 @@
 
 		.df-data-text{
 			float:left;			
-			border-top: 1px solid #ebebeb;
-			background: #fff;
+			border-top: 1px solid #D1D1D1;			
 			padding: 5% 0;
 			width: 100%;			
 			.df-data {
@@ -121,7 +120,7 @@
 			}
 		}
 		.df-border-bot{
-			border-bottom: 1px solid #ebebeb;
+			border-bottom: 1px solid #D1D1D1;
 		}
 	}
 }
@@ -394,7 +393,8 @@
 		}
 		.df-content{
 			.df-img{
-				width: 34% !important;						
+				width: 34% !important;
+				margin-bottom: 0;						
 			}
 			.df-data-text{
 				padding: 10px 0;
@@ -482,7 +482,7 @@
 			}
 			.df-data-text{
 				padding: 0px ;
-				width: 65%;
+				width: 66%;
 				.df-data{
 					float: left;
 					margin: 0 37px 0 50px;

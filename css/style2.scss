@@ -351,19 +351,81 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.prev_arrs1{
+		display: block;
+		position: absolute;
+		width: 43px; 
+		height: 50px;
+		left: 0px;
+		top: 26%;
+		background: url(../img/db-arr-left.png) center center no-repeat;
+	}
+	.next_arrs1{
+		display: block;
+		position: absolute;
+		width: 43px; 
+		height: 50px;
+		right: 0px;
+		top: 26%;
+		background: url(../img/db-arr-right.png) center center no-repeat;
+	}
 	.db-inner1{
 		display: none;
 	}
 	.db-inner{
 		display: block;
 	}
-	// .item{
-	// 	height: auto;
-	// 	overflow: none;
-	// }
+	// *********
+	.db-hoverbox, .db-hoverbox1{
+		position: absolute;
+		overflow: hidden;
+		width: 90%;
+		left: 8%;
+		bottom: 0;
+		.db-p1{
+			font-size: 20px;
+			line-height: 21px;
+			margin-bottom: 5px;
+		}
+		.db-p2{
+			font-size: 14px;
+			line-height: 18px;
+		}
+	}
+	.db-hoverbox{
+		height: 90%;
+	}
+	.db-hoverbox1{
+		height: 65%;
+	}
+	// *********
 }
 
 @media only screen and (min-width : 992px) {
+	.db-hoverbox, .db-hoverbox1{
+		position: absolute;
+		overflow: hidden;
+		width: 70%;
+		left: 8%;
+		bottom: 0;
+		.db-p1{
+			font-family: "Conv_pt-serif_[allfont.ru]";
+			font-size: 26px;
+			line-height: 26px;
+			margin-bottom: 15px;
+		}
+		.db-p2{
+			font-family: "OpenSans-Regular";
+			font-size: 15px;
+			line-height: 18px;
+		}
+	}
+	.db-hoverbox{
+		height: 45%;
+	}
+	.db-hoverbox1{
+		height: 25%;
+	}
 	.item{
 		height: auto;
 		overflow: none;

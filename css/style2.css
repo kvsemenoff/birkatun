@@ -18,7 +18,19 @@
   position: relative;
   width: 100%; }
 
+.db-foto-class1 {
+  position: relative;
+  width: 100%; }
+
 .db-class1:before {
+  float: left;
+  content: '';
+  margin-top: 44.5%;
+  display: inline-block;
+  vertical-align: top;
+  width: 0px; }
+
+.db-foto-class1:before {
   float: left;
   content: '';
   margin-top: 44.5%;
@@ -31,7 +43,20 @@
   width: 100%;
   height: 100%; }
 
+.db-foto-class2 {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
 .db-class2:before {
+  float: left;
+  content: '';
+  margin-top: 44.5%;
+  display: inline-block;
+  vertical-align: top;
+  width: 0px; }
+
+.db-foto-class2:before {
   float: left;
   content: '';
   margin-top: 44.5%;
@@ -55,25 +80,39 @@
     font-size: 26px;
     line-height: 26px; }
 
+.db-foto-divimg {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .db-foto-divimg img {
+    height: 100%; }
+  .db-foto-divimg span {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: block;
+    font-family: "Conv_pt-serif_[allfont.ru]";
+    color: #fff;
+    font-size: 26px;
+    line-height: 26px; }
+
 .db-wrapper {
   position: absolute;
   width: 100%;
   height: 100%; }
 
-.db-div1 {
+.db-div1, .db-foto-div1 {
   float: left;
-  width: 25%;
-  height: 100%;
   box-sizing: border-box;
   position: relative;
   overflow: hidden; }
-  .db-div1 img {
+  .db-div1 img, .db-foto-div1 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div1 span {
+  .db-div1 span, .db-foto-div1 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -83,20 +122,28 @@
     font-size: 26px;
     line-height: 26px; }
 
-.db-div2 {
+.db-div1 {
+  width: 25%;
+  height: 100%; }
+
+.db-foto-div1 {
+  width: 50%;
+  height: 50%; }
+
+.db-div2, .db-foto-div2 {
   position: relative;
   overflow: hidden;
   float: left;
   width: 25%;
   height: 50%;
   box-sizing: border-box; }
-  .db-div2 img {
+  .db-div2 img, .db-foto-div2 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div2 span {
+  .db-div2 span, .db-foto-div2 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -106,20 +153,20 @@
     font-size: 26px;
     line-height: 26px; }
 
-.db-div3 {
+.db-div3, .db-foto-div3 {
   position: relative;
   overflow: hidden;
   float: left;
   width: 25%;
   height: 50%;
   box-sizing: border-box; }
-  .db-div3 img {
+  .db-div3 img, .db-foto-div3 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div3 span {
+  .db-div3 span, .db-foto-div3 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -129,20 +176,41 @@
     font-size: 26px;
     line-height: 26px; }
 
-.db-div4 {
+.db-div4, .db-foto-div4 {
   position: relative;
   overflow: hidden;
   float: left;
   width: 25%;
   height: 50%;
   box-sizing: border-box; }
-  .db-div4 img {
+  .db-div4 img, .db-foto-div4 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div4 span {
+  .db-div4 span, .db-foto-div4 span {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: block;
+    font-family: "Conv_pt-serif_[allfont.ru]";
+    color: #fff;
+    font-size: 26px;
+    line-height: 26px; }
+
+.db-div5, .db-foto-div5 {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  box-sizing: border-box; }
+  .db-div5 img, .db-foto-div5 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%; }
+  .db-div5 span, .db-foto-div5 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -153,19 +221,25 @@
     line-height: 26px; }
 
 .db-div5 {
+  width: 33%;
+  height: 50%; }
+
+.db-foto-div5 {
+  width: 25%;
+  height: 50%; }
+
+.db-div6, .db-foto-div6 {
   position: relative;
   overflow: hidden;
   float: left;
-  width: 33%;
-  height: 50%;
   box-sizing: border-box; }
-  .db-div5 img {
+  .db-div6 img, .db-foto-div6 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div5 span {
+  .db-div6 span, .db-foto-div6 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -176,27 +250,12 @@
     line-height: 26px; }
 
 .db-div6 {
-  position: relative;
-  overflow: hidden;
-  float: left;
   width: 42%;
-  height: 50%;
-  box-sizing: border-box; }
-  .db-div6 img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 100%; }
-  .db-div6 span {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    display: block;
-    font-family: "Conv_pt-serif_[allfont.ru]";
-    color: #fff;
-    font-size: 26px;
-    line-height: 26px; }
+  height: 50%; }
+
+.db-foto-div6 {
+  width: 50%;
+  height: 50%; }
 
 .ah-blok-slider {
   position: relative; }
@@ -219,7 +278,7 @@
   top: 46%;
   background: url(../img/db-arr-right.png) center center no-repeat; }
 
-.db-hoverbox, .db-hoverbox1 {
+.db-hoverbox, .db-hoverbox1, .db-foto-hoverbox1 {
   position: absolute;
   overflow: hidden;
   width: 70%;
@@ -230,7 +289,7 @@
   -webkit-transform: scale(0, 1);
   -ms-transform: scale(0, 1);
   transform: scale(0, 1); }
-  .db-hoverbox .db-p1, .db-hoverbox .db-p2, .db-hoverbox1 .db-p1, .db-hoverbox1 .db-p2 {
+  .db-hoverbox .db-p1, .db-hoverbox .db-p2, .db-hoverbox1 .db-p1, .db-hoverbox1 .db-p2, .db-foto-hoverbox1 .db-p1, .db-foto-hoverbox1 .db-p2 {
     display: block;
     color: #fff;
     opacity: 0;
@@ -239,27 +298,36 @@
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0); }
-  .db-hoverbox .db-p1, .db-hoverbox1 .db-p1 {
+  .db-hoverbox .db-p1, .db-hoverbox1 .db-p1, .db-foto-hoverbox1 .db-p1 {
     font-family: "Conv_pt-serif_[allfont.ru]";
     font-size: 26px;
     line-height: 26px;
     margin-bottom: 15px; }
-  .db-hoverbox .db-p2, .db-hoverbox1 .db-p2 {
+  .db-hoverbox .db-p2, .db-hoverbox1 .db-p2, .db-foto-hoverbox1 .db-p2 {
     font-family: "OpenSans-Regular";
     font-size: 15px;
     line-height: 18px; }
 
-.db-hoverbox {
+.db-hoverbox, .db-foto-hoverbox1 {
   height: 45%; }
 
 .db-hoverbox1 {
   height: 25%; }
 
-.db-divimg:hover, .db-div1:hover, .db-div2:hover, .db-div3:hover, .db-div4:hover, .db-div5:hover, .db-div6:hover {
+.db-foto-divimg:hover, .db-divimg:hover, .db-div1:hover, .db-div2:hover,
+.db-div3:hover, .db-div4:hover, .db-div5:hover, .db-div6:hover, .db-foto-div1:hover,
+.db-foto-div2:hover, .db-foto-div3:hover, .db-foto-div4:hover, .db-foto-div5:hover,
+.db-foto-div6:hover {
   cursor: pointer; }
-  .db-divimg:hover span, .db-div1:hover span, .db-div2:hover span, .db-div3:hover span, .db-div4:hover span, .db-div5:hover span, .db-div6:hover span {
+  .db-foto-divimg:hover span, .db-divimg:hover span, .db-div1:hover span, .db-div2:hover span,
+  .db-div3:hover span, .db-div4:hover span, .db-div5:hover span, .db-div6:hover span, .db-foto-div1:hover span,
+  .db-foto-div2:hover span, .db-foto-div3:hover span, .db-foto-div4:hover span, .db-foto-div5:hover span,
+  .db-foto-div6:hover span {
     display: none; }
-  .db-divimg:hover .db-hoverbox2, .db-div1:hover .db-hoverbox2, .db-div2:hover .db-hoverbox2, .db-div3:hover .db-hoverbox2, .db-div4:hover .db-hoverbox2, .db-div5:hover .db-hoverbox2, .db-div6:hover .db-hoverbox2 {
+  .db-foto-divimg:hover .db-hoverbox2, .db-divimg:hover .db-hoverbox2, .db-div1:hover .db-hoverbox2, .db-div2:hover .db-hoverbox2,
+  .db-div3:hover .db-hoverbox2, .db-div4:hover .db-hoverbox2, .db-div5:hover .db-hoverbox2, .db-div6:hover .db-hoverbox2, .db-foto-div1:hover .db-hoverbox2,
+  .db-foto-div2:hover .db-hoverbox2, .db-foto-div3:hover .db-hoverbox2, .db-foto-div4:hover .db-hoverbox2, .db-foto-div5:hover .db-hoverbox2,
+  .db-foto-div6:hover .db-hoverbox2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -267,14 +335,41 @@
     height: 100%;
     background: rgba(51, 71, 81, 0.5);
     z-index: 1; }
-  .db-divimg:hover .db-hoverbox, .db-divimg:hover .db-hoverbox1, .db-div1:hover .db-hoverbox, .db-div1:hover .db-hoverbox1, .db-div2:hover .db-hoverbox, .db-div2:hover .db-hoverbox1, .db-div3:hover .db-hoverbox, .db-div3:hover .db-hoverbox1, .db-div4:hover .db-hoverbox, .db-div4:hover .db-hoverbox1, .db-div5:hover .db-hoverbox, .db-div5:hover .db-hoverbox1, .db-div6:hover .db-hoverbox, .db-div6:hover .db-hoverbox1 {
+  .db-foto-divimg:hover .db-hoverbox, .db-foto-divimg:hover .db-hoverbox1, .db-foto-divimg:hover .db-foto-hoverbox1, .db-divimg:hover .db-hoverbox, .db-divimg:hover .db-hoverbox1, .db-divimg:hover .db-foto-hoverbox1, .db-div1:hover .db-hoverbox, .db-div1:hover .db-hoverbox1, .db-div1:hover .db-foto-hoverbox1, .db-div2:hover .db-hoverbox, .db-div2:hover .db-hoverbox1, .db-div2:hover .db-foto-hoverbox1,
+  .db-div3:hover .db-hoverbox,
+  .db-div3:hover .db-hoverbox1,
+  .db-div3:hover .db-foto-hoverbox1, .db-div4:hover .db-hoverbox, .db-div4:hover .db-hoverbox1, .db-div4:hover .db-foto-hoverbox1, .db-div5:hover .db-hoverbox, .db-div5:hover .db-hoverbox1, .db-div5:hover .db-foto-hoverbox1, .db-div6:hover .db-hoverbox, .db-div6:hover .db-hoverbox1, .db-div6:hover .db-foto-hoverbox1, .db-foto-div1:hover .db-hoverbox, .db-foto-div1:hover .db-hoverbox1, .db-foto-div1:hover .db-foto-hoverbox1,
+  .db-foto-div2:hover .db-hoverbox,
+  .db-foto-div2:hover .db-hoverbox1,
+  .db-foto-div2:hover .db-foto-hoverbox1, .db-foto-div3:hover .db-hoverbox, .db-foto-div3:hover .db-hoverbox1, .db-foto-div3:hover .db-foto-hoverbox1, .db-foto-div4:hover .db-hoverbox, .db-foto-div4:hover .db-hoverbox1, .db-foto-div4:hover .db-foto-hoverbox1, .db-foto-div5:hover .db-hoverbox, .db-foto-div5:hover .db-hoverbox1, .db-foto-div5:hover .db-foto-hoverbox1,
+  .db-foto-div6:hover .db-hoverbox,
+  .db-foto-div6:hover .db-hoverbox1,
+  .db-foto-div6:hover .db-foto-hoverbox1 {
     z-index: 2;
     opacity: 1;
     filter: alpha(opacity=100);
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); }
-    .db-divimg:hover .db-hoverbox .db-p1, .db-divimg:hover .db-hoverbox .db-p2, .db-divimg:hover .db-hoverbox1 .db-p1, .db-divimg:hover .db-hoverbox1 .db-p2, .db-div1:hover .db-hoverbox .db-p1, .db-div1:hover .db-hoverbox .db-p2, .db-div1:hover .db-hoverbox1 .db-p1, .db-div1:hover .db-hoverbox1 .db-p2, .db-div2:hover .db-hoverbox .db-p1, .db-div2:hover .db-hoverbox .db-p2, .db-div2:hover .db-hoverbox1 .db-p1, .db-div2:hover .db-hoverbox1 .db-p2, .db-div3:hover .db-hoverbox .db-p1, .db-div3:hover .db-hoverbox .db-p2, .db-div3:hover .db-hoverbox1 .db-p1, .db-div3:hover .db-hoverbox1 .db-p2, .db-div4:hover .db-hoverbox .db-p1, .db-div4:hover .db-hoverbox .db-p2, .db-div4:hover .db-hoverbox1 .db-p1, .db-div4:hover .db-hoverbox1 .db-p2, .db-div5:hover .db-hoverbox .db-p1, .db-div5:hover .db-hoverbox .db-p2, .db-div5:hover .db-hoverbox1 .db-p1, .db-div5:hover .db-hoverbox1 .db-p2, .db-div6:hover .db-hoverbox .db-p1, .db-div6:hover .db-hoverbox .db-p2, .db-div6:hover .db-hoverbox1 .db-p1, .db-div6:hover .db-hoverbox1 .db-p2 {
+    .db-foto-divimg:hover .db-hoverbox .db-p1, .db-foto-divimg:hover .db-hoverbox .db-p2, .db-foto-divimg:hover .db-hoverbox1 .db-p1, .db-foto-divimg:hover .db-hoverbox1 .db-p2, .db-foto-divimg:hover .db-foto-hoverbox1 .db-p1, .db-foto-divimg:hover .db-foto-hoverbox1 .db-p2, .db-divimg:hover .db-hoverbox .db-p1, .db-divimg:hover .db-hoverbox .db-p2, .db-divimg:hover .db-hoverbox1 .db-p1, .db-divimg:hover .db-hoverbox1 .db-p2, .db-divimg:hover .db-foto-hoverbox1 .db-p1, .db-divimg:hover .db-foto-hoverbox1 .db-p2, .db-div1:hover .db-hoverbox .db-p1, .db-div1:hover .db-hoverbox .db-p2, .db-div1:hover .db-hoverbox1 .db-p1, .db-div1:hover .db-hoverbox1 .db-p2, .db-div1:hover .db-foto-hoverbox1 .db-p1, .db-div1:hover .db-foto-hoverbox1 .db-p2, .db-div2:hover .db-hoverbox .db-p1, .db-div2:hover .db-hoverbox .db-p2, .db-div2:hover .db-hoverbox1 .db-p1, .db-div2:hover .db-hoverbox1 .db-p2, .db-div2:hover .db-foto-hoverbox1 .db-p1, .db-div2:hover .db-foto-hoverbox1 .db-p2,
+    .db-div3:hover .db-hoverbox .db-p1,
+    .db-div3:hover .db-hoverbox .db-p2,
+    .db-div3:hover .db-hoverbox1 .db-p1,
+    .db-div3:hover .db-hoverbox1 .db-p2,
+    .db-div3:hover .db-foto-hoverbox1 .db-p1,
+    .db-div3:hover .db-foto-hoverbox1 .db-p2, .db-div4:hover .db-hoverbox .db-p1, .db-div4:hover .db-hoverbox .db-p2, .db-div4:hover .db-hoverbox1 .db-p1, .db-div4:hover .db-hoverbox1 .db-p2, .db-div4:hover .db-foto-hoverbox1 .db-p1, .db-div4:hover .db-foto-hoverbox1 .db-p2, .db-div5:hover .db-hoverbox .db-p1, .db-div5:hover .db-hoverbox .db-p2, .db-div5:hover .db-hoverbox1 .db-p1, .db-div5:hover .db-hoverbox1 .db-p2, .db-div5:hover .db-foto-hoverbox1 .db-p1, .db-div5:hover .db-foto-hoverbox1 .db-p2, .db-div6:hover .db-hoverbox .db-p1, .db-div6:hover .db-hoverbox .db-p2, .db-div6:hover .db-hoverbox1 .db-p1, .db-div6:hover .db-hoverbox1 .db-p2, .db-div6:hover .db-foto-hoverbox1 .db-p1, .db-div6:hover .db-foto-hoverbox1 .db-p2, .db-foto-div1:hover .db-hoverbox .db-p1, .db-foto-div1:hover .db-hoverbox .db-p2, .db-foto-div1:hover .db-hoverbox1 .db-p1, .db-foto-div1:hover .db-hoverbox1 .db-p2, .db-foto-div1:hover .db-foto-hoverbox1 .db-p1, .db-foto-div1:hover .db-foto-hoverbox1 .db-p2,
+    .db-foto-div2:hover .db-hoverbox .db-p1,
+    .db-foto-div2:hover .db-hoverbox .db-p2,
+    .db-foto-div2:hover .db-hoverbox1 .db-p1,
+    .db-foto-div2:hover .db-hoverbox1 .db-p2,
+    .db-foto-div2:hover .db-foto-hoverbox1 .db-p1,
+    .db-foto-div2:hover .db-foto-hoverbox1 .db-p2, .db-foto-div3:hover .db-hoverbox .db-p1, .db-foto-div3:hover .db-hoverbox .db-p2, .db-foto-div3:hover .db-hoverbox1 .db-p1, .db-foto-div3:hover .db-hoverbox1 .db-p2, .db-foto-div3:hover .db-foto-hoverbox1 .db-p1, .db-foto-div3:hover .db-foto-hoverbox1 .db-p2, .db-foto-div4:hover .db-hoverbox .db-p1, .db-foto-div4:hover .db-hoverbox .db-p2, .db-foto-div4:hover .db-hoverbox1 .db-p1, .db-foto-div4:hover .db-hoverbox1 .db-p2, .db-foto-div4:hover .db-foto-hoverbox1 .db-p1, .db-foto-div4:hover .db-foto-hoverbox1 .db-p2, .db-foto-div5:hover .db-hoverbox .db-p1, .db-foto-div5:hover .db-hoverbox .db-p2, .db-foto-div5:hover .db-hoverbox1 .db-p1, .db-foto-div5:hover .db-hoverbox1 .db-p2, .db-foto-div5:hover .db-foto-hoverbox1 .db-p1, .db-foto-div5:hover .db-foto-hoverbox1 .db-p2,
+    .db-foto-div6:hover .db-hoverbox .db-p1,
+    .db-foto-div6:hover .db-hoverbox .db-p2,
+    .db-foto-div6:hover .db-hoverbox1 .db-p1,
+    .db-foto-div6:hover .db-hoverbox1 .db-p2,
+    .db-foto-div6:hover .db-foto-hoverbox1 .db-p1,
+    .db-foto-div6:hover .db-foto-hoverbox1 .db-p2 {
       opacity: 1;
       filter: alpha(opacity=100);
       -webkit-transform: translate3d(0, 0, 0);
@@ -309,43 +404,43 @@
   .db-inner {
     display: block; }
 
-  .db-hoverbox, .db-hoverbox1 {
+  .db-hoverbox, .db-hoverbox1, .db-foto-hoverbox1 {
     position: absolute;
     overflow: hidden;
     width: 90%;
     left: 8%;
     bottom: 0; }
-    .db-hoverbox .db-p1, .db-hoverbox1 .db-p1 {
+    .db-hoverbox .db-p1, .db-hoverbox1 .db-p1, .db-foto-hoverbox1 .db-p1 {
       font-size: 20px;
       line-height: 21px;
       margin-bottom: 5px; }
-    .db-hoverbox .db-p2, .db-hoverbox1 .db-p2 {
+    .db-hoverbox .db-p2, .db-hoverbox1 .db-p2, .db-foto-hoverbox1 .db-p2 {
       font-size: 14px;
       line-height: 18px; }
 
-  .db-hoverbox {
+  .db-hoverbox, .db-foto-hoverbox1 {
     height: 90%; }
 
   .db-hoverbox1 {
     height: 65%; } }
 @media only screen and (min-width: 992px) {
-  .db-hoverbox, .db-hoverbox1 {
+  .db-hoverbox, .db-hoverbox1, .db-foto-hoverbox1 {
     position: absolute;
     overflow: hidden;
     width: 70%;
     left: 8%;
     bottom: 0; }
-    .db-hoverbox .db-p1, .db-hoverbox1 .db-p1 {
+    .db-hoverbox .db-p1, .db-hoverbox1 .db-p1, .db-foto-hoverbox1 .db-p1 {
       font-family: "Conv_pt-serif_[allfont.ru]";
       font-size: 26px;
       line-height: 26px;
       margin-bottom: 15px; }
-    .db-hoverbox .db-p2, .db-hoverbox1 .db-p2 {
+    .db-hoverbox .db-p2, .db-hoverbox1 .db-p2, .db-foto-hoverbox1 .db-p2 {
       font-family: "OpenSans-Regular";
       font-size: 15px;
       line-height: 18px; }
 
-  .db-hoverbox {
+  .db-hoverbox, .db-foto-hoverbox1 {
     height: 45%; }
 
   .db-hoverbox1 {

@@ -91,6 +91,7 @@
 		.df-data-text{
 			float:left;			
 			border-top: 1px solid #ebebeb;
+			background: #fff;
 			padding: 5% 0;
 			width: 100%;			
 			.df-data {
@@ -141,13 +142,13 @@
 }
 .df-left{
 	position: absolute;
-	left: -20px;	
+	left: 0px;	
 	background: url(/img/df-left.png) no-repeat center;
 	width: 43px; height: 50px; background-color: #98be28;	
 }
 .df-right{
 	position: absolute;
-	right:-20px;	
+	right:0px; //-20px	
 	background: url(/img/df-right.png) no-repeat center;
 	width: 43px; height: 50px; background-color: #98be28;	
 }
@@ -232,7 +233,8 @@
 			}
 			.df-liv-text{							 
 				background: #254150;
-				padding: 0px 45px 0px 30px; //28 70 15 30
+				padding:0 7% 0 14%;
+				//padding: 0px 45px 0px 30px; 
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #345b70;
@@ -296,7 +298,8 @@
 			}			
 			.df-food-text{							 
 				background: #367d56;
-				padding: 0px 45px 0px 30px; //28 70 15 30
+				padding:0 7% 0 14%;
+				//padding: 0px 45px 0px 30px; //28 70 15 30
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #2a6645;
@@ -438,6 +441,7 @@
 }
 
 
+
 //food.php
 
 .df-food{	
@@ -467,9 +471,10 @@
 	.container{
 		width: 1320px;
 	}
-	.df-width{	
-	//margin: 0 auto;
-	}
+	
+.df-right{right:-20px;}
+.df-left{left:-20px;}
+
 	.df-events-and-news{
 		.df-content{			
 			.df-img-text{
@@ -487,12 +492,15 @@
 					padding-top: 18px;
 					float: left;
 					width: 77% !important;
-					height: 134.2px;
+					height: 135.8px;
 					margin-left: 0%;
 				}
 			}
 		}
-	}	
+	}
+
+	.df-liv-text{padding: 0px 45px 0px 30px !important; }
+	.df-food-text{padding: 0px 45px 0px 30px !important; }		
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

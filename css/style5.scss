@@ -157,11 +157,12 @@
 }	
 
 
-.df-living{	
+.df-living{
+	background:#fff;		
 	.df-caption{
 		text-align: center; //left;
-		margin-top:25px; //65px
-		margin-bottom: 35px;			
+		padding-top:25px; //65px
+		padding-bottom: 35px;			
 		.df-cap{
 			font-size: 38px; color:#363636;		
 			display: inline-block;
@@ -267,11 +268,13 @@
 												//FOOD.PHP
 
 
-.df-food{	
+.df-food{
+	
 	.df-caption{
 		text-align: center; //left;
-		margin-top:25px; //65px
-		margin-bottom: 31px;			
+		padding-top:25px; //65px
+		padding-bottom: 31px;
+		background:#fff;				
 		.df-cap{
 			font-size: 38px; color:#363636;		
 			display: inline-block;
@@ -420,7 +423,7 @@
 	.df-caption{
 		text-align: left; 
 		padding-left: 62px;
-		margin-top:65px !important;					
+		padding-top:65px !important;					
 	}	
 	.df-liv-img {		 
 		margin: 0;
@@ -448,7 +451,8 @@
 	.df-caption{
 		text-align: left; 
 		padding-left: 62px;
-		margin-top:70px !important;					
+		padding-top:60px !important;
+		margin-top:7px;					
 	}	
 	.df-food-img {		 
 		margin: 0;

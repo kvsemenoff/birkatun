@@ -20,7 +20,7 @@
 				<div class="df-food-img">					
 					<img src="img/dffood2.jpg" alt="" class="img-responsive">					
 					<div class="df-food-text">			
-						<h1><a href="#">Ресторан «Бочкари»</a></h1>
+						<h1><a href="#">Ресторан «Бухта»</a></h1>
 						<span><em>5.3 км от — </em>Бирюзовая катунь</span>
 						<span><em>Средний чек — </em>1200 руб.</span>
 						<a  href="#" class="df-fmore"><em>...</em></a>
@@ -31,7 +31,7 @@
 				<div class="df-food-img">					
 					<img src="img/dffood3.jpg" alt="" class="img-responsive">					
 					<div class="df-food-text">			
-						<h1><a href="#">Ресторан «Бочкари»</a></h1>
+						<h1><a href="#">Столовая</a></h1>
 						<span><em>5.3 км от — </em>Бирюзовая катунь</span>
 						<span><em>Средний чек — </em>1200 руб.</span>
 						<a  href="#" class="df-fmore"><em>...</em></a>

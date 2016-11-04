@@ -1,6 +1,6 @@
 Рыбалка<div clasКонные туры</div>
 
-<div class="container db-margin">
+<div class="container db-margin nopadding">
 	<div class="df-caption">
 		<h3 class="df-cap">Развлечения и досуг</h3>
 		<span class="df-all-events"><a href="#">Все мероприятия</a></span>
@@ -10,7 +10,7 @@
 
 <div class="clearfix"></div>
 
-<div class="container">
+<div class="container nopadding">
 	<div class="db-inner1">
 		<div class="ah-blok-slider1">
 			<div class="item">
@@ -98,7 +98,7 @@
 
 <div class="clearfix"></div>
 
-<div class="container">
+<div class="container nopadding">
 	<div class="db-inner">
 		<div class="ah-blok-slider">
 			<div class="item">

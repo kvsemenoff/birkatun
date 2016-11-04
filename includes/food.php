@@ -1,4 +1,4 @@
-<div class="container df-width">	
+<div class="container df-width nopadding">	
 	<div class="df-food">
 		<div class="df-caption">
 			<h3 class="df-cap">Питание</h3>

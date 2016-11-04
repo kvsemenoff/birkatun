@@ -1,4 +1,4 @@
-<div class="container df-width">	
+<div class="container df-width nopadding">	
 			<div class="df-events-and-news">
 				<div class="df-caption">
 					<h3 class="df-cap">Мероприятия и новости</h3>

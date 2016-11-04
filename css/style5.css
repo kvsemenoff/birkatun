@@ -236,10 +236,7 @@
 @media only screen and (min-width: 768px) {
   .df-left, .df-right {
     bottom: 38%;
-    top: 62%; }
-
-  .df-prices {
-    width: 330px; } }
+    top: 62%; } }
 @media only screen and (min-width: 992px) {
   .df-events-and-news .df-caption {
     text-align: left;
@@ -265,7 +262,7 @@
   .df-living .df-liv-img {
     margin: 0; }
     .df-living .df-liv-img .df-imgandprice .df-prices {
-      width: 330px; }
+      max-width: 330px; }
 
   .df-left, .df-right {
     bottom: 38%;

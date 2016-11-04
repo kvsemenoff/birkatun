@@ -29,9 +29,9 @@
 					<div class="df-imgandprice">
 						<img src="img/dfimg2.jpg" alt="" class="img-responsive"> 
 						<span class="df-prices">
-							<span class="df-price">7 500<em>&nbsp;руб./сутки</em></span>
+							<span class="df-price">4 500<em>&nbsp;руб./сутки</em></span>
 							<!-- <span class="df-price-sel">обычная цена <br> <em>8900</em>&nbsp; руб.</span> -->
-							<span class="df-help"><a href="">?</a></span>
+							<!-- <span class="df-help"><a href="">?</a></span> -->
 						</span>
 					</div>
 					<div class="df-liv-text">			
@@ -46,14 +46,14 @@
 					<div class="df-imgandprice">
 						<img src="img/dfimg3.jpg" alt="" class="img-responsive"> 
 						<span class="df-prices">
-							<span class="df-price">7 500<em>&nbsp;руб./сутки</em></span>
+							<span class="df-price">2 500<em>&nbsp;руб./сутки</em></span>
 							<!-- <span class="df-price-sel">обычная цена <br> <em>8900</em>&nbsp; руб.</span> -->
-							<span class="df-help"><a href="">?</a></span>
+							<!-- <span class="df-help"><a href="">?</a></span> -->
 						</span>
 					</div>
 					<div class="df-liv-text">			
 						<h1><a href="#">Комната в общежитии</a></h1>
-						<span>Спальня<br>двуспальная кровать, телевизор, wi-fi, дамский столик, пуфик, прикроватные тумбочки.</span><br>
+						<span>Спальня: <br>двуспальная кровать, телевизор, wi-fi, дамский столик, пуфик, прикроватные тумбочки.</span><br>
 						<a  href="#" class="df-more">...</a>
 					</div>
 				</div>

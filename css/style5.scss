@@ -291,9 +291,9 @@
 		top:62%;
 	}
 
-	.df-prices{
-		width: 330px;
-	}
+	// .df-prices{
+	// 	max-width: 330px;
+	// }
 }
 
 @media only screen and (min-width : 992px) {
@@ -338,7 +338,7 @@
 		 margin: 0;
 	.df-imgandprice{
 			.df-prices{
-				width: 330px;
+				max-width: 330px;
 			}				
 		}				
 	}												

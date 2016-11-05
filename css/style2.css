@@ -86,33 +86,67 @@
   position: relative; }
   .db-foto-divimg img {
     height: 100%; }
-  .db-foto-divimg span {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    display: block;
-    font-family: "Conv_pt-serif_[allfont.ru]";
-    color: #fff;
-    font-size: 26px;
-    line-height: 26px; }
+
+.db-foto-span1 {
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
+  display: block;
+  font-family: "OpenSans-Semibold";
+  color: #fff;
+  font-size: 13px !important;
+  line-height: 16px !important;
+  text-transform: uppercase; }
+
+.db-foto-span2 {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  float: left;
+  font-family: "Conv_pt-serif_[allfont.ru]";
+  color: #fff;
+  font-size: 20px;
+  line-height: 22px; }
+
+.db-foto-span22 {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  float: left;
+  font-family: "Conv_pt-serif_[allfont.ru]";
+  color: #fff;
+  font-size: 20px;
+  line-height: 22px; }
+
+.db-foto-span3 {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  float: right;
+  font-family: "OpenSans-Semibold";
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px; }
 
 .db-wrapper {
   position: absolute;
   width: 100%;
   height: 100%; }
 
-.db-div1, .db-foto-div1 {
+.db-div1 {
   float: left;
+  width: 25%;
+  height: 100%;
   box-sizing: border-box;
   position: relative;
   overflow: hidden; }
-  .db-div1 img, .db-foto-div1 img {
+  .db-div1 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div1 span, .db-foto-div1 span {
+  .db-div1 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -121,29 +155,35 @@
     color: #fff;
     font-size: 26px;
     line-height: 26px; }
-
-.db-div1 {
-  width: 25%;
-  height: 100%; }
 
 .db-foto-div1 {
+  float: left;
   width: 50%;
-  height: 50%; }
+  height: 50%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden; }
+  .db-foto-div1 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%; }
 
-.db-div2, .db-foto-div2 {
+.db-div2 {
   position: relative;
   overflow: hidden;
   float: left;
   width: 25%;
   height: 50%;
   box-sizing: border-box; }
-  .db-div2 img, .db-foto-div2 img {
+  .db-div2 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div2 span, .db-foto-div2 span {
+  .db-div2 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -153,43 +193,34 @@
     font-size: 26px;
     line-height: 26px; }
 
-.db-div3, .db-foto-div3 {
+.db-foto-div2 {
   position: relative;
   overflow: hidden;
   float: left;
   width: 25%;
   height: 50%;
   box-sizing: border-box; }
-  .db-div3 img, .db-foto-div3 img {
+  .db-foto-div2 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div3 span, .db-foto-div3 span {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    display: block;
-    font-family: "Conv_pt-serif_[allfont.ru]";
-    color: #fff;
-    font-size: 26px;
-    line-height: 26px; }
 
-.db-div4, .db-foto-div4 {
+.db-div3 {
   position: relative;
   overflow: hidden;
   float: left;
   width: 25%;
   height: 50%;
   box-sizing: border-box; }
-  .db-div4 img, .db-foto-div4 img {
+  .db-div3 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div4 span, .db-foto-div4 span {
+  .db-div3 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -199,18 +230,34 @@
     font-size: 26px;
     line-height: 26px; }
 
-.db-div5, .db-foto-div5 {
+.db-foto-div3 {
   position: relative;
   overflow: hidden;
   float: left;
+  width: 25%;
+  height: 50%;
   box-sizing: border-box; }
-  .db-div5 img, .db-foto-div5 img {
+  .db-foto-div3 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div5 span, .db-foto-div5 span {
+
+.db-div4 {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 25%;
+  height: 50%;
+  box-sizing: border-box; }
+  .db-div4 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%; }
+  .db-div4 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -219,27 +266,35 @@
     color: #fff;
     font-size: 26px;
     line-height: 26px; }
+
+.db-foto-div4 {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 25%;
+  height: 50%;
+  box-sizing: border-box; }
+  .db-foto-div4 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%; }
 
 .db-div5 {
-  width: 33%;
-  height: 50%; }
-
-.db-foto-div5 {
-  width: 25%;
-  height: 50%; }
-
-.db-div6, .db-foto-div6 {
   position: relative;
   overflow: hidden;
   float: left;
+  width: 33%;
+  height: 50%;
   box-sizing: border-box; }
-  .db-div6 img, .db-foto-div6 img {
+  .db-div5 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%; }
-  .db-div6 span, .db-foto-div6 span {
+  .db-div5 span {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -249,13 +304,56 @@
     font-size: 26px;
     line-height: 26px; }
 
+.db-foto-div5 {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 25%;
+  height: 50%;
+  box-sizing: border-box; }
+  .db-foto-div5 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%; }
+
 .db-div6 {
+  position: relative;
+  overflow: hidden;
+  float: left;
   width: 42%;
-  height: 50%; }
+  height: 50%;
+  box-sizing: border-box; }
+  .db-div6 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%; }
+  .db-div6 span {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: block;
+    font-family: "Conv_pt-serif_[allfont.ru]";
+    color: #fff;
+    font-size: 26px;
+    line-height: 26px; }
 
 .db-foto-div6 {
+  position: relative;
+  overflow: hidden;
+  float: left;
   width: 50%;
-  height: 50%; }
+  height: 50%;
+  box-sizing: border-box; }
+  .db-foto-div6 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%; }
 
 .ah-blok-slider {
   position: relative; }
@@ -319,11 +417,6 @@
 .db-foto-div2:hover, .db-foto-div3:hover, .db-foto-div4:hover, .db-foto-div5:hover,
 .db-foto-div6:hover {
   cursor: pointer; }
-  .db-foto-divimg:hover span, .db-divimg:hover span, .db-div1:hover span, .db-div2:hover span,
-  .db-div3:hover span, .db-div4:hover span, .db-div5:hover span, .db-div6:hover span, .db-foto-div1:hover span,
-  .db-foto-div2:hover span, .db-foto-div3:hover span, .db-foto-div4:hover span, .db-foto-div5:hover span,
-  .db-foto-div6:hover span {
-    display: none; }
   .db-foto-divimg:hover .db-hoverbox2, .db-divimg:hover .db-hoverbox2, .db-div1:hover .db-hoverbox2, .db-div2:hover .db-hoverbox2,
   .db-div3:hover .db-hoverbox2, .db-div4:hover .db-hoverbox2, .db-div5:hover .db-hoverbox2, .db-div6:hover .db-hoverbox2, .db-foto-div1:hover .db-hoverbox2,
   .db-foto-div2:hover .db-hoverbox2, .db-foto-div3:hover .db-hoverbox2, .db-foto-div4:hover .db-hoverbox2, .db-foto-div5:hover .db-hoverbox2,

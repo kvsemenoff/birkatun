@@ -51,7 +51,6 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
-	// background-color: red;
 }
 .db-class2:before{
 	float: left;
@@ -73,7 +72,6 @@
 	width: 100%;
 	height: 100%;
 	position: relative;
-	// overflow: hidden;
 	img{
 		height: 100%;
 	}
@@ -92,31 +90,62 @@
 	width: 100%;
 	height: 100%;
 	position: relative;
-	// overflow: hidden;
 	img{
 		height: 100%;
 	}
-	span{
-		position: absolute;
-		bottom: 30px;
-		left: 30px;
-		display: block;
-		font-family: "Conv_pt-serif_[allfont.ru]";
-		color: #fff;
-		font-size: 26px;
-		line-height: 26px;
-	}
 }
+.db-foto-span1{
+	position: absolute;
+	bottom: 70px;
+	left: 30px;
+	display: block;
+	font-family: "OpenSans-Semibold";
+	color: #fff;
+	font-size: 13px !important;
+	line-height: 16px !important;
+	text-transform: uppercase;
+}
+.db-foto-span2{
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+	float: left;
+	font-family: "Conv_pt-serif_[allfont.ru]";
+	color: #fff;
+	font-size: 20px;
+	line-height: 22px;
+}
+.db-foto-span22{
+	position: absolute;
+	bottom: 20px;
+	left: 30px;
+	float: left;
+	font-family: "Conv_pt-serif_[allfont.ru]";
+	color: #fff;
+	font-size: 20px;
+	line-height: 22px;
+}
+.db-foto-span3{
+	position: absolute;
+	bottom: 40px;
+	right: 30px;
+	float: right;
+	font-family: "OpenSans-Semibold";
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+}
+
 // *******************
 .db-wrapper{
 	position: absolute;
 	width: 100%;
 	height: 100%;
 }
-.db-div1, .db-foto-div1{
+.db-div1{
 	float: left;
-	// width: 25%;
-	// height: 100%;
+	width: 25%;
+	height: 100%;
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
@@ -138,15 +167,22 @@
 		line-height: 26px;
 	}
 }
-.db-div1{
-	width: 25%;
-	height: 100%;
-}
 .db-foto-div1{
+	float: left;
 	width: 50%;
 	height: 50%;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	img{
+		position: absolute; //* --- делает картинку не responsiv-ой, внутри слайда и для остальных так же
+		top: 50%; //*
+		left: 50%; //*
+		transform: translate(-50%, -50%); //*
+		height: 100%;
+	}
 }
-.db-div2, .db-foto-div2{
+.db-div2{
 	position: relative;
 	overflow: hidden;
 	float: left;
@@ -171,7 +207,22 @@
 		line-height: 26px;
 	}
 }
-.db-div3, .db-foto-div3{
+.db-foto-div2{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+	}
+}
+.db-div3{
 	position: relative;
 	overflow: hidden;
 	float: left;
@@ -196,7 +247,22 @@
 		line-height: 26px;
 	}
 }
-.db-div4, .db-foto-div4{
+.db-foto-div3{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+	}
+}
+.db-div4{
 	position: relative;
 	overflow: hidden;
 	float: left;
@@ -221,12 +287,12 @@
 		line-height: 26px;
 	}
 }
-.db-div5, .db-foto-div5{
+.db-foto-div4{
 	position: relative;
 	overflow: hidden;
 	float: left;
-	// width: 33%;
-	// height: 50%;
+	width: 25%;
+	height: 50%;
 	box-sizing: border-box;
 	img{
 		position: absolute;
@@ -234,32 +300,14 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		height: 100%;
-	}
-	span{
-		position: absolute;
-		bottom: 30px;
-		left: 30px;
-		display: block;
-		font-family: "Conv_pt-serif_[allfont.ru]";
-		color: #fff;
-		font-size: 26px;
-		line-height: 26px;
 	}
 }
 .db-div5{
-	width: 33%;
-	height: 50%;
-}
-.db-foto-div5{
-	width: 25%;
-	height: 50%;
-}
-.db-div6, .db-foto-div6{
 	position: relative;
 	overflow: hidden;
 	float: left;
-	// width: 42%;
-	// height: 50%;
+	width: 33%;
+	height: 50%;
 	box-sizing: border-box;
 	img{
 		position: absolute;
@@ -279,13 +327,60 @@
 		line-height: 26px;
 	}
 }
+.db-foto-div5{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+	}
+}
 .db-div6{
+	position: relative;
+	overflow: hidden;
+	float: left;
 	width: 42%;
 	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+	}
+	span{
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		display: block;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		color: #fff;
+		font-size: 26px;
+		line-height: 26px;
+	}
 }
 .db-foto-div6{
+	position: relative;
+	overflow: hidden;
+	float: left;
 	width: 50%;
 	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+	}
 }
 .ah-blok-slider{
 	position: relative;
@@ -372,9 +467,9 @@
 .db-foto-div2:hover, .db-foto-div3:hover, .db-foto-div4:hover, .db-foto-div5:hover,
 .db-foto-div6:hover{
 	cursor: pointer;
-	span{
-		display: none;
-	}
+	// span{
+	// 	display: none;
+	// }
 	.db-hoverbox2{ //этот див стоит как маска над дивом с контентом. Помещен в ховер
 		position: absolute;
 		top: 0;

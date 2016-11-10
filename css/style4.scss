@@ -473,7 +473,60 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 }
 
 
+/*============== Brad Crumps =============*/
 
+.dd-brad-crumps{
+	padding:10px 0px;
+	a,span{
+	 font-family: "OpenSans-Semibold";
+	 text-transform: uppercase;
+	 font-size: 11px;
+	 color:#828D93;
+	}
+	span{
+		display: inline-block;
+		position: relative;
+		margin-left: 10px;
+	    padding-left: 18px;
+	}
+	span:after{
+		content: "";
+		position:absolute;
+		background:url("../img/dd-brad.png") no-repeat;
+		width:9px;
+		height:9px;
+		left: 0;
+		top: 3px;
+	}
+}
+
+/*========================================*/
+
+/*============== About Park =============*/
+
+.dd-aboutpark-wrap{
+	background:#fff;
+	.dd-content{
+		// width: 50%; dekstop
+		width: 100%;
+		outline: 1px solid red;
+		.dd-title{
+			font-family: "Conv_pt-serif_[allfont.ru]";
+			font-size:42px;
+			color:#363636;
+			padding-bottom:32px;
+		}
+		.dd-main-txt{
+			span{
+				color:#636363;
+				font-family:"OpenSans-Regular";
+				font-size:16px;
+			}
+		}
+	}
+}
+
+/*========================================*/
 
 @media only screen and (min-width : 320px) {
 }
@@ -482,6 +535,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 }
 
 @media only screen and (min-width : 768px) {
+
 	.dd-header{
 		.dd-nav{
 			float: left;
@@ -517,6 +571,21 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 }
 
 @media only screen and (min-width : 992px) {
+
+	.dd-aboutpark-wrap{
+		.dd-content{
+			width: 50%;
+			padding-top:38px;
+			padding-left:62px;
+			.dd-title{
+				padding-bottom:32px;
+			}
+			.dd-main-txt{
+			}
+		}
+	}
+
+/*===================================*/
 
 	.dd-header{
 		.dd-nav{

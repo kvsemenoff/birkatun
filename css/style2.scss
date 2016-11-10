@@ -19,9 +19,20 @@
 .db-class1{
 	position: relative;
 	width: 100%;
-	// outline: 1px solid red;
+}
+.db-foto-class1{
+	position: relative;
+	width: 100%;
 }
 .db-class1:before{
+	float: left;
+	content:'';
+	margin-top: 44.5%; // высчитывается от ширины слайда
+	display: inline-block;
+	vertical-align: top;
+	width: 0px;
+}
+.db-foto-class1:before{
 	float: left;
 	content:'';
 	margin-top: 44.5%; // высчитывается от ширины слайда
@@ -36,7 +47,20 @@
 	height: 100%;
 	// background-color: red;
 }
+.db-foto-class2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
 .db-class2:before{
+	float: left;
+	content:'';
+	margin-top: 44.5%; // высчитывается от ширины слайда
+	display: inline-block;
+	vertical-align: top;
+	width: 0px;
+}
+.db-foto-class2:before{
 	float: left;
 	content:'';
 	margin-top: 44.5%; // высчитывается от ширины слайда
@@ -48,7 +72,6 @@
 	width: 100%;
 	height: 100%;
 	position: relative;
-	// overflow: hidden;
 	img{
 		height: 100%;
 	}
@@ -63,6 +86,56 @@
 		line-height: 26px;
 	}
 }
+.db-foto-divimg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	img{
+		height: 100%;
+	}
+}
+.db-foto-span1{
+	position: absolute;
+	bottom: 70px;
+	left: 30px;
+	display: block;
+	font-family: "OpenSans-Semibold";
+	color: #fff;
+	font-size: 13px !important;
+	line-height: 16px !important;
+	text-transform: uppercase;
+}
+.db-foto-span2{
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+	float: left;
+	font-family: "Conv_pt-serif_[allfont.ru]";
+	color: #fff;
+	font-size: 20px;
+	line-height: 22px;
+}
+.db-foto-span22{
+	position: absolute;
+	bottom: 20px;
+	left: 30px;
+	float: left;
+	font-family: "Conv_pt-serif_[allfont.ru]";
+	color: #fff;
+	font-size: 20px;
+	line-height: 22px;
+}
+.db-foto-span3{
+	position: absolute;
+	bottom: 40px;
+	right: 30px;
+	float: right;
+	font-family: "OpenSans-Semibold";
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+}
+
 // *******************
 .db-wrapper{
 	position: absolute;
@@ -94,6 +167,21 @@
 		line-height: 26px;
 	}
 }
+.db-foto-div1{
+	float: left;
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	img{
+		position: absolute; //* --- делает картинку не responsiv-ой, внутри слайда и для остальных так же
+		top: 50%; //*
+		left: 50%; //*
+		transform: translate(-50%, -50%); //*
+		height: 100%;
+	}
+}
 .db-div2{
 	position: relative;
 	overflow: hidden;
@@ -117,6 +205,21 @@
 		color: #fff;
 		font-size: 26px;
 		line-height: 26px;
+	}
+}
+.db-foto-div2{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
 	}
 }
 .db-div3{
@@ -144,6 +247,21 @@
 		line-height: 26px;
 	}
 }
+.db-foto-div3{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+	}
+}
 .db-div4{
 	position: relative;
 	overflow: hidden;
@@ -167,6 +285,21 @@
 		color: #fff;
 		font-size: 26px;
 		line-height: 26px;
+	}
+}
+.db-foto-div4{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
 	}
 }
 .db-div5{
@@ -194,6 +327,21 @@
 		line-height: 26px;
 	}
 }
+.db-foto-div5{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+	}
+}
 .db-div6{
 	position: relative;
 	overflow: hidden;
@@ -217,6 +365,21 @@
 		color: #fff;
 		font-size: 26px;
 		line-height: 26px;
+	}
+}
+.db-foto-div6{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
 	}
 }
 .ah-blok-slider{
@@ -260,7 +423,7 @@
 // }
 
 //стили для появляющегося дива с контентом
-.db-hoverbox, .db-hoverbox1{
+.db-hoverbox, .db-hoverbox1, .db-foto-hoverbox1{
 	position: absolute;
 	overflow: hidden;
 	width: 70%;
@@ -293,17 +456,20 @@
 		line-height: 18px;
 	}
 }
-.db-hoverbox{
+.db-hoverbox, .db-foto-hoverbox1{
 	height: 45%;
 }
 .db-hoverbox1{
 	height: 25%;
 }
-.db-divimg:hover, .db-div1:hover, .db-div2:hover, .db-div3:hover, .db-div4:hover, .db-div5:hover, .db-div6:hover{
+.db-foto-divimg:hover, .db-divimg:hover, .db-div1:hover, .db-div2:hover, 
+.db-div3:hover, .db-div4:hover, .db-div5:hover, .db-div6:hover, .db-foto-div1:hover,
+.db-foto-div2:hover, .db-foto-div3:hover, .db-foto-div4:hover, .db-foto-div5:hover,
+.db-foto-div6:hover{
 	cursor: pointer;
-	span{
-		display: none;
-	}
+	// span{
+	// 	display: none;
+	// }
 	.db-hoverbox2{ //этот див стоит как маска над дивом с контентом. Помещен в ховер
 		position: absolute;
 		top: 0;
@@ -313,7 +479,7 @@
 		background: rgba(51,71,81,0.5);
 		z-index: 1;
 	}
-	.db-hoverbox, .db-hoverbox1{
+	.db-hoverbox, .db-hoverbox1, .db-foto-hoverbox1{
 		z-index: 2;
 		opacity: 1;
 		filter: alpha(opacity=100);
@@ -376,7 +542,7 @@
 		display: block;
 	}
 	// *********
-	.db-hoverbox, .db-hoverbox1{
+	.db-hoverbox, .db-hoverbox1, .db-foto-hoverbox1{
 		position: absolute;
 		overflow: hidden;
 		width: 90%;
@@ -392,7 +558,7 @@
 			line-height: 18px;
 		}
 	}
-	.db-hoverbox{
+	.db-hoverbox, .db-foto-hoverbox1{
 		height: 90%;
 	}
 	.db-hoverbox1{
@@ -402,7 +568,7 @@
 }
 
 @media only screen and (min-width : 992px) {
-	.db-hoverbox, .db-hoverbox1{
+	.db-hoverbox, .db-hoverbox1, .db-foto-hoverbox1{
 		position: absolute;
 		overflow: hidden;
 		width: 70%;
@@ -420,7 +586,7 @@
 			line-height: 18px;
 		}
 	}
-	.db-hoverbox{
+	.db-hoverbox, .db-foto-hoverbox1{
 		height: 45%;
 	}
 	.db-hoverbox1{

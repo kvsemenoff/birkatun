@@ -425,10 +425,68 @@
 			}	
 	}												
 }
+//			==food php end
+//CONTACTSPHP
+.nopadding{
+	padding:0 !important;
+}
+.df-bg-contact {
+	background: #fff;	
+}
+.df-contacts-cap{
+	font-size: 42px; color:#363636;
+	font-family: "Conv_pt-serif_[allfont.ru]";
+	margin:50px 0 30px 60px;
+}
+.df-contacts-map{
+	height: 352px; width: 100%;
+}
+.df-telefons, .df-address{
+	display: block;
+	width: 310px;
+	float: left;
+	margin: 14px 0px 55px 120px;
+	padding-top:22px;
+	h3{
+		font-size: 26px;font-family: "Conv_pt-serif_[allfont.ru]";
+		color:#363636;
+		border-bottom: 1px solid #cccccc;
+		padding-bottom: 31px;
+		margin-bottom:22px;
+	}
+	div{
+		margin-bottom: 15px;
+		span{
+			font-family: "Conv_pt-serif_[allfont.ru]";
+			font-size: 22px; color:#363636;
+			display: block;			
+			line-height: 28px;
+		}
+		span:first-child{
+			text-transform: uppercase;
+			color:#555555;
+			font-size: 13px;
+			font-family: "OpenSans-Regular";
+		}
+	}
 
+}
+.df-address{
+	display: block;
+	margin-left: 75px;
+	padding-top:22px;
+	div{
+		margin-top:31px;
+		margin-bottom:0;
+		span{
+			font-family: "OpenSans-Regular";
+			font-size: 15px; color:#363636;
+			display: block;			
+			line-height: 24px;
+		}
+	}
 
-
-
+}
 @media only screen and (min-width : 320px) {
 	.df-left, .df-right{
 		bottom:47%;

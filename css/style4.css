@@ -158,6 +158,47 @@ body {
           margin: 0 auto; }
 
 /*============ Header ============*/
+/*============ link2.php ============*/
+.dd-link2 .my-contain2 {
+  padding-left: 0;
+  padding-right: 0; }
+  .dd-link2 .my-contain2 .dd-form-wrap2 {
+    width: 100%;
+    background: #98BE28;
+    padding-right: 16px;
+    padding-left: 16px; }
+    .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 {
+      text-align: center; }
+      .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-input-wrap .dd-input {
+        width: 250px;
+        outline: none;
+        border: none;
+        background: #8DB122;
+        border-bottom: 2px solid #5F7C0B;
+        font-family: "OpenSans-Regular";
+        font-size: 15px;
+        color: #5F7C0B;
+        padding: 19px 21px;
+        margin-bottom: 21px; }
+      .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-input-wrap .dd-input2 {
+        resize: none;
+        width: 100%; }
+      .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-form-button {
+        text-align: center;
+        padding-bottom: 40px; }
+        .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-form-button a {
+          display: inline-block;
+          background: #5F7C0B;
+          font-family: "Conv_pt-serif_[allfont.ru]";
+          font-size: 18px;
+          color: #fff;
+          padding: 18px 47px; }
+      .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-recaptcha {
+        padding-bottom: 40px; }
+        .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-recaptcha img {
+          margin: 0 auto; }
+
+/*====================================================*/
 /*menu ╨Р╨╜╨╖╨░╤А╨░*/
 #check_1 {
   display: none;
@@ -654,6 +695,47 @@ body {
         padding-left: 26px;
         font-size: 15px; } }
 @media only screen and (min-width: 992px) {
+  /*============ link2.php ============*/
+  .dd-link2 .my-contain2 {
+    padding-left: 0;
+    padding-right: 0; }
+    .dd-link2 .my-contain2 .dd-form-wrap2 {
+      width: 100%;
+      background: #98BE28;
+      padding-right: 16px;
+      padding-left: 16px; }
+      .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 {
+        text-align: left; }
+        .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-input-wrap .dd-input {
+          width: 250px;
+          outline: none;
+          border: none;
+          background: #8DB122;
+          border-bottom: 2px solid #5F7C0B;
+          font-family: "OpenSans-Regular";
+          font-size: 15px;
+          color: #5F7C0B;
+          padding: 19px 21px;
+          margin-bottom: 21px; }
+        .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-input-wrap .dd-input2 {
+          resize: none;
+          width: 100%; }
+        .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-form-button {
+          text-align: center;
+          padding-bottom: 40px; }
+          .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-form-button a {
+            display: inline-block;
+            background: #5F7C0B;
+            font-family: "Conv_pt-serif_[allfont.ru]";
+            font-size: 18px;
+            color: #fff;
+            padding: 18px 47px; }
+        .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-recaptcha {
+          padding-bottom: 40px; }
+          .dd-link2 .my-contain2 .dd-form-wrap2 .dd-form2 .dd-recaptcha img {
+            margin: 0 auto; }
+
+  /*====================================================*/
   .dd-headerimg-wrap2 .dd-whitelogo {
     display: block; }
   .dd-headerimg-wrap2 .dd-header-title2 {

@@ -1,6 +1,6 @@
 <section>
 	<div class="container nopadding">
-		<div class="dd-headerimg-wrap">
+		<div class="dd-headerimg-wrap ">
 			<div class="dd-whitelogo">
 				<img class="img-responsive" src="img/dd-logo.jpg" alt="">
 			</div>

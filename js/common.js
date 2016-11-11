@@ -86,6 +86,9 @@ $(document).ready(function(){
      
   });
 
+<<<<<<< HEAD
+      var owl = $(".owl-carusel-my");
+=======
    var owl = $("#owl-demo3");
  
   owl.owlCarousel({
@@ -111,6 +114,7 @@ $(document).ready(function(){
   });
 
       var owl = $(".owl-carusel");
+>>>>>>> 48d8d6d94b987c68306338f04aa650140997b7c0
  
   owl.owlCarousel({
 
@@ -120,17 +124,17 @@ $(document).ready(function(){
     smartSpeed:1000,//Время движения
     margin:0,
     navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-    // responsive:{
-    //     0:{
-    //       items:1
-    //     },       
-    //     1000:{
-    //       items:2
-    //     },
-    //      1248:{
-    //       items:3
-    //     }
-    // }
+    responsive:{
+        0:{
+          items:1
+        },       
+        1000:{
+          items:1
+        },
+         1248:{
+          items:1
+        }
+    }
      
   });
 

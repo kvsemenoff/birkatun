@@ -4,10 +4,12 @@ body{
 
 /*============ footer ===========*/
 
+.dd-footer2{
+	margin-top:10px;
+}
+
 .dd-footer{
 	background:#254150 !important;
-	// padding-left: 10px;
-	// padding-right: 10px;
 	padding-top:35px;
 	.dd-footer-box{
 		text-align: center;
@@ -22,7 +24,6 @@ body{
 			padding-bottom: 29px;
 			ul{
 				padding-left:10px;
-				//padding-top:20px;
 				li{
 					padding-top:13px;
 				}
@@ -504,25 +505,359 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 
 /*============== About Park =============*/
 
+.dd-headerimg-wrap2{
+	background:url("../img/head2.jpg") no-repeat center !important;
+	min-height:50px !important;
+	background-size:cover;
+	// padding-top:135px;
+	padding-top:30px;
+	margin-top:70px;
+	padding-bottom:42px !important;
+	text-align:center;
+	position:relative;
+	.dd-whitelogo{
+		display: none; //для мобилы
+		top:29px !important;
+	}
+	.dd-line2{
+		img{
+			margin: 0 auto; 
+		}
+	}
+	.dd-header-title2{
+		color:#fff;
+		font-size: 21px;
+		//font-size: 30px; dekstop
+		font-family: "PtSerifBold";
+		padding-bottom:18px;//для мобильной
+	}
+}
+
 .dd-aboutpark-wrap{
+	padding-left:0px;
+	padding-right:0px;
 	background:#fff;
 	.dd-content{
-		// width: 50%; dekstop
 		width: 100%;
-		outline: 1px solid red;
+		.dd-next-menu{
+			text-align: center;
+			ul{
+				li{
+					//display: inline-block; dekstop
+					a{
+						font-family: "Conv_pt-serif_[allfont.ru]";
+						font-size: 18px;
+						//outline: 1px solid red;
+						color:#828d93;
+						border-bottom:3px solid #828d93;
+						// padding-bottom:10px;
+						padding:0px 31px 10px 31px;
+						display: inline-block;
+						transition: 0.5s;
+					}
+					a:hover{
+						border-bottom:3px solid #363636;
+					}
+					.active{
+						border-bottom:3px solid #363636;
+					}
+				}
+				li{
+					padding-left:14px;
+				}
+				li:first-child{
+					//padding-left:0; dekstop
+				}
+			}
+		}
 		.dd-title{
 			font-family: "Conv_pt-serif_[allfont.ru]";
 			font-size:42px;
 			color:#363636;
 			padding-bottom:32px;
+			padding-top:32px;
 		}
 		.dd-main-txt{
+			.dd-h2-first, .dd-h2-second{
+				padding-top:34px;
+				padding-bottom:32px;
+				font-family: "Conv_pt-serif_[allfont.ru]";
+				color:#363636;
+			}
+			.dd-h2-first{
+				font-size:26px;
+			}
+			.dd-h2-second{
+				font-size:20px;
+			}
 			span{
 				color:#636363;
 				font-family:"OpenSans-Regular";
 				font-size:16px;
 			}
+			blockquote{
+				border:1px solid #E1E1E1;
+				padding:37px 20px 49px 20px;
+				font-family: "OpenSans-Italic";
+				font-size:16px;
+				margin-top: 46px;
+				margin-bottom: 46px;
+				// margin-left: 60px;
+				// margin-right:22px;  для декстопа
+				// padding:37px 60px 49px 60px; для декстопа
+			}
+			.dd-num-spisok{
+				padding-left:30px;
+				margin: 27px 0px;
+				ol{
+					li{
+						color:#636363;
+						font-family:"OpenSans-Regular";
+						font-size:16px;
+					}
+				}
+			}
+			.dd-spans{
+				padding-left:13px;
+				margin: 27px 0px 0px;
+				ul{
+					li{
+						color:#636363;
+						font-family:"OpenSans-Regular";
+						font-size:16px;
+						position:relative;
+						padding-left:21px;
+					}
+					li:after{
+						content: "";
+						position:absolute;
+						background:url("../img/dd-mini.png") no-repeat;
+						width: 11px;
+						height: 8px;
+						left: 0;
+						top:8px;
+					}
+				}
+			}
+			.dd-table{
+				width: 100%;
+				margin-top:67px;
+				//outline: 1px solid red;
+				background:#fff;
+				.dd-width-td{
+					//outline: 1px solid red;
+					width: 42%;
+					padding-top:20px;
+					padding-bottom:20px;
+				}
+				.dd-number{
+					font-family:"OpenSans-Regular";
+					font-size:16px;
+					color: #636363;
+				}
+				p{
+					color:#636363;
+					font-family:"OpenSans-Regular";
+					font-size:15px;
+					padding-top:14px;
+				}
+				td{
+					padding-left:21px;
+				}
+				tr:first-child{
+					height: 40px;
+					td{
+						font-family: "OpenSans-Semibold";
+						font-size: 13px;
+						color:#363636;
+						text-transform: uppercase;
+					}
+				}
+				tr:nth-child(2), tr:nth-child(5){
+					background:#EBEBEB;
+					height: 30px;
+					line-height: 30px;
+					text-align: center;
+
+				}
+				tr:nth-child(3),tr:nth-child(6),tr:nth-child(7){
+					border-bottom:1px solid #E1E1E1;
+				}
+				tr:nth-child(3){
+					height: 59px;
+					line-height: 59px;
+				}
+				.dd-title-table{
+					border-top:1px solid #E1E1E1;
+					font-family: "OpenSans-Semibold";
+					font-size: 13px;
+					color:#363636;
+					text-transform: uppercase;
+				}
+				.dd-table-bold{
+					font-family: "OpenSans-Semibold";
+					font-size: 16px;
+					color:#363636;
+				}
+			}
 		}
+		.dd-main-txt-last{
+			margin-bottom: 132px;
+		}
+		.dd-slide-wrap{
+			width: 74%;
+			margin: 34px;
+
+			.owl-carusel-my{
+				.item{
+					width: 100%;
+					height: auto;
+				}
+				.owl-controls{
+					.owl-nav{
+						.owl-prev{
+							.df-left{
+							    bottom: 60%;
+							    top: 40%;
+							}
+						}
+						.owl-next{
+							.df-right{
+							    bottom: 60%;
+							    top: 40%;
+							}
+						}
+					}
+					.owl-dots{
+						width: 100%;
+						text-align: center;
+						.owl-dot{
+							margin-top:15px;
+							margin-left: 7px; 
+							display: inline-block;
+							span{
+								display: inline-block;
+								border:2px solid #E1E1E1;
+								width: 15px;
+								height: 15px;
+								border-radius:10em;
+							}
+						}
+						.active{
+							span{
+								position: relative;
+								background:none;
+								border:none;
+								border-radius:10em;
+							}
+							span:before{
+								position: absolute;
+								content: "";
+								width: 15px;
+								height: 15px;
+								background:url("../img/zel-kr.jpg") no-repeat;
+								//border:3px solid #7D7D7D;
+								//border-radius:10em;
+								top: 0px;
+								left: -2px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.dd-button-tab{
+		a{
+			font-size: 26px;
+			font-family: "Conv_pt-serif_[allfont.ru]";
+			color:#0070AC;
+			position:relative;
+			padding-left:29px;
+			border-bottom: 1px dashed #0070AC;
+		}
+		a:after{
+			content:"";
+			position:absolute;
+			width: 24px;
+			height: 24px;
+			background:url("../img/dd-plus.png") no-repeat;
+			left: 0;
+			top: 5px;
+		}
+	}
+	.dd-otstup{
+		padding-left:64px;
+	}
+	.dd-content-right-w{
+		.dd-content-right{
+			width: 100%;
+			border: 1px solid #E1E1E1;
+			// float: right;
+			padding:52px 58px;
+			margin: 10px;
+			span{
+				display: block;
+				font-family: "OpenSans-Regular";
+				font-size: 16px;
+			}
+			.dd-num-t{
+				font-family: "Conv_pt-serif_[allfont.ru]";
+				font-size: 22px;
+				color:#363636;
+				padding-bottom:20px;
+			}
+			.dd-num-t2{
+				padding-top:35px;
+			}
+		}
+	}
+	.dd-otpravka{
+		.dd-form-wrap{
+			width:760px;
+			background:#98BE28;
+			float: left;
+			padding-top:50px;
+			padding-left:50px;
+			padding-right:50px;
+			.dd-form-txt{
+				.dd-form-title{
+					text-align: left;
+				}
+				.dd-form-phone{
+					text-align: left;
+					span{
+						display: block;
+						float: left;
+					}
+					span:last-child{
+						margin-left: 68px;
+					}
+					.dd-br{
+						display: none;
+					}
+				}
+			}
+			.dd-form{
+				text-align: left;
+				.dd-input{
+					width: 310px;
+				}
+				.dd-input:nth-child(2){
+					margin-left: 36px !important;
+				}
+				.dd-form-button{
+					text-align: left;
+					float: left;
+					margin-left: 38px;
+					padding-top:7px;
+					//padding-bottom:40px;
+				}
+				.dd-recaptcha{
+					float: left;
+				}	
+			}	
+		}	
 	}
 }
 
@@ -535,6 +870,15 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 }
 
 @media only screen and (min-width : 768px) {
+
+	.dd-headerimg-wrap2{
+		.dd-header-title2{
+			font-size: 30px; 
+			padding-bottom:18px;//для мобильной
+		}
+	}
+
+/*===========================================*/
 
 	.dd-header{
 		.dd-nav{
@@ -549,7 +893,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 					}
 				}
 				li:first-child{
-					margin-left: 0;
+					margin-left: 30px !important;
 				}
 			}
 		}
@@ -572,15 +916,77 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 
 @media only screen and (min-width : 992px) {
 
+	.dd-headerimg-wrap2{
+		.dd-whitelogo{
+			display: block; //для мобилы
+		}
+		.dd-header-title2{
+			font-size: 30px; 
+			padding-bottom:0px;//для мобильной
+		}
+	}
+
 	.dd-aboutpark-wrap{
+		//outline: 5px solid red;
 		.dd-content{
-			width: 50%;
+			width: 64%;
 			padding-top:38px;
 			padding-left:62px;
+			// outline: 1px solid red;
+			float: left;
+			.dd-next-menu{
+				text-align:left;
+				ul{
+					li{
+						display: inline-block;
+					}
+					li:first-child{
+						padding-left:0;
+					}
+				}
+			}
 			.dd-title{
 				padding-bottom:32px;
 			}
 			.dd-main-txt{
+				blockquote{
+					margin-left: 60px;
+					margin-right:22px; 
+					padding:37px 60px 49px 60px;
+					position:relative;
+				}
+				blockquote:after{
+					content: "";
+					position:absolute;
+					background:url("../img/dd-kav.jpg") no-repeat;
+					width: 42px;
+					height: 47px;
+					left: -30px;
+					top:20px;
+				}
+			}
+		}
+		.dd-content-right-w{
+			.dd-content-right{
+				width: 33%;
+				border: 1px solid #E1E1E1;
+				float: right;
+				padding:52px 58px;
+				margin-top: 197px;
+				span{
+					display: block;
+					font-family: "OpenSans-Regular";
+					font-size: 16px;
+				}
+				.dd-num-t{
+					font-family: "Conv_pt-serif_[allfont.ru]";
+					font-size: 22px;
+					color:#363636;
+					padding-bottom:20px;
+				}
+				.dd-num-t2{
+					padding-top:35px;
+				}
 			}
 		}
 	}
@@ -616,7 +1022,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 
 	.dd-headerimg-wrap{
 		.dd-whitelogo{
-			left: -53px;
+			left: -20px;
 			top:100px;
 		}
 		.dd-header-title{
@@ -642,14 +1048,14 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			}
 			.dd-phone-wrap{
 				.dd-border{
-					padding: 5px 43px 18px 29px;
+					padding: 5px 34px 18px 29px;
 					span:last-child{
 						padding-left:26px;
 						font-size: 22px;
 					}
 				}
 				.dd-border2{
-					padding:4px 70px 17px 30px;
+					padding:4px 37px 17px 30px;
 					span:last-child{
 						padding-left:26px;
 						font-size: 22px;

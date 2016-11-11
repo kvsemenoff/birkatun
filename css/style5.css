@@ -138,11 +138,11 @@
 .df-all-events a, .df-cap-subtitle, .df-price em, .df-liv-text span {
   font-family: "OpenSans-Regular"; }
 
-.df-left, .df-right {
+.df-left, .df-right, .df-left-luxe, .df-right-luxe {
   width: 43px;
   height: 50px; }
 
-.df-left {
+.df-left, .df-left-luxe {
   position: absolute;
   left: 0px;
   background: url(/img/df-left.png) no-repeat center;
@@ -150,7 +150,7 @@
   height: 50px;
   background-color: #98be28; }
 
-.df-right {
+.df-right, .df-right-luxe {
   position: absolute;
   right: 0px;
   background: url(/img/df-right.png) no-repeat center;
@@ -158,11 +158,11 @@
   height: 50px;
   background-color: #98be28; }
 
-.df-left, .df-right {
+.df-left, .df-right, .df-left-luxe, .df-right-luxe {
   bottom: 45%;
   top: 55%; }
 
-.df-left, .df-right {
+.df-left, .df-right, .df-left-luxe, .df-right-luxe {
   background-color: #98be28;
   transition: background 0.5s ease-in-out;
   -webkit-transition: background 0.5s ease-in-out;
@@ -174,6 +174,12 @@
 
 .df-left:hover {
   background-color: #d7d7d7; }
+
+.df-left-luxe:hover {
+  background-color: #d7d7d7; }
+
+.df-right-luxe:hover {
+  background-color: #5f7c0b; }
 
 .df-living {
   background: #fff; }
@@ -424,44 +430,62 @@
       display: block;
       line-height: 24px; }
 
+/*============== Brad Crumps =============*/
+.df-brad-crumps {
+  padding: 10px 0px; }
+  .df-brad-crumps a, .df-brad-crumps span {
+    font-family: "OpenSans-Semibold";
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #828D93; }
+  .df-brad-crumps a {
+    background: url("../img/dd-brad.png") no-repeat right center;
+    display: inline-block;
+    padding: 0 20px 0 10px; }
+  .df-brad-crumps span {
+    padding-left: 10px; }
+
+/*========================================*/
 .dfleftbox-cap, .dfpricetext, .dfpricehour, .df-open-text {
   font-family: "Conv_pt-serif_[allfont.ru]"; }
 
 .df-luxe {
   background: #fff;
-  margin: 12px 0; }
+  margin-bottom: 12px; }
   .df-luxe .df-luxe-leftbox {
     padding: 0 20px; }
-    .df-luxe .df-luxe-leftbox .dfleftbox-cap {
-      font-size: 42px;
-      color: #363636;
-      margin: 50px 0 20px 0; }
-    .df-luxe .df-luxe-leftbox p {
-      font-family: "OpenSans-Regular";
-      font-size: 16px;
-      line-height: 24px;
-      color: #636363;
-      background: linear-gradient(to bottom, black 33%, transparent);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
-    .df-luxe .df-luxe-leftbox .df-open-text {
-      display: inline-block;
-      color: #0070ac;
-      font-size: 18px;
-      border-bottom: 1px dashed #0070ac;
-      padding-right: 15px;
-      background: url(/img/df-linkbg.png) no-repeat right center;
-      margin: 15px 0 35px 0; }
-    .df-luxe .df-luxe-leftbox .df-open-text:hover {
-      border-bottom: 1px solid transparent; }
-    .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe {
-      height: auto; }
-      .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div {
-        width: 100%;
-        margin: 0 auto; }
-        .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div img {
+    .df-luxe .df-luxe-leftbox .df-luxe-text {
+      padding-left: 9px; }
+      .df-luxe .df-luxe-leftbox .df-luxe-text .dfleftbox-cap {
+        font-size: 42px;
+        color: #363636;
+        margin: 37px 0 9px 0; }
+      .df-luxe .df-luxe-leftbox .df-luxe-text p {
+        font-family: "OpenSans-Regular";
+        font-size: 16px;
+        line-height: 24px;
+        color: #636363;
+        background: linear-gradient(to bottom, black 50%, transparent);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      .df-luxe .df-luxe-leftbox .df-luxe-text .df-open-text {
+        display: inline-block;
+        color: #0070ac;
+        font-size: 18px;
+        border-bottom: 1px dashed #0070ac;
+        padding-right: 19px;
+        background: url(/img/df-linkbg.png) no-repeat right center;
+        margin: 43px 0 35px 0; }
+      .df-luxe .df-luxe-leftbox .df-luxe-text .df-open-text:hover {
+        border-bottom: 1px solid transparent; }
+      .df-luxe .df-luxe-leftbox .df-luxe-text .df-lux-slider .df-itemluxe {
+        height: auto; }
+        .df-luxe .df-luxe-leftbox .df-luxe-text .df-lux-slider .df-itemluxe div {
           width: 100%;
-          height: auto; }
+          margin: 0 auto; }
+          .df-luxe .df-luxe-leftbox .df-luxe-text .df-lux-slider .df-itemluxe div img {
+            width: 100%;
+            height: auto; }
   .df-luxe .df-luxe-rightbox {
     padding: 15px 0;
     margin: 0 auto; }
@@ -472,7 +496,7 @@
         border: 1px solid #fff;
         height: 148px;
         position: relative;
-        margin-bottom: 35px; }
+        margin-bottom: 44px; }
         .df-luxe .df-luxe-rightbox .df-luxe-bg .df-pricebox .dfpricetext, .df-luxe .df-luxe-rightbox .df-luxe-bg .df-pricebox .dfpricehour {
           font-size: 18px;
           color: #5f7c0b;
@@ -507,11 +531,11 @@
         text-align: left; }
       .df-luxe .df-luxe-rightbox .df-luxe-bg .df-tel {
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: 29px;
         max-width: 222px;
         font-size: 22px;
         display: inline-block;
-        padding-left: 25px;
+        padding-left: 29px;
         background: url(/img/dd-trubka.png) no-repeat left center; }
       .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe {
         margin: 0 auto;
@@ -519,8 +543,9 @@
         margin-top: 30px; }
         .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe img {
           width: 100%;
-          height: auto; }
-        .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe span {
+          height: auto;
+          position: relative; }
+        .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe span a {
           font-size: 22px;
           line-height: 26px;
           color: #fff;
@@ -529,6 +554,25 @@
           position: absolute;
           bottom: 30px;
           left: 29px; }
+      .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe:hover span a {
+        text-decoration: underline;
+        z-index: 11; }
+      .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe:hover:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 99%;
+        left: 0;
+        top: 0;
+        background: rgba(255, 255, 255, 0.3);
+        z-index: 10; }
+
+.item {
+  height: auto !important; }
+
+.df-left-luxe, .df-right-luxe {
+  top: 50%;
+  transform: translate(0%, -50%); }
 
 @media only screen and (min-width: 320px) {
   .df-left, .df-right {
@@ -598,9 +642,10 @@
 
   .df-luxe .df-luxe-leftbox {
     padding: 0 50px !important; }
-    .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div {
-      width: 242px !important;
-      padding: 0 5px; }
+    .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe {
+      height: auto; }
+      .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div {
+        width: 242px !important; }
   .df-luxe .df-luxe-rightbox {
     padding: 20px 50px 0 50px !important; }
     .df-luxe .df-luxe-rightbox .df-luxe-bg {
@@ -634,10 +679,9 @@
   .df-luxe .df-luxe-leftbox {
     float: left;
     max-width: 879px;
-    padding: 0 50px !important; }
+    padding: 0 29px 0 52px !important; }
     .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div {
-      width: 242px !important;
-      padding: 0 5px; }
+      width: 250px !important; }
   .df-luxe .df-luxe-rightbox {
     padding: 0 !important;
     min-width: 440px;
@@ -648,6 +692,14 @@
   .df-luxe .df-img-luxe {
     max-width: 338px;
     height: 145px; }
+    .df-luxe .df-img-luxe span a {
+      bottom: 22px; }
+
+  .df-left-luxe {
+    left: -20px; }
+
+  .df-right-luxe {
+    right: -5px; }
 
   .df-liv-text {
     padding: 0px 45px 0px 30px !important; }

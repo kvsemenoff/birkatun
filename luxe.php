@@ -33,7 +33,7 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/header-bg.php'); ?>
+	<?php require_once('includes/header-bg2.php'); ?>
 	<?php require_once('includes/luxe.php'); ?>	
 	<?php require_once('includes/footer.php'); ?>
 

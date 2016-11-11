@@ -430,12 +430,28 @@
       display: block;
       line-height: 24px; }
 
+/*============== Brad Crumps =============*/
+.df-brad-crumps {
+  padding: 10px 0px; }
+  .df-brad-crumps a, .df-brad-crumps span {
+    font-family: "OpenSans-Semibold";
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #828D93; }
+  .df-brad-crumps a {
+    background: url("../img/dd-brad.png") no-repeat right center;
+    display: inline-block;
+    padding: 0 20px 0 10px; }
+  .df-brad-crumps span {
+    padding-left: 10px; }
+
+/*========================================*/
 .dfleftbox-cap, .dfpricetext, .dfpricehour, .df-open-text {
   font-family: "Conv_pt-serif_[allfont.ru]"; }
 
 .df-luxe {
   background: #fff;
-  margin: 12px 0; }
+  margin-bottom: 12px; }
   .df-luxe .df-luxe-leftbox {
     padding: 0 20px; }
     .df-luxe .df-luxe-leftbox .df-luxe-text {

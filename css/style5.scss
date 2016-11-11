@@ -495,6 +495,27 @@
 }
 
 //END-CONTACTS.PHP
+/*============== Brad Crumps =============*/
+
+.df-brad-crumps{
+	padding:10px 0px;
+	a,span{
+	 font-family: "OpenSans-Semibold";
+	 text-transform: uppercase;
+	 font-size: 11px;
+	 color:#828D93;	
+	}
+	a{
+		background: url("../img/dd-brad.png") no-repeat right center;
+		display: inline-block;
+		padding:0 20px 0 10px;
+	} 
+	span{
+		padding-left: 10px;
+	}	
+}
+
+/*========================================*/
 
 
 //START LUXE PHP
@@ -507,7 +528,7 @@
 
 .df-luxe{
 	background: #fff;
-	margin: 12px 0;
+	margin-bottom: 12px;
 	.df-luxe-leftbox{
 		//float: left;
 		//max-width: 879px;

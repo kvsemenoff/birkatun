@@ -86,9 +86,8 @@ $(document).ready(function(){
      
   });
 
-<<<<<<< HEAD
+
       var owl = $(".owl-carusel-my");
-=======
    var owl = $("#owl-demo3");
  
   owl.owlCarousel({
@@ -114,7 +113,6 @@ $(document).ready(function(){
   });
 
       var owl = $(".owl-carusel");
->>>>>>> 48d8d6d94b987c68306338f04aa650140997b7c0
  
   owl.owlCarousel({
 

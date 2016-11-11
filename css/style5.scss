@@ -426,6 +426,8 @@
 	}												
 }
 //			==food php end
+
+
 //CONTACTSPHP
 .nopadding{
 	padding:0 !important;
@@ -485,8 +487,120 @@
 			line-height: 24px;
 		}
 	}
-
 }
+
+//END-CONTACTS.PHP
+
+
+//START LUXE PHP
+
+
+.dfleftbox-cap, .dfpricetext, .dfpricehour, .df-open-text{
+	font-family: "Conv_pt-serif_[allfont.ru]";
+}
+
+
+.df-luxe{
+	.df-luxe-leftbox{
+		.dfleftbox-cap{
+			//font-family: "Conv_pt-serif_[allfont.ru]";
+			font-size: 42px;
+			color:#363636;
+			margin: 50px 0 20px 0;
+		}
+		p{
+			font-family: "OpenSans-Regular";
+			font-size: 16px;
+			line-height: 24px;
+			color:#636363;
+		}
+		.df-open-text{
+			display: inline-block;
+			color:#0070ac;
+			font-size: 18px;
+			border-bottom: 1px dashed #0070ac;
+			padding-right: 15px;
+			background: url(/img/df-linkbg.png) no-repeat right center;
+		}
+		.df-open-text:hover{
+			border-bottom:1px solid rgba(0,0,0, 0.0);
+		}		
+	}
+	.df-luxe-rightbox{
+		background: #98be28;
+		padding: 50px 5% 40px 5%;
+		max-width: 440px; 
+		.df-pricebox{
+			border:1px solid #fff;
+			height: 148px;
+			position: relative;
+			margin-bottom: 35px;
+			.dfpricetext, .dfpricehour{
+				font-size: 18px;
+				//font-family: "Conv_pt-serif_[allfont.ru]";
+				color:#5f7c0b;
+				display: inline-block;				
+				position: absolute;
+				padding: 0 7%;//30
+				background: #98be28;
+
+			}
+			.dfpricemoney{
+				font-size: 42px;
+				color:#fff;
+				font-family: "PtSerifBold";
+				font-style:normal;				
+				position: absolute;				
+				left: 50%;
+				top:50%;
+				transform: translate(-50%, -50%);
+				padding-right: 10px;//40
+				background: url(/img/dfruble.png) no-repeat center right;
+			}
+			.dfpricetext{
+				left: 50%;
+				transform: translate(-50%, 0);
+				top:-9%;
+			}
+			.dfpricehour{
+				left: 50%;
+				transform: translate(-50%, 0);
+				bottom:-9%;
+			}
+		}
+		span{
+			font-family: "Conv_pt-serif_[allfont.ru]"; color:#fff;
+			font-size: 26px;
+			display: inline-block;			
+		}
+		.df-tel{		
+			margin-top: 30px;
+			font-size: 22px;
+			padding-left: 25px;
+			background: url(/img/dd-trubka.png) no-repeat left center;
+
+		}
+		.df-img-luxe{
+			margin: 0 auto;
+			max-width: 338px;
+			height: 145px;
+			position: relative;			
+			margin-top: 30px; 
+			img{
+							
+			}
+			span{
+				font-size: 22px; line-height:26px;color:#fff;
+				font-family: "Conv_pt-serif_[allfont.ru]";
+				display: inline-block;
+				position: absolute;
+				bottom:30px;//22
+				left:29px;//29
+			}
+		}	
+	}
+}
+
 @media only screen and (min-width : 320px) {
 	.df-left, .df-right{
 		bottom:47%;

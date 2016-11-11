@@ -95,7 +95,7 @@ $(document).ready(function(){
     autoplay:false,//автозапуск
     smartSpeed:1000,//Время движения
     margin:0,
-    navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+    navText:['<span class="df-left-luxe"></span>','<span class="df-right-luxe"></span>'],
     responsive:{
         0:{
           items:1

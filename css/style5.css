@@ -367,6 +367,169 @@
     .df-food .df-food-img .df-food-text:hover h1 a {
       text-decoration: underline; }
 
+.nopadding {
+  padding: 0 !important; }
+
+.df-bg-contact {
+  background: #fff; }
+
+.df-contacts-cap {
+  font-size: 42px;
+  color: #363636;
+  font-family: "Conv_pt-serif_[allfont.ru]";
+  margin: 50px 0 30px 60px; }
+
+.df-contacts-map {
+  height: 352px;
+  width: 100%; }
+
+.df-telefons, .df-address {
+  display: block;
+  width: 310px;
+  float: left;
+  margin: 14px 0px 55px 120px;
+  padding-top: 22px; }
+  .df-telefons h3, .df-address h3 {
+    font-size: 26px;
+    font-family: "Conv_pt-serif_[allfont.ru]";
+    color: #363636;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 31px;
+    margin-bottom: 22px; }
+  .df-telefons div, .df-address div {
+    margin-bottom: 15px; }
+    .df-telefons div span, .df-address div span {
+      font-family: "Conv_pt-serif_[allfont.ru]";
+      font-size: 22px;
+      color: #363636;
+      display: block;
+      line-height: 28px; }
+    .df-telefons div span:first-child, .df-address div span:first-child {
+      text-transform: uppercase;
+      color: #555555;
+      font-size: 13px;
+      font-family: "OpenSans-Regular"; }
+
+.df-address {
+  display: block;
+  margin-left: 75px;
+  padding-top: 22px; }
+  .df-address div {
+    margin-top: 31px;
+    margin-bottom: 0; }
+    .df-address div span {
+      font-family: "OpenSans-Regular";
+      font-size: 15px;
+      color: #363636;
+      display: block;
+      line-height: 24px; }
+
+.dfleftbox-cap, .dfpricetext, .dfpricehour, .df-open-text {
+  font-family: "Conv_pt-serif_[allfont.ru]"; }
+
+.df-luxe {
+  background: #fff;
+  margin: 12px 0; }
+  .df-luxe .df-luxe-leftbox {
+    padding: 0 20px; }
+    .df-luxe .df-luxe-leftbox .dfleftbox-cap {
+      font-size: 42px;
+      color: #363636;
+      margin: 50px 0 20px 0; }
+    .df-luxe .df-luxe-leftbox p {
+      font-family: "OpenSans-Regular";
+      font-size: 16px;
+      line-height: 24px;
+      color: #636363;
+      background: linear-gradient(to bottom, black 33%, transparent);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .df-luxe .df-luxe-leftbox .df-open-text {
+      display: inline-block;
+      color: #0070ac;
+      font-size: 18px;
+      border-bottom: 1px dashed #0070ac;
+      padding-right: 15px;
+      background: url(/img/df-linkbg.png) no-repeat right center;
+      margin: 15px 0 35px 0; }
+    .df-luxe .df-luxe-leftbox .df-open-text:hover {
+      border-bottom: 1px solid transparent; }
+    .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe {
+      height: auto; }
+      .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div {
+        width: 100%;
+        margin: 0 auto; }
+        .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div img {
+          width: 100%;
+          height: auto; }
+  .df-luxe .df-luxe-rightbox {
+    padding: 15px 0;
+    margin: 0 auto; }
+    .df-luxe .df-luxe-rightbox .df-luxe-bg {
+      background: #98be28;
+      padding: 25px 5% 15px 5%; }
+      .df-luxe .df-luxe-rightbox .df-luxe-bg .df-pricebox {
+        border: 1px solid #fff;
+        height: 148px;
+        position: relative;
+        margin-bottom: 35px; }
+        .df-luxe .df-luxe-rightbox .df-luxe-bg .df-pricebox .dfpricetext, .df-luxe .df-luxe-rightbox .df-luxe-bg .df-pricebox .dfpricehour {
+          font-size: 18px;
+          color: #5f7c0b;
+          display: inline-block;
+          position: absolute;
+          padding: 0 7%;
+          background: #98be28; }
+        .df-luxe .df-luxe-rightbox .df-luxe-bg .df-pricebox .dfpricemoney {
+          font-size: 42px;
+          color: #fff;
+          font-family: "PtSerifBold";
+          font-style: normal;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          padding-right: 10px;
+          background: url(/img/dfruble.png) no-repeat center right; }
+        .df-luxe .df-luxe-rightbox .df-luxe-bg .df-pricebox .dfpricetext {
+          left: 50%;
+          transform: translate(-50%, 0);
+          top: -9%; }
+        .df-luxe .df-luxe-rightbox .df-luxe-bg .df-pricebox .dfpricehour {
+          left: 50%;
+          transform: translate(-50%, 0);
+          bottom: -9%; }
+      .df-luxe .df-luxe-rightbox .df-luxe-bg span {
+        font-family: "Conv_pt-serif_[allfont.ru]";
+        color: #fff;
+        font-size: 26px;
+        display: block;
+        text-align: left; }
+      .df-luxe .df-luxe-rightbox .df-luxe-bg .df-tel {
+        margin: 0 auto;
+        margin-top: 30px;
+        max-width: 222px;
+        font-size: 22px;
+        display: inline-block;
+        padding-left: 25px;
+        background: url(/img/dd-trubka.png) no-repeat left center; }
+      .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe {
+        margin: 0 auto;
+        position: relative;
+        margin-top: 30px; }
+        .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe img {
+          width: 100%;
+          height: auto; }
+        .df-luxe .df-luxe-rightbox .df-luxe-bg .df-img-luxe span {
+          font-size: 22px;
+          line-height: 26px;
+          color: #fff;
+          font-family: "Conv_pt-serif_[allfont.ru]";
+          display: inline-block;
+          position: absolute;
+          bottom: 30px;
+          left: 29px; }
+
 @media only screen and (min-width: 320px) {
   .df-left, .df-right {
     bottom: 47%;
@@ -431,7 +594,17 @@
     max-height: 425px;
     overflow: hidden; }
     .df-food .df-food-img .df-food-text h1 a {
-      padding: 25px 0px 10px 0; } }
+      padding: 25px 0px 10px 0; }
+
+  .df-luxe .df-luxe-leftbox {
+    padding: 0 50px !important; }
+    .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div {
+      width: 242px !important;
+      padding: 0 5px; }
+  .df-luxe .df-luxe-rightbox {
+    padding: 20px 50px 0 50px !important; }
+    .df-luxe .df-luxe-rightbox .df-luxe-bg {
+      padding: 50px 50px 40px 50px !important; } }
 @media only screen and (min-width: 1248px) {
   .container {
     width: 1320px; }
@@ -457,6 +630,24 @@
       width: 77% !important;
       height: 135.8px;
       margin-left: 0%; }
+
+  .df-luxe .df-luxe-leftbox {
+    float: left;
+    max-width: 879px;
+    padding: 0 50px !important; }
+    .df-luxe .df-luxe-leftbox .df-lux-slider .df-itemluxe div {
+      width: 242px !important;
+      padding: 0 5px; }
+  .df-luxe .df-luxe-rightbox {
+    padding: 0 !important;
+    min-width: 440px;
+    width: 30%;
+    float: right; }
+    .df-luxe .df-luxe-rightbox .df-luxe-bg {
+      padding: 50px 50px 40px 50px !important; }
+  .df-luxe .df-img-luxe {
+    max-width: 338px;
+    height: 145px; }
 
   .df-liv-text {
     padding: 0px 45px 0px 30px !important; }

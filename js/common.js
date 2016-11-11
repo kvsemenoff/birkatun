@@ -86,7 +86,35 @@ $(document).ready(function(){
      
   });
 
+<<<<<<< HEAD
       var owl = $(".owl-carusel-my");
+=======
+   var owl = $("#owl-demo3");
+ 
+  owl.owlCarousel({
+
+    loop:true,//Зацикливаем слайдер
+    nav:true, //Навигация включена
+    autoplay:false,//автозапуск
+    smartSpeed:1000,//Время движения
+    margin:0,
+    navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+    responsive:{
+        0:{
+          items:1
+        },       
+        850:{
+          items:2
+        },
+         992:{
+          items:3
+        }
+    }
+     
+  });
+
+      var owl = $(".owl-carusel");
+>>>>>>> 48d8d6d94b987c68306338f04aa650140997b7c0
  
   owl.owlCarousel({
 

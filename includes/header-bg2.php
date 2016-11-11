@@ -1,12 +1,12 @@
 <section>
 	<div class="container nopadding">
-		<div class="dd-headerimg-wrap">
+		<div class="dd-headerimg-wrap dd-headerimg-wrap2">
 			<div class="dd-whitelogo">
-				<img class="img-responsive" src="img/dd-logo.jpg" alt="">
+				<img class="img-responsive" src="img/dd-logo2.jpg" alt="">
 			</div>
 			
-			<div class="dd-header-title">
-			<div class="dd-line">
+			<div class="dd-header-title2">
+			<div class="dd-line2">
 				<img class="img-responsive" src="img/dd-line.png" alt="">
 			</div>
 			<!-- <img class="img-responsive" src="img/dd-line.png" alt=""> -->

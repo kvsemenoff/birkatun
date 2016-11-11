@@ -34,33 +34,25 @@
 		</div>
 	</div>	
 </section>	
-<section class="dd-link">
-	<div class="container my-contain">
-		<div class="dd-form-wrap">
-			<div class="dd-form-txt">
-				<div class="dd-form-title">
-					Связь с нами
+<section class="dd-link2">
+	<div class="container my-contain2">
+		<div class="dd-form-wrap2">
+			<form class="dd-form2" action="#">
+				<div class="dd-input-wrap">
+					<input class="dd-input" type="text" placeholder="Как к вам обращаться">
+					<input class="dd-input" type="text" placeholder="Ваш адрес электронной почты">
 				</div>
-				<div class="dd-form-phone">
-					<span>+7 (385) 277-89-25</span><br class="dd-br">
-					<span>659650, Алтайский край, с. Алтайское,<br>
-						  ул. Советская, д. 94
-					</span>
+				<div class="dd-input-wrap">
+					<textarea class="dd-input dd-input2" placeholder="Ваше обращение"></textarea>
+					<div class="dd-recaptcha">
+						<img class="img-responsive" src="img/dd-captcha.png" alt="">
+					</div>
+					<div class="dd-form-button">
+						<a href="#">Отправить сообщение</a>
+					</div>
 				</div>
 				<div class="clearfix"></div>
-			</div>
-			<form class="dd-form" action="#">
-				<input class="dd-input" type="text" placeholder="Как к вам обращаться">
-				<input class="dd-input" type="text" placeholder="Ваш адрес электронной почты">
-				<textarea class="dd-input" placeholder="Ваше обращение"></textarea>
-				<div class="dd-recaptcha">
-					<img class="img-responsive" src="img/dd-captcha.png" alt="">
-				</div>
-				<div class="dd-form-button">
-					<a href="#">Отправить сообщение</a>
-				</div>
 			</form>
 		</div>	
-		<div class="clearfix"></div>
 	</div>
 </section>

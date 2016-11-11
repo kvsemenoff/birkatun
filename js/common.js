@@ -87,7 +87,31 @@ $(document).ready(function(){
   });
 
 
-      var owl = $(".owl-carusel-my");
+    var owl = $(".owl-carusel-my");
+      owl.owlCarousel({
+
+    loop:true,//Зацикливаем слайдер
+    nav:true, //Навигация включена
+    autoplay:false,//автозапуск
+    smartSpeed:1000,//Время движения
+    margin:0,
+    navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+    responsive:{
+       0:{
+          items:1
+        },       
+        1000:{
+          items:1
+        },
+         1248:{
+          items:1
+        }
+    }
+     
+  });
+
+
+
    var owl = $("#owl-demo3");
  
   owl.owlCarousel({
@@ -112,7 +136,7 @@ $(document).ready(function(){
      
   });
 
-      var owl = $(".owl-carusel");
+    var owl = $(".owl-carusel");
  
   owl.owlCarousel({
 

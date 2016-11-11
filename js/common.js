@@ -87,7 +87,9 @@ $(document).ready(function(){
   });
 
 
-      var owl = $(".owl-carusel-my");
+  var owl = $(".owl-carusel-my");
+
+
    var owl = $("#owl-demo3");
  
   owl.owlCarousel({

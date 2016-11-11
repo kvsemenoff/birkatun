@@ -87,10 +87,9 @@ $(document).ready(function(){
   });
 
 
-<<<<<<< HEAD
-  var owl = $(".owl-carusel-my");
-=======
+
     var owl = $(".owl-carusel-my");
+
       owl.owlCarousel({
 
     loop:true,//Зацикливаем слайдер
@@ -113,7 +112,7 @@ $(document).ready(function(){
      
   });
 
->>>>>>> 08b12ca61e1ec0cac6b108d81b33e4bce7a6a5cc
+
 
 
    var owl = $("#owl-demo3");

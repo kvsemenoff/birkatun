@@ -1160,9 +1160,23 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 /*========================================*/
 
 /*========== Галерея отель ===============*/
-
+.dd-open-more{
+	background:#254150;
+	text-align:center;
+	height:90px;
+	line-height:90px;
+	a{
+		color:#fff;
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		font-size: 18px;
+		border-bottom: 1px dashed #fff;
+	}
+}
 .back-white{
 	background:#fff;
+	.dd-wrap-color{
+		background:#38525F;
+	}
 	.dd-number-txt-wrap{
 		padding:35px 50px;
 		text-align: center; 
@@ -1170,15 +1184,27 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			font-family: "Conv_pt-serif_[allfont.ru]";
 			font-size: 48px;
 		}
+		span{
+			font-family: "OpenSans-Regular";
+			font-size: 16px;
+			color:#636363;
+			display: inline-block;
+			padding-top:15px;
+			// outline: 1px solid red;
+		}
 	}
 	.dd-nomera{
 		width:100%;
+
 		.df-liv-img2 {
-			//max-width: 442px;		
+			//max-width: 442px;	
+			
+			//outline: 1px solid red;	
 			width: 100%;
 			margin: 0 auto;
 			// margin-bottom: 10px;		
-			.df-imgandprice2{				
+			.df-imgandprice2{	
+			// background:#38525F;			
 				width: 100%;
 				// margin-bottom: 20px;
 				position: relative;
@@ -1223,10 +1249,11 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 					}
 				}
 			}
-			.df-liv-text2{							 
+			.df-liv-text2{
+			background:#38525F;							 
 				background: #254150;
-				padding:0 7% 0 14%;
-				//padding: 0px 45px 0px 30px; 
+				
+				padding: 0px 45px 0px 30px; 
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #345b70;
@@ -1264,6 +1291,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			}	
 		}	
 	}
+
 }
 
 /*========================================*/
@@ -1441,6 +1469,10 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			float: left;
 			margin:0; 
 		}
+		.dd-nomera-line{
+		border-right:1px solid #46697C;
+		height: 425px;
+	}
 		.dd-bg-color{
 			height: 20px;
 			width: 100%;

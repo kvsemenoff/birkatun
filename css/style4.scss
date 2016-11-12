@@ -3,6 +3,7 @@ body{
 }
 
 
+
 /*============ footer ===========*/
 
 .dd-footer2{
@@ -222,6 +223,7 @@ body{
 /*============ link2.php ============*/
 
 .dd-link2{
+	display:none;
 	.my-contain2{
 		padding-left:0;
 		padding-right:0;
@@ -233,6 +235,20 @@ body{
 			// float: left;
 			.dd-form2{
 				text-align: center;
+					.dd-button-tab2{
+						a{
+							height: 58px;
+							background:url("../img/ddd.png") no-repeat left top 8px;
+							display: inline-block;
+							span{
+								font-size: 26px;
+								font-family: "Conv_pt-serif_[allfont.ru]";
+								color:#fff;
+								margin-left:29px;
+								border-bottom: 1px dashed #fff;
+							}
+						}
+					}
 				.dd-input-wrap{
 					.dd-input{
 						width: 250px;
@@ -828,21 +844,16 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 	}
 	.dd-button-tab{
 		a{
-			font-size: 26px;
-			font-family: "Conv_pt-serif_[allfont.ru]";
-			color:#0070AC;
-			position:relative;
-			padding-left:29px;
-			border-bottom: 1px dashed #0070AC;
-		}
-		a:after{
-			content:"";
-			position:absolute;
-			width: 24px;
-			height: 24px;
-			background:url("../img/dd-plus.png") no-repeat;
-			left: 0;
-			top: 5px;
+			height: 49px;
+			background:url("../img/dd-plus.png") no-repeat left top 8px;
+			display: inline-block;
+			span{
+				font-size: 26px;
+				font-family: "Conv_pt-serif_[allfont.ru]";
+				color:#0070AC;
+				margin-left:29px;
+				border-bottom: 1px dashed #0070AC;
+			}
 		}
 	}
 	.dd-otstup{
@@ -918,6 +929,71 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			}	
 		}	
 	}
+	.dd-otziv-table-wrap{
+		.df-data-text2{			
+			border-top: 1px solid #E1E1E1;			
+			//padding: 5% 0;
+			width: 100%;
+			margin-top: 14px;
+		    padding-top: 19px;			
+			.df-data2 {
+				width: 7%;				
+				color:#363636;				
+				float: left;
+				.df-first{
+					font-size: 40px;
+					line-height: 25px;
+					padding: 5px 0;						
+				}
+				p{
+					font-size: 16px;					
+				}
+			}
+			.df-text2{								
+				float: left;
+				width: 93%;
+				//outline: 1px solid red;
+				.df-text-caption a{
+					font-size: 26px; color:#0070ac;
+					padding-bottom: 5px;
+					display: inline-block;
+					font-family: "Conv_MyriadPro-Regular";
+					color:#363636;					
+				}
+				.df-text-caption a:hover{
+					text-decoration: underline;
+				}
+				p{
+					font-size: 15px; color:#636363;font-family: "OpenSans-Regular";
+				}
+			}
+		}
+		.df-data-text3{			
+			border-top: 1px solid #E1E1E1;			
+			width: 100%;
+			margin-top: 50px;
+		    padding-top: 19px;
+		} 
+		.df-border-bot2{
+			border-bottom: 1px solid #D1D1D1;
+		}
+	}
+}
+
+/*========================================*/
+
+/*============ Пагинация =================*/
+
+.dd-pagination-wrap{
+	text-align:center;
+	a{
+		display: inline-block;
+		border:1px solid #CCCCCC;
+		padding:18px 20px;
+	}
+	span{
+		display: inline-block;
+	}
 }
 
 /*========================================*/
@@ -975,65 +1051,6 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 
 @media only screen and (min-width : 992px) {
 
-	/*============ link2.php ============*/
-
-	.dd-link2{
-		.my-contain2{
-			padding-left:0;
-			padding-right:0;
-			.dd-form-wrap2{
-				width:100%;
-				background:#98BE28;
-				padding-right:16px;
-				padding-left:16px;
-				// float: left;
-				.dd-form2{
-					text-align: left;
-					.dd-input-wrap{
-						.dd-input{
-							width: 250px;
-							outline: none;
-							border:none;
-							background:#8DB122;
-							border-bottom:2px solid #5F7C0B;
-							font-family: "OpenSans-Regular";
-							font-size:15px;
-							color:#5F7C0B;
-							padding:19px 21px;
-							margin-bottom: 21px;
-						}
-						.dd-input2{
-							resize: none;
-							width: 100%;
-						}
-					}
-					.dd-form-button{
-						text-align: center;
-						padding-bottom:40px;
-						a{
-							display: inline-block;
-							background:#5F7C0B;
-							font-family: "Conv_pt-serif_[allfont.ru]";
-							font-size:18px;
-							color:#fff;
-							padding:18px 47px;
-
-						}
-					}
-					.dd-recaptcha{
-						padding-bottom:40px;
-						img{
-							margin:0 auto;
-						}
-					}
-				}
-			}
-		}
-	}
-
-/*====================================================*/
-
-
 	.dd-headerimg-wrap2{
 		.dd-whitelogo{
 			display: block; //для мобилы
@@ -1064,7 +1081,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 				}
 			}
 			.dd-title{
-				padding-bottom:32px;
+				padding-bottom:4px;
 			}
 			.dd-main-txt{
 				blockquote{
@@ -1137,6 +1154,88 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 }
 
 @media only screen and (min-width : 1248px) {
+
+	/*============ link2.php ============*/
+
+	.dd-link2{
+		display: none;
+		.my-contain2{
+			.dd-form-wrap2{
+				.dd-form2{
+					text-align: left;
+					padding:24px 50px;
+					.dd-button-tab2{
+						a{
+							height: 58px;
+							background:url("../img/ddd.png") no-repeat left top 8px;
+							display: inline-block;
+							span{
+								font-size: 26px;
+								font-family: "Conv_pt-serif_[allfont.ru]";
+								color:#fff;
+								margin-left:29px;
+								border-bottom: 1px dashed #fff;
+							}
+						}
+					}
+					.dd-input-wrap{
+						.dd-input{
+							width: 340px;
+							padding:19px 21px;
+							margin-bottom: 21px;
+						}
+						.dd-input2{
+							resize: none;
+							height: 140px;
+							width: 100%;
+						}
+					}
+					.dd-input-wrap-left{
+						width: 27%;
+						float: left;
+						//outline: 1px solid red;
+					}
+					.dd-input-wrap2{
+						width: 67%;
+						float: right;
+					}
+					.dd-form-button{
+						width: 44%;
+						text-align: right;
+						padding-bottom:0px;
+						padding-top:6px;
+						float: right;
+						a{
+							display: inline-block;
+							padding:18px 74px;
+
+						}
+					}
+					.dd-recaptcha{
+						float: right;
+						padding-bottom:0px;
+						width: 40%;
+					}
+				}
+			}
+		}
+	}
+
+/*====================================================*/
+
+
+
+	// .dd-link2{
+	// 	.my-contain2{
+	// 		.dd-form-wrap2{
+	// 			.dd-form2{
+	// 				.dd-input-wrap2{
+	// 					width: 69%;
+	// 				}
+	// 			}
+	// 		}
+	// 	}			
+	// }
 
 	.dd-headerimg-wrap{
 		.dd-whitelogo{

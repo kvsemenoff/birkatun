@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Фотогалерея</title>
+	<title>Развлечения и досуг</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
@@ -23,6 +23,14 @@
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	
+	<!-- <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<script type="text/javascript">
+        YMaps.jQuery(function () {
+            var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+            map.setCenter(new YMaps.GeoPoint(85.33803, 51.944666), 14);
+        })
+    </script> -->
 
 	<script>
     	new WOW().init();
@@ -34,8 +42,8 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/header-bg2.php'); ?>
-	<?php require_once('includes/photos.php'); ?>	
-	<?php require_once('includes/footer.php'); ?>
+	<?php require_once('includes/dosug-inc.php'); ?>
+	<?php require_once('includes/footer2.php'); ?>
 
 	
 </body>

@@ -615,6 +615,36 @@
     margin-top: 22px;
     display: inline-block; }
 
+.df-events-text-boxs {
+  padding-right: 35px; }
+  .df-events-text-boxs .df-text2 p {
+    height: 45px;
+    overflow: hidden; }
+  .df-events-text-boxs .df-text2 p.dftext {
+    height: auto; }
+  .df-events-text-boxs .df-events-caption2 {
+    font-size: 42px;
+    color: #363636;
+    font-family: "Conv_pt-serif_[allfont.ru]";
+    margin: 50px 0 40px 65px; }
+  .df-events-text-boxs .df-text-caption a {
+    text-decoration: none !important;
+    color: #0070ac !important;
+    border-bottom: 1px dashed #0070ac;
+    display: inline-block;
+    padding-bottom: 0px !important;
+    margin-bottom: 10px;
+    padding-right: 40px;
+    min-height: 20px;
+    background: url(/img/df-galka.png) no-repeat right top 8px; }
+  .df-events-text-boxs .df-text-caption a:hover {
+    text-decoration: none !important;
+    border-bottom: 1px dashed transparent; }
+  .df-events-text-boxs .df-text2 {
+    padding-left: 85px; }
+  .df-events-text-boxs .df-text-caption a.dfgalka {
+    background: url(/img/df-galka2.png) no-repeat right top 8px; }
+
 @media only screen and (min-width: 320px) {
   .df-left, .df-right {
     bottom: 47%;

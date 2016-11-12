@@ -1,7 +1,12 @@
 <section>
 	<div class="container">
-		<div class="dd-brad-crumps">
-			<a href="#">Главная</a><span>О парке</span>
+		<!-- <div class="dd-brad-crumps">
+			<a href="#">Главная</a><a href="#">О парке</a><span>Отзывы</span>
+		</div> -->
+		<div class="df-brad-crumps">
+			<a href="/">Главная</a>
+			<a href="#">О парке</a>
+			<span>Отзывы</span>
 		</div>
 	</div>
 </section>
@@ -27,10 +32,7 @@
 <!-- =========== Таб =========== -->
 
 <section>
-	<div class="container dd-aboutpark-wrap">
-		<div class="dd-otzivi-wrap">
-			<hr>
-		</div>
+	<div class="container dd-aboutpark-wrap dd-top">
 		<div class="dd-button-tab dd-otstup">
 			<a href="#"><span>Оставить отзыв</span></a>
 		</div>
@@ -69,7 +71,7 @@
 <section>
 	<div class="container dd-aboutpark-wrap">
 		<div class="dd-otziv-table-wrap">
-			<div class="df-data-text2 ">
+			<div class="df-data-text2 dd-top-none">
 				<div class="df-data2 dd-otstup">
 					<div>
 						<p class="df-first">23</p>
@@ -191,11 +193,11 @@
 			</div>
 		</div>
 		<div class="dd-pagination-wrap">
-			<a href="#">&larr; Назад</a>
-			<a href="#">1</a>
+			<span class="active2">&larr; Назад</span>
+			<a class="active" href="#">1</a>
 			<a href="#">2</a>
 			<a href="#">3</a>
-			<span>...</span>
+			<span class="dd-distanse">...</span>
 			<a href="#">31</a>
 			<a href="#">Вперед &rarr;</a>
 		</div>

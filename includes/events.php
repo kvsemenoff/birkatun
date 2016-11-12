@@ -1,7 +1,15 @@
+<section>
+	<div class="container">
+		<div class="df-brad-crumps">
+			<a href="/">Главная</a>			
+			<span>Мероприятия и новости</span>
+		</div>
+	</div>
+</section>
 <div class="container df-width nopadding">	
 	<div class="df-living">
 		<div class="df-caption">
-			<h3 class="df-cap">Мероприятия</h3>			
+			<h3 class="df-cap df-cap2">Мероприятия</h3>			
 		</div>
 		<div class="df-img-slider" id="owl-demo">
 			<div class="item">
@@ -192,7 +200,5 @@
     	$(this).next('p').toggleClass("dftext");
     	$(this).find("a").toggleClass("dfgalka");
     	return false;    	    	
-    });
-
-    
+    });    
 </script>	

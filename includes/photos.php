@@ -1,3 +1,12 @@
+<section>
+	<div class="container">
+		<div class="df-brad-crumps">
+			<a href="/">Главная</a>
+			<a href="#">О парке</a>			
+			<span>Фотогалерея</span>
+		</div>
+	</div>
+</section>
 <div class="container dd-aboutpark-wrap nopadding">
 	<div class="dd-content">
 		<div class="dd-next-menu">

@@ -267,6 +267,10 @@
       -moz-transition: background 0.5s;
       -o-transition: background 0.5s;
       transition: background 0.5s; }
+      .df-living .df-liv-img .df-liv-text em {
+        font-size: 16px;
+        color: #809dad;
+        font-family: "Conv_pt-serif_[allfont.ru]"; }
       .df-living .df-liv-img .df-liv-text h1 a {
         font-size: 26px;
         line-height: 26px;
@@ -599,6 +603,17 @@
 .df-left-luxe, .df-right-luxe {
   top: 50%;
   transform: translate(0%, -50%); }
+
+.df-events2 {
+  min-height: 153px !important; }
+  .df-events2 h1 a {
+    padding-top: 15px !important; }
+  .df-events2 .df-ev2 {
+    font-size: 16px;
+    color: #809dad;
+    font-family: "Conv_pt-serif_[allfont.ru]";
+    margin-top: 22px;
+    display: inline-block; }
 
 @media only screen and (min-width: 320px) {
   .df-left, .df-right {

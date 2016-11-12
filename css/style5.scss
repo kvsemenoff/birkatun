@@ -680,7 +680,39 @@
 }
 .item{
 	height: auto !important;
-}	
+}
+
+//END LUXE.PHP
+//PHOTOS.PHP
+.df-photos-caption{
+	color:#363636; font-size: 42px;font-family: "Conv_pt-serif_[allfont.ru]";
+	margin: 45px 0 30px 0;
+}
+.df-show12{
+	height: 90px; width: 100%;
+	background: #254150;
+	margin-bottom: 10px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2.5%;
+	
+	a{
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		font-size:18px;
+		color:#fff;
+		border-bottom: 1px dashed #fff;
+		display: inline-block;
+		
+	}
+	a:hover{
+		border-bottom: 1px solid rgba(0,0,0,0);
+	}
+}
+.db-foto-div1, .db-foto-div2, .db-foto-div3, .db-foto-div4, .db-foto-div5, .db-foto-div6{
+	img{
+		width: 100%;//<<<<<<<< Ahmed
+	}
+} 
 .df-left-luxe, .df-right-luxe{
 	// bottom:40%;		//<<<<===slider left and right
 	top:50%;

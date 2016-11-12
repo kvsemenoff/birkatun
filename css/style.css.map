@@ -1,6 +1,10 @@
 {
 "version": 3,
+<<<<<<< HEAD
 "mappings": "AAAQ,sBAAW,CACX,uBAAY,CACZ,uBAAY,CACZ,uBAAY,CACZ,uBAAY,CACZ,uBAAY,CACZ,sBAAW,CAGnB,MAAM,CACF,KAAK,CAAE,IAAI,CAEf,OAAO,CACN,UAAU,CAAE,MAAM",
+=======
+"mappings": "AAAQ,sBAAW;AACX,uBAAY;AACZ,uBAAY;AACZ,uBAAY;AACZ,uBAAY;AACZ,uBAAY;AACZ,sBAAW;AAGnB,MAAM;EACF,KAAK,EAAE,IAAI;;AAEf,OAAO;EACN,UAAU,EAAE,MAAM",
+>>>>>>> d2ca45549def7014d77b7dc2b6f5b9cd7c5ba452
 "sources": ["style.scss"],
 "names": [],
 "file": "style.css"

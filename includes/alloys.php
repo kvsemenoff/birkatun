@@ -7,11 +7,10 @@
 </section>
 <section>
 	<div class="container dd-aboutpark-wrap df-bg-events2">
-		<div class="dd-content">			
+		<div class="dd-content ">			
 			<div class="dd-title">
-				<span>Фестиваль красок</span>
-			</div>
-			<span class="df-date-events2">20 сентября 2016</span>
+				<span>Горные сплавы</span>
+			</div>			
 			<div class="dd-main-txt">
 				<span>
 					Детерминант программирует постулат, в итоге приходим к логическому противоречию. Функция многих переменных развивает интеграл Фурье, таким образом сбылась мечта идиота - утверждение полностью доказано. Ввиду непрерывности функции f ( x ), абсолютно сходящийся ряд осмысленно трансформирует неопровержимый вектор. Согласно последним исследованиям, расходящийся ряд естественно оправдывает линейно зависимый интеграл от функции, имеющий конечный разрыв.
@@ -53,27 +52,7 @@
 				<span class="dd-num-t dd-num-t2">Стоимость:</span>
 				<span>Вход бесплатный</span>
 			</div>
-		</div>
-		<div class="dd-content-right-w df-content-events2">
-			<div class="dd-content-right">
-			<img src="img/df-file.jpg" alt="">
-			<div>
-				<span>rar</span>
-				<span>231 Kb</span>
-			</div>
-				<a href="#">Сертификат соответствия</a>
-			<div>
-				<span>pdf</span>
-				<span>231 Kb</span>
-			</div>
-				<a href="#">Меню ресторана</a>
-			<div>
-				<span>doc</span>
-				<span>231 Kb</span>
-			</div>
-				<a href="#">Государственная лицензия</a>
-			</div>
-		</div>
+		</div> 		
 		<div class="clearfix"></div>
 	</div>	
 </section>
@@ -82,49 +61,75 @@
 	<div class="container nopadding">
 	<div class="db-inner">
 		<div class="df-events2-cap">
-			<h3>Фотоотчет мероприятия</h3>
-			<span>26</span>
+			<h3>Фотографии сплавов</h3>			
 			<div class="clear"></div>
 		</div>
-		<div class="ah-blok-slider">
-			<div class="item">
-				<div class = "db-foto-class1">
-					<div class="db-wrapper">
-						<div class="db-foto-div1">
-							<img src="img/df-allfoto1.jpg" alt="db-foto11">							
-							<div class="db-hoverbox2"></div>							
-						</div>
-						<div class="db-foto-div2">
-							<img src="img/df-allfoto2.jpg" alt="db-foto22">							
-							<div class="db-hoverbox2"></div>							
-						</div>
-						<div class="db-foto-div3">
-							<img src="img/df-allfoto3.jpg" alt="db-foto33">							
-							<div class="db-hoverbox2"></div>							
-						</div>
-						<div class="db-foto-div4">
-							<img src="img/df-allfoto4.jpg" alt="db-foto44">							
-							<div class="db-hoverbox2"></div>							
-						</div>
-						<div class="db-foto-div5">
-							<img src="img/df-allfoto5.jpg" alt="db-foto55">							
-							<div class="db-hoverbox2"></div>							
-						</div>
-						<div class="db-foto-div6">
-							<img src="img/df-allfoto6.jpg" alt="db-foto66">							
-							<div class="db-hoverbox2"></div>							
-						</div>
-						<div class="clearfix"></div>
+		<div class="item">
+			<div class = "db-foto-class1">
+				<div class="db-wrapper">
+					<div class="db-foto-div1">
+						<img src="img/df-allfoto1.jpg" alt="db-foto11">							
+						<div class="db-hoverbox2"></div>							
+					</div>
+					<div class="db-foto-div2">
+						<img src="img/df-allfoto2.jpg" alt="db-foto22">							
+						<div class="db-hoverbox2"></div>							
+					</div>
+					<div class="db-foto-div3">
+						<img src="img/df-allfoto3.jpg" alt="db-foto33">							
+						<div class="db-hoverbox2"></div>							
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="clear"></div>
+				<div class="clearfix"></div>
 			</div>
-							
-		</div>
-	</div>
-	<div class="df-show12">
-		<a href="#">Показать еще 6</a>
-	</div>
+			<div class="clearfix"></div>
+		</div>			
+	</div>	
 </div>
 </section>
+<div class="container df-width nopadding">	
+	<div class="df-living">
+		<div class="df-caption">
+			<h3 class="df-cap">Другие развлечения и досуг</h3>			
+		</div>
+		<div class="df-img-slider" id="owl-demo">
+			<div class="item">
+				<div class="df-liv-img">
+					<div class="df-imgandprice">
+						<img src="img/df-alloys1.jpg" alt="" class="img-responsive"> 						
+					</div>
+					<div class="df-liv-text">			
+						<h1><a href="#">Картинг</a></h1>
+						<span>В кафе Вы можете пригласить до 25 друзей на семейный вечер, юбилей или корпоративное мероприятие.</span><br>
+						<a  href="#" class="df-more"><em>...</em></a>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="df-liv-img">
+					<div class="df-imgandprice">
+						<img src="img/df-alloys2.jpg" alt="" class="img-responsive">						
+					</div>
+					<div class="df-liv-text">			
+						<h1><a href="#">Конные туры</a></h1>
+						<span>В кафе Вы можете пригласить до 25 друзей на семейный вечер, юбилей или корпоративное мероприятие.</span><br>
+						<a  href="#" class="df-more">...</a>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="df-liv-img">
+					<div class="df-imgandprice">
+						<img src="img/df-alloys3.jpg" alt="" class="img-responsive">						
+					</div>
+					<div class="df-liv-text">			
+						<h1><a href="#">Квадроциклы</a></h1>
+						<span>В кафе Вы можете пригласить до 25 друзей на семейный вечер, юбилей или корпоративное мероприятие.</span><br>
+						<a  href="#" class="df-more">...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -63,21 +63,100 @@
 			<h3>Фотографии сплавов</h3>			
 			<div class="clear"></div>
 		</div>
-		<div class="df-img-slider" id="owl-demo-alloy">
+	<div class="container nopadding">
+		<div class="db-inner">
+		<div class="ah-blok-slider">
 			<div class="item">
-				<img src="img/df-allfoto1.jpg" alt="db-foto11">							
-				<div class="db-hoverbox2"></div>			
+				<div class = "db-foto-class1">
+					<div class="db-wrapper">
+						<div class="db-foto-div1">
+							<img src="img/db-foto11.jpg" alt="db-foto11">
+							<span class="db-foto-span1">20 сентября 2016</span>
+							<span class="db-foto-span2">Сплав команды Нефтегаза</span>
+							<span class="db-foto-span3">26</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-foto-hoverbox1">
+								<p class="db-p1">Сплав команды Нефтегаза</p>
+								<p class="db-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur</p>
+							</div>
+						</div>
+						<div class="db-foto-div2">
+							<img src="img/db-foto22.jpg" alt="db-foto22">
+							<span class="db-foto-span1">13 сентября 2016</span>
+							<span class="db-foto-span22">Экстремалы на Катуни</span>
+							<span class="db-foto-span3">19</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Экстремалы на Катуни</p>
+								<p class="db-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur</p>
+							</div>
+						</div>
+						<div class="db-foto-div3">
+							<img src="img/db-foto33.jpg" alt="db-foto33">
+							<span class="db-foto-span1">02 августа 2016</span>
+							<span class="db-foto-span22">Корпоративный сплав<br>ООО «Горняки»</span>
+							<span class="db-foto-span3">23</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Корпоративный сплав<br>ООО «Горняки»</p>
+								<p class="db-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur</p>
+							</div>
+						</div>						
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clear"></div>
 			</div>
 			<div class="item">
-				<img src="img/df-allfoto2.jpg" alt="db-foto11">							
-				<div class="db-hoverbox2"></div>			
-			</div>
-			<div class="item">
-				<img src="img/df-allfoto3.jpg" alt="db-foto11">							
-				<div class="db-hoverbox2"></div>			
-			</div>
-		</div>			
+				<div class = "db-foto-class1">
+					<div class="db-wrapper">
+						<div class="db-foto-div1">
+							<img src="img/db-foto11.jpg" alt="db-foto11">
+							<span class="db-foto-span1">20 сентября 2016</span>
+							<span class="db-foto-span2">Сплав команды Нефтегаза</span>
+							<span class="db-foto-span3">26</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-foto-hoverbox1">
+								<p class="db-p1">Сплав команды Нефтегаза</p>
+								<p class="db-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur</p>
+							</div>
+						</div>
+						<div class="db-foto-div2">
+							<img src="img/db-foto22.jpg" alt="db-foto22">
+							<span class="db-foto-span1">13 сентября 2016</span>
+							<span class="db-foto-span22">Экстремалы на Катуни</span>
+							<span class="db-foto-span3">19</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Экстремалы на Катуни</p>
+								<p class="db-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur</p>
+							</div>
+						</div>
+						<div class="db-foto-div3">
+							<img src="img/db-foto33.jpg" alt="db-foto33">
+							<span class="db-foto-span1">02 августа 2016</span>
+							<span class="db-foto-span22">Корпоративный сплав<br>ООО «Горняки»</span>
+							<span class="db-foto-span3">23</span>
+							<div class="db-hoverbox2"></div>
+							<div class="db-hoverbox">
+								<p class="db-p1">Корпоративный сплав<br>ООО «Горняки»</p>
+								<p class="db-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur</p>
+							</div>
+						</div>
+						
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clear"></div>
+			</div>			
+		</div>
+		</div>
 	</div>
+
+	<div class="clearfix"></div>
+</div>
 <div class="container df-width nopadding">	
 	<div class="df-living">
 		<div class="df-caption">
@@ -121,25 +200,29 @@
 				</div>
 			</div>
 		</div>
-						</div>
-					</div>		
+	</div>
+</div>		
 </section>
-<!-- <div class = "db-foto-class1">
-				<div class="db-wrapper">
-					<div class="db-foto-div1">
-						<img src="img/df-allfoto1.jpg" alt="db-foto11">							
-						<div class="db-hoverbox2"></div>							
-					</div>
-					<div class="db-foto-div2">
-						<img src="img/df-allfoto2.jpg" alt="db-foto22">							
-						<div class="db-hoverbox2"></div>							
-					</div>
-					<div class="db-foto-div3">
-						<img src="img/df-allfoto3.jpg" alt="db-foto33">							
-						<div class="db-hoverbox2"></div>							
-					</div>
-					<! <div class="clearfix"></div> -->
+<script>
 
-			<!-- 	</div>
-				<div class="clearfix"></div>
-			</div> --> 
+$(".ah-blok-slider").owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    autoplay:false,
+    smartSpeed:1000,
+    autoplayTimeout:2000,
+    navText:['<span class="prev_arrs1"></span>', '<span class="next_arrs1"></span>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+</script>

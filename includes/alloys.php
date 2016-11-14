@@ -58,36 +58,26 @@
 </section>
 
 <section>	
-	<div class="container nopadding">
-	<div class="db-inner">
+	<div class="container nopadding">	
 		<div class="df-events2-cap">
 			<h3>Фотографии сплавов</h3>			
 			<div class="clear"></div>
 		</div>
-		<div class="item">
-			<div class = "db-foto-class1">
-				<div class="db-wrapper">
-					<div class="db-foto-div1">
-						<img src="img/df-allfoto1.jpg" alt="db-foto11">							
-						<div class="db-hoverbox2"></div>							
-					</div>
-					<div class="db-foto-div2">
-						<img src="img/df-allfoto2.jpg" alt="db-foto22">							
-						<div class="db-hoverbox2"></div>							
-					</div>
-					<div class="db-foto-div3">
-						<img src="img/df-allfoto3.jpg" alt="db-foto33">							
-						<div class="db-hoverbox2"></div>							
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="clearfix"></div>
+		<div class="df-img-slider" id="owl-demo-alloy">
+			<div class="item">
+				<img src="img/df-allfoto1.jpg" alt="db-foto11">							
+				<div class="db-hoverbox2"></div>			
 			</div>
-			<div class="clearfix"></div>
+			<div class="item">
+				<img src="img/df-allfoto2.jpg" alt="db-foto11">							
+				<div class="db-hoverbox2"></div>			
+			</div>
+			<div class="item">
+				<img src="img/df-allfoto3.jpg" alt="db-foto11">							
+				<div class="db-hoverbox2"></div>			
+			</div>
 		</div>			
-	</div>	
-</div>
-</section>
+	</div>
 <div class="container df-width nopadding">	
 	<div class="df-living">
 		<div class="df-caption">
@@ -131,5 +121,25 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
+						</div>
+					</div>		
+</section>
+<!-- <div class = "db-foto-class1">
+				<div class="db-wrapper">
+					<div class="db-foto-div1">
+						<img src="img/df-allfoto1.jpg" alt="db-foto11">							
+						<div class="db-hoverbox2"></div>							
+					</div>
+					<div class="db-foto-div2">
+						<img src="img/df-allfoto2.jpg" alt="db-foto22">							
+						<div class="db-hoverbox2"></div>							
+					</div>
+					<div class="db-foto-div3">
+						<img src="img/df-allfoto3.jpg" alt="db-foto33">							
+						<div class="db-hoverbox2"></div>							
+					</div>
+					<! <div class="clearfix"></div> -->
+
+			<!-- 	</div>
+				<div class="clearfix"></div>
+			</div> --> 

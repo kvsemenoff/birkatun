@@ -21,7 +21,102 @@
 	</div>
 </div>		
 	<div class="clearfix"></div>
-<div class="container nopadding">
+<div class="container nopadding">	
+	<div class="db-inner1">
+		<div class="ah-blok-slider1">
+		<div class="item">
+			<div class = "db-foto-class2">
+				<div class="db-foto-divimg df-imgw100">
+					<img src="img/db-foto1.jpg" alt="db-foto1">
+					<span class="db-foto-span1">20 сентября 2016</span>
+					<span class="db-foto-span2">Цветение маральника</span>
+					<span class="db-foto-span3">26</span>
+					<div class="db-hoverbox2"></div>
+					<div class="db-hoverbox1">
+						<p class="db-p1">Горные сплавы</p>
+						<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="item">
+			<div class = "db-foto-class2">
+				<div class="db-foto-divimg df-imgw100">
+					<img src="img/db-foto2.jpg" alt="db-foto2">
+					<span class="db-foto-span1">13 сентября 2016</span>
+					<span class="db-foto-span2">Тавдинские пещеры —<br>незабываемые</span>
+					<span class="db-foto-span3">19</span>
+					<div class="db-hoverbox2"></div>
+					<div class="db-hoverbox1">
+						<p class="db-p1">Квадроциклы</p>
+						<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class = "db-foto-class2">
+				<div class="db-foto-divimg df-imgw100">
+					<img src="img/db-foto3.jpg" alt="db-foto3">
+					<span class="db-foto-span1">02 августа 2016</span>
+					<span class="db-foto-span2">Золотое озеро, золотая осень 2016</span>
+					<span class="db-foto-span3">23</span>
+					<div class="db-hoverbox2"></div>
+					<div class="db-hoverbox1">
+						<p class="db-p1">Картинг</p>
+						<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class = "db-foto-class2">
+				<div class="db-foto-divimg df-imgw100">
+					<img src="img/db-foto4.jpg" alt="db-foto4">
+					<span class="db-foto-span1">29 июля 2016</span>
+					<span class="db-foto-span2">Легенды Чуйского тракта</span>
+					<span class="db-foto-span3">19</span>
+					<div class="db-hoverbox2"></div>
+					<div class="db-hoverbox1">
+						<p class="db-p1">Велосипеды</p>
+						<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class = "db-foto-class2">
+				<div class="db-foto-divimg df-imgw100">
+					<img src="img/db-foto5.jpg" alt="db-foto5">
+					<span class="db-foto-span1">02 июля 2016</span>
+					<span class="db-foto-span2">Мы в ботаническом саду</span>
+					<span class="db-foto-span3">23</span>
+					<div class="db-hoverbox2"></div>
+					<div class="db-hoverbox1">
+						<p class="db-p1">Рыбалка</p>
+						<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class = "db-foto-class2">
+				<div class="db-foto-divimg df-imgw100">
+					<img src="img/db-foto6.jpg" alt="db-foto6">
+					<span class="db-foto-span1">20 июня 2016</span>
+					<span class="db-foto-span2">Наши приключения в Долине Катуни</span>
+					<span class="db-foto-span3">26</span>
+					<div class="db-hoverbox2"></div>
+					<div class="db-hoverbox1">
+						<p class="db-p1">Конные туры</p>
+						<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>	
 	<div class="db-inner">
 		<div class="ah-blok-slider">
 			<div class="item">
@@ -99,6 +194,101 @@
 				</div>
 				<div class="clear"></div>
 			</div>
+	<div class="db-inner1">
+		<div class="ah-blok-slider1">
+			<div class="item">
+				<div class = "db-foto-class2">
+					<div class="db-foto-divimg df-imgw100">
+						<img src="img/df-foto1.jpg" alt="db-foto1">
+						<span class="db-foto-span1">19 сентября 2016</span>
+						<span class="db-foto-span2">Цветение маральника</span>
+						<span class="db-foto-span3">26</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Горные сплавы</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="item">
+				<div class = "db-foto-class2">
+					<div class="db-foto-divimg df-imgw100">
+						<img src="img/df-foto2.jpg" alt="db-foto2">
+						<span class="db-foto-span1">13 сентября 2016</span>
+						<span class="db-foto-span2">Тавдинские пещеры —<br>незабываемые</span>
+						<span class="db-foto-span3">19</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Квадроциклы</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class = "db-foto-class2">
+					<div class="db-foto-divimg df-imgw100">
+						<img src="img/df-foto3.jpg" alt="db-foto3">
+						<span class="db-foto-span1">02 августа 2016</span>
+						<span class="db-foto-span2">Золотое озеро, золотая осень 2016</span>
+						<span class="db-foto-span3">23</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Картинг</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class = "db-foto-class2">
+					<div class="db-foto-divimg df-imgw100">
+						<img src="img/df-foto4.jpg" alt="db-foto4">
+						<span class="db-foto-span1">29 июля 2016</span>
+						<span class="db-foto-span2">Легенды Чуйского тракта</span>
+						<span class="db-foto-span3">19</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Велосипеды</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class = "db-foto-class2">
+					<div class="db-foto-divimg df-imgw100">
+						<img src="img/df-foto5.jpg" alt="db-foto5">
+						<span class="db-foto-span1">02 июля 2016</span>
+						<span class="db-foto-span2">Мы в ботаническом саду</span>
+						<span class="db-foto-span3">23</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Рыбалка</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class = "db-foto-class2">
+					<div class="db-foto-divimg df-imgw100">
+						<img src="img/df-foto6.jpg" alt="db-foto6">
+						<span class="db-foto-span1">20 июня 2016</span>
+						<span class="db-foto-span2">Наши приключения в Долине Катуни</span>
+						<span class="db-foto-span3">26</span>
+						<div class="db-hoverbox2"></div>
+						<div class="db-hoverbox1">
+							<p class="db-p1">Конные туры</p>
+							<p class="db-p2">Наша команда регулярно организует велоэкскурсии и велоэстафеты для  гостей</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
 			<div class="item">
 				<div class = "db-foto-class1">
 					<div class="db-wrapper">

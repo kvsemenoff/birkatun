@@ -222,7 +222,7 @@
       position: relative; }
       .df-living .df-liv-img .df-imgandprice img {
         width: 100%;
-        height: 255px; }
+        height: auto; }
       .df-living .df-liv-img .df-imgandprice .df-prices {
         background: rgba(37, 65, 80, 0.5);
         display: inline-block;
@@ -613,6 +613,18 @@
   top: 50%;
   transform: translate(0%, -50%); }
 
+.df-imgw100 img {
+  width: 100%; }
+
+.df-h305 {
+  height: 305px; }
+
+.df-h100 {
+  height: 100%; }
+  .df-h100 img {
+    height: 500px;
+    width: 100%; }
+
 .df-cap2 {
   padding-bottom: 27px !important; }
 
@@ -679,8 +691,8 @@
     padding: 20px 31px;
     display: inline-block;
     vertical-align: 25%;
-    margin-bottom: 57px;
-    margin-top: 35px;
+    margin-bottom: 49px;
+    margin-top: 43px;
     background: url(/img/dfbgevents11.png) no-repeat right center;
     transition: background 0.9s ease-in-out, color 0.5s;
     -webkit-transition: background 0.5s ease-in-out, color 0.5s;
@@ -724,6 +736,7 @@
 
 .df-events2-cap {
   padding: 36px 0 27px 60px;
+  margin-top: 10px;
   background: #254150;
   height: 120px;
   letter-spacing: -0.45px; }
@@ -741,6 +754,12 @@
     float: right;
     padding: 22px 65px 0 22px;
     font-family: "OpenSans-Semibold"; }
+
+#ev3 a {
+  padding: 20px 67px; }
+
+#ev3 a:hover {
+  padding: 20 67px; }
 
 @media only screen and (min-width: 320px) {
   .df-left, .df-right {

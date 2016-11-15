@@ -13,8 +13,9 @@
 									// CAPTION FOR FUN.PHP
 .df-caption{
 	text-align: left;	
-	padding: 70px 0 42px 62px;
-	background: #fff;		
+	padding: 20px 0 22px 0px;
+	background: #fff;
+	text-align: center;		
 	.df-cap{
 		font-size: 38px; color:#363636;		
 		display: inline-block;
@@ -1097,6 +1098,10 @@
 	.container{
 		width: 1320px;
 	}
+	.df-caption{		
+		padding: 70px 0 42px 62px;
+		text-align: left;	
+	}	
 	
 .df-right{right:-20px;}
 .df-left{left:-20px;}
@@ -1118,7 +1123,7 @@
 					padding-top: 18px;
 					float: left;
 					width: 77% !important;
-					height: 135.8px;
+					height: 142.5px;//135.8
 					margin-left: 0%;
 				}
 			}

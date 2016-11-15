@@ -190,7 +190,7 @@ body{
 				}
 				.dd-input:nth-child(3){
 					resize: none;
-					width: 100%;
+					width: 99%;
 				}
 				.dd-form-button{
 					text-align: center;
@@ -915,7 +915,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			.dd-form{
 				text-align: left;
 				.dd-input{
-					width: 310px;
+					width: 30px;
 				}
 				.dd-input:nth-child(2){
 					margin-left: 36px !important;
@@ -923,7 +923,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 				.dd-form-button{
 					text-align: left;
 					float: left;
-					margin-left: 38px;
+					margin-left: 29px;
 					padding-top:7px;
 					//padding-bottom:40px;
 				}
@@ -956,6 +956,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			.df-text2{								
 				float: left;
 				width: 93%;
+				padding-right:62px;
 				//outline: 1px solid red;
 				.df-text-caption a{
 					font-size: 26px; color:#0070ac;
@@ -1170,6 +1171,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 }
 .back-white{
 	background:#fff;
+	margin-bottom:15px;
 	.dd-wrap-color{
 		background:#38525F;
 	}
@@ -1858,7 +1860,21 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 				.dd-form{
 					text-align: left;
 					.dd-input{
-						width: 310px;
+						width: 306px;
+						color:#799415;
+						//outline: 1px solid red;
+					}
+					::-webkit-input-placeholder { /* WebKit browsers */
+					   color:#799415;
+					}
+					:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+					   color:#799415;
+					}
+					::-moz-placeholder { /* Mozilla Firefox 19+ */
+					   color:#799415;
+					}
+					:-ms-input-placeholder { /* Internet Explorer 10+ */
+					   color:#799415;
 					}
 					.dd-input:nth-child(2){
 						margin-left: 36px !important;
@@ -1866,7 +1882,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 					.dd-form-button{
 						text-align: left;
 						float: left;
-						margin-left: 38px;
+						margin-left: 29px;
 						padding-top:7px;
 						//padding-bottom:40px;
 					}

@@ -43,6 +43,7 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/header-bg2.php'); ?>
 	<?php require_once('includes/dosug-inc.php'); ?>
+	<?php require_once('includes/suvenir.php'); ?>
 	<?php require_once('includes/footer2.php'); ?>
 
 	

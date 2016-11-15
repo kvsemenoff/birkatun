@@ -2,9 +2,6 @@ body{
 	background:#EBEBEB;
 }
 
-
-
-
 /*============ footer ===========*/
 
 .dd-footer2{
@@ -193,7 +190,7 @@ body{
 				}
 				.dd-input:nth-child(3){
 					resize: none;
-					width: 100%;
+					width: 99%;
 				}
 				.dd-form-button{
 					text-align: center;
@@ -788,7 +785,6 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 		.dd-slide-wrap{
 			width: 74%;
 			margin: 34px;
-
 			.owl-carusel-my{
 				.item{
 					width: 100%;
@@ -919,7 +915,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			.dd-form{
 				text-align: left;
 				.dd-input{
-					width: 310px;
+					width: 30px;
 				}
 				.dd-input:nth-child(2){
 					margin-left: 36px !important;
@@ -927,7 +923,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 				.dd-form-button{
 					text-align: left;
 					float: left;
-					margin-left: 38px;
+					margin-left: 29px;
 					padding-top:7px;
 					//padding-bottom:40px;
 				}
@@ -960,6 +956,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			.df-text2{								
 				float: left;
 				width: 93%;
+				padding-right:62px;
 				//outline: 1px solid red;
 				.df-text-caption a{
 					font-size: 26px; color:#0070ac;
@@ -1174,6 +1171,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 }
 .back-white{
 	background:#fff;
+	margin-bottom:15px;
 	.dd-wrap-color{
 		background:#38525F;
 	}
@@ -1291,7 +1289,97 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 			}	
 		}	
 	}
+}
 
+/*========================================*/
+
+/*============= Pop up ==================*/
+
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
+
+.window{ 
+    display: none;
+    position:absolute;
+    left:0;  
+    top:0;
+    max-width: 958px;
+    //width: 958px;
+    display:none;
+    z-index:9998; 
+    background: #fff;
+    .dd-close{
+		width: 50px;
+		height: 50px;
+		background:url(../img/kr.png) #98BE28 no-repeat center;
+		position:absolute;
+		top:0;
+		right: 0;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+	.dd-close:hover{
+		background:url(../img/kr.png) #5F7C0B no-repeat center;
+	}
+}
+
+.dd-slide-wrap2{
+	max-width: 958px;
+	background:#254150;
+	padding:15px 10px;
+	position:relative;
+	.dd-popup-title{
+		padding-bottom:27px;
+		span, a{
+			display: inline-block;
+		}
+		h2{
+			font-family: "Conv_pt-serif_[allfont.ru]";
+			//font-size: 42px; dekstop
+			font-size: 20px;
+			color:#fff;
+		}
+		.dd-photo{
+			font-family: "OpenSans-Semibold";
+			font-size: 16px;
+			color:#fff;
+			background:url(../img/dd-photik.png) no-repeat left 16px center;
+			padding:9px 18px 9px 35px;
+			background-color:#38525F;
+			border-radius:25px;
+		}
+		.dd-n{
+			font-family: "OpenSans-Semibold";
+			font-size: 13px;
+			color:#fff;
+			padding-left:10px;
+		}
+	}
+	.owl-carusel-my2{
+		.item{
+			width: 100%;
+			height: auto;
+		}
+		.owl-controls{
+			.owl-nav{
+				.owl-prev{
+					.df-left{
+						height: 25px;
+						width: 30px;
+					    bottom: 55%;
+					    top: 45%;
+					}
+				}
+				.owl-next{
+					.df-right{
+						height: 25px;
+						width: 30px;
+					    bottom: 55%;
+					    top: 45%;
+					}
+				}
+			}
+		}
+	}
 }
 
 /*========================================*/
@@ -1355,6 +1443,43 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 }
 
 @media only screen and (min-width : 992px) {
+
+	/*============= Pop up ==================*/
+
+
+.dd-slide-wrap2{
+	max-width: 958px;
+	padding:50px 40px; 
+	.dd-popup-title{
+		h2{
+			font-size: 42px; 
+		}
+	}
+	.owl-carusel-my2{
+		.owl-controls{
+			.owl-nav{
+				.owl-prev{
+					.df-left{
+						height: 50px;
+						width: 43px;
+					    bottom: 55%;
+					    top: 45%;
+					}
+				}
+				.owl-next{
+					.df-right{
+						height: 50px;
+						width: 43px;
+					    bottom: 55%;
+					    top: 45%;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*========================================*/
 
 	.dd-headerimg-wrap2{
 		.dd-whitelogo{
@@ -1735,7 +1860,21 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 				.dd-form{
 					text-align: left;
 					.dd-input{
-						width: 310px;
+						width: 306px;
+						color:#799415;
+						//outline: 1px solid red;
+					}
+					::-webkit-input-placeholder { /* WebKit browsers */
+					   color:#799415;
+					}
+					:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+					   color:#799415;
+					}
+					::-moz-placeholder { /* Mozilla Firefox 19+ */
+					   color:#799415;
+					}
+					:-ms-input-placeholder { /* Internet Explorer 10+ */
+					   color:#799415;
 					}
 					.dd-input:nth-child(2){
 						margin-left: 36px !important;
@@ -1743,7 +1882,7 @@ box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
 					.dd-form-button{
 						text-align: left;
 						float: left;
-						margin-left: 38px;
+						margin-left: 29px;
 						padding-top:7px;
 						//padding-bottom:40px;
 					}

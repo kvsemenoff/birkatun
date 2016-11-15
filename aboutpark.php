@@ -44,7 +44,7 @@
 	<?php require_once('includes/header-bg2.php'); ?>
 	<?php require_once('includes/parktekst.php'); ?>
 	<?php require_once('includes/footer2.php'); ?>
-
+	<?php require_once('includes/popup.php'); ?>
 	
 </body>
 </html>

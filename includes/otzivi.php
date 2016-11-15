@@ -32,8 +32,8 @@
 <!-- =========== Таб =========== -->
 
 <section>
-	<div class="container dd-aboutpark-wrap dd-top">
-		<div class="dd-button-tab dd-otstup">
+	<div class="container dd-aboutpark-wrap dd-top" >
+		<div class="dd-button-tab dd-otstup" style="display: none;">
 			<a href="#"><span>Оставить отзыв</span></a>
 		</div>
 	</div>	
@@ -41,7 +41,7 @@
 
 
 
-<section class="dd-link2">
+<section class="dd-link2 " style="display: block;">
 	<div class="container my-contain2">
 		<div class="dd-form-wrap2">
 			<form class="dd-form2" action="#">
@@ -204,11 +204,7 @@
 	</div>	
 </section>	
 
-
-	
-
-
- <script>
+<!-- <script>
     $('.dd-button-tab').click(function() {    
     	$('.dd-link2').slideDown(500);
     	$('.dd-button-tab').slideUp(500);
@@ -216,6 +212,16 @@
     $('.dd-link2 .dd-button-tab2').click(function(){
 		$('.dd-link2').slideUp(500);
     	$('.dd-button-tab').slideDown(500);
- 
+    	});
+</script> -->
+
+<script>
+    $('.dd-button-tab2').click(function() {    
+    	$('.dd-link2').slideUp(500);
+    	$('.dd-button-tab').slideDown(500);
+    });
+    $('.dd-button-tab').click(function(){
+		$('.dd-button-tab').slideUp(500);
+    	$('.dd-link2').slideDown(500);
     	});
 </script>

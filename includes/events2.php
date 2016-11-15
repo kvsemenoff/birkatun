@@ -7,7 +7,7 @@
 </section>
 <section>
 	<div class="container dd-aboutpark-wrap df-bg-events2">
-		<div class="dd-content">			
+		<div class="dd-content ">			
 			<div class="dd-title">
 				<span>Фестиваль красок</span>
 			</div>
@@ -119,8 +119,7 @@
 					<div class="clearfix"></div>
 				</div>
 				<div class="clear"></div>
-			</div>
-							
+			</div>							
 		</div>
 	</div>
 	<div class="df-show12">

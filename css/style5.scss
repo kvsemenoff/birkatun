@@ -253,7 +253,7 @@
 				position: relative;
 				img{
 					width: 100%;
-					height: 255px;					
+					height: auto;// 255px;					
 				}
 				.df-prices{
 					background: rgba(#254150, 0.5);
@@ -735,10 +735,21 @@
 	top:50%;
 	transform: translate(0%, -50%);
 }
+.df-imgw100 img{
+	width: 100%;
+}
+.df-h305{
+	height: 305px;
+}
+.df-h100{
+	height: 100%;
+	img{
+		height: 500px;
+		width: 100%;
+	}
+}
 
-
-
-//end luxep-hphp
+//end photohphp
 //events 2 страница
 .df-cap2{
 	padding-bottom: 27px !important;
@@ -823,8 +834,8 @@
 		padding: 20px 31px;
 		display: inline-block;
 		vertical-align: 25%;
-		margin-bottom: 57px;
-		margin-top: 35px;
+		margin-bottom: 49px; //57
+		margin-top: 43px; //35
 		background: url(/img/dfbgevents11.png) no-repeat right  center;		
 		transition: background 0.9s ease-in-out, color 0.5s;
 		-webkit-transition: background 0.5s ease-in-out, color 0.5s;
@@ -877,6 +888,7 @@
 }
 .df-events2-cap{
 		padding:36px 0 27px 60px;
+		margin-top: 10px;
 		background: #254150;
 		height: 120px;
 		letter-spacing: -0.45px;
@@ -895,6 +907,16 @@
 		font-family: "OpenSans-Semibold";
 	}
 }
+
+
+
+#ev3 a{
+	padding: 20px 67px;	
+}
+#ev3 a:hover{
+	padding: 20 67px;
+}
+
 
 @media only screen and (min-width : 320px) {
 	.df-left, .df-right{

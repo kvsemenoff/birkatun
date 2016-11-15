@@ -3,7 +3,7 @@
 <div class="container db-margin nopadding">
 	<div class="df-caption">
 		<h3 class="df-cap">Фотографии</h3>
-		<span class="df-all-events"><a href="#">Фотогалерея</a></span>
+		<span class="df-all-events df-padding"><a href="#">Фотогалерея</a></span>
 		<h4 class="df-cap-subtitle">Наши фотоотчеты с мероприятий мест досуга и отдыха, экскурсий и просто хорошие фотографии</h4>
 	</div>
 </div>

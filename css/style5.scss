@@ -12,8 +12,9 @@
 
 									// CAPTION FOR FUN.PHP
 .df-caption{
-	text-align: left;
-	//padding-left: 62px;			
+	text-align: left;	
+	padding: 70px 0 42px 62px;
+	background: #fff;		
 	.df-cap{
 		font-size: 38px; color:#363636;		
 		display: inline-block;
@@ -40,6 +41,12 @@
 	.df-cap-subtitle{
 		font-size: 16px;color:#636363; font-family: "OpenSans-Regular";
 		padding-top: 14px;
+	}
+}
+.df-padding a{
+	padding: 9px 43px !important;
+	a:hover{
+		padding: 9px 43px !important;
 	}
 }		
 									//END FOR FUN .PHP
@@ -242,24 +249,22 @@
 			padding-top: 14px;
 		}
 	}	
-	.df-liv-img {
-		//max-width: 442px;		
+	.df-liv-img {		
 		width: 100%;
 		margin: 0 auto;
-		margin-bottom: 10px;		
+		margin-bottom: 10px;			
 		.df-imgandprice{				
 				width: 100%;
-				// margin-bottom: 20px;
+				max-height: 255px;
 				position: relative;
 				img{
 					width: 100%;
-					height: auto;// 255px;					
+					height: 100%;
 				}
 				.df-prices{
 					background: rgba(#254150, 0.5);
 					display: inline-block;
-					color:#fff;
-					//text-align: center;
+					color:#fff;					
 					padding: 0 20px 5px 30px;
 					position: absolute;
 					bottom: 0;
@@ -294,8 +299,7 @@
 			}
 			.df-liv-text{							 
 				background: #254150;
-				padding:0 7% 0 14%;
-				//padding: 0px 45px 0px 30px; 
+				padding:0 7% 0 14%;				
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #345b70;
@@ -376,8 +380,7 @@
 			color:#fff;
 		}		
 	}	
-	.df-food-img {
-		//max-width: 442px;		
+	.df-food-img {		
 		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 10px;		
@@ -387,8 +390,7 @@
 			}			
 			.df-food-text{							 
 				background: #367d56;
-				padding:0 7% 0 14%;
-				//padding: 0px 45px 0px 30px; //28 70 15 30
+				padding:0 7% 0 14%;				
 				min-height: 172px;
 				width: inherit;
 				border-right: 1px solid #2a6645;
@@ -448,12 +450,13 @@
 .df-contacts-cap{
 	font-size: 42px; color:#363636;
 	font-family: "Conv_pt-serif_[allfont.ru]";
-	margin:50px 0 30px 60px;
+	margin:0px 0 30px 60px;
+	padding-top: 49px;
 }
 .df-contacts-map{
 	height: 352px; width: 100%;
 }
-.df-telefons, .df-address{
+.df-telefons, .df-address, .df-email{
 	display: block;
 	width: 310px;
 	float: left;
@@ -495,6 +498,22 @@
 			font-size: 15px; color:#363636;
 			display: block;			
 			line-height: 24px;
+		}
+	}
+}
+.df-email{
+	display: block;
+	margin-left: 75px;
+	padding-top:22px;
+	div{
+		margin-top:31px;
+		margin-bottom:0;
+		span{
+			font-family: "OpenSans-Regular";
+			font-size: 15px; color:#363636;
+			display: block;			
+			line-height: 24px;
+			text-transform: lowercase !important;
 		}
 	}
 }
@@ -541,11 +560,8 @@
 .df-luxe{
 	background: #fff;
 	margin-bottom: 12px;
-	.df-luxe-leftbox{
-		//float: left;
-		//max-width: 879px;
-		//width: 65%;
-		padding: 0 20px;//50
+	.df-luxe-leftbox{		
+		padding: 0 20px;
 		.df-luxe-text{
 			padding-left: 9px;
 			.dfleftbox-cap{			
@@ -595,14 +611,10 @@
 		}		
 	}
 	.df-luxe-rightbox{		
-		//padding: 20px 50px 15px 50px;//5%
-		padding: 15px 0;
-		//max-width: 440px;
-		//float: right;
+		padding: 15px 0;		
 		margin: 0 auto;
 		.df-luxe-bg{
-			background: #98be28;
-			//padding: 50px 50px 40px 50px;//5%
+			background: #98be28;			
 			padding: 25px 5% 15px 5%;
 			.df-pricebox{
 				border:1px solid #fff;
@@ -643,7 +655,7 @@
 			span{
 				font-family: "Conv_pt-serif_[allfont.ru]"; color:#fff;
 				font-size: 26px;
-				display:block;			//<<<<
+				display:block;			
 				text-align: left;
 			}
 			.df-tel{
@@ -657,9 +669,7 @@
 
 			}
 			.df-img-luxe{
-				margin: 0 auto;
-				// max-width: 338px;
-				// height: 145px;//<<<<<
+				margin: 0 auto;				
 				position: relative;			
 				margin-top: 30px; 
 				img{
@@ -700,6 +710,8 @@
 }
 
 //END LUXE.PHP
+
+
 //PHOTOS.PHP
 .df-photos-caption{
 	color:#363636; font-size: 42px;font-family: "Conv_pt-serif_[allfont.ru]";
@@ -1092,7 +1104,7 @@
 	.df-events-and-news{
 		.df-content{			
 			.df-img-text{
-				height: 152px;
+				height: 172px !important;
 			}
 			.df-data-text{
 				padding: 0px ;

@@ -8,7 +8,9 @@
   font-family: "OpenSans-Regular"; }
 
 .df-caption {
-  text-align: left; }
+  text-align: left;
+  padding: 70px 0 42px 62px;
+  background: #fff; }
   .df-caption .df-cap {
     font-size: 38px;
     color: #363636;
@@ -37,6 +39,11 @@
     color: #636363;
     font-family: "OpenSans-Regular";
     padding-top: 14px; }
+
+.df-padding a {
+  padding: 9px 43px !important; }
+  .df-padding a a:hover {
+    padding: 9px 43px !important; }
 
 .df-events-and-news {
   background: #fff; }
@@ -219,10 +226,11 @@
     margin-bottom: 10px; }
     .df-living .df-liv-img .df-imgandprice {
       width: 100%;
+      max-height: 255px;
       position: relative; }
       .df-living .df-liv-img .df-imgandprice img {
         width: 100%;
-        height: auto; }
+        height: 100%; }
       .df-living .df-liv-img .df-imgandprice .df-prices {
         background: rgba(37, 65, 80, 0.5);
         display: inline-block;
@@ -387,34 +395,35 @@
   font-size: 42px;
   color: #363636;
   font-family: "Conv_pt-serif_[allfont.ru]";
-  margin: 50px 0 30px 60px; }
+  margin: 0px 0 30px 60px;
+  padding-top: 49px; }
 
 .df-contacts-map {
   height: 352px;
   width: 100%; }
 
-.df-telefons, .df-address {
+.df-telefons, .df-address, .df-email {
   display: block;
   width: 310px;
   float: left;
   margin: 14px 0px 55px 120px;
   padding-top: 22px; }
-  .df-telefons h3, .df-address h3 {
+  .df-telefons h3, .df-address h3, .df-email h3 {
     font-size: 26px;
     font-family: "Conv_pt-serif_[allfont.ru]";
     color: #363636;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 31px;
     margin-bottom: 22px; }
-  .df-telefons div, .df-address div {
+  .df-telefons div, .df-address div, .df-email div {
     margin-bottom: 15px; }
-    .df-telefons div span, .df-address div span {
+    .df-telefons div span, .df-address div span, .df-email div span {
       font-family: "Conv_pt-serif_[allfont.ru]";
       font-size: 22px;
       color: #363636;
       display: block;
       line-height: 28px; }
-    .df-telefons div span:first-child, .df-address div span:first-child {
+    .df-telefons div span:first-child, .df-address div span:first-child, .df-email div span:first-child {
       text-transform: uppercase;
       color: #555555;
       font-size: 13px;
@@ -433,6 +442,21 @@
       color: #363636;
       display: block;
       line-height: 24px; }
+
+.df-email {
+  display: block;
+  margin-left: 75px;
+  padding-top: 22px; }
+  .df-email div {
+    margin-top: 31px;
+    margin-bottom: 0; }
+    .df-email div span {
+      font-family: "OpenSans-Regular";
+      font-size: 15px;
+      color: #363636;
+      display: block;
+      line-height: 24px;
+      text-transform: lowercase !important; }
 
 /*============== Brad Crumps =============*/
 .df-brad-crumps {
@@ -859,7 +883,7 @@
     left: -20px; }
 
   .df-events-and-news .df-content .df-img-text {
-    height: 152px; }
+    height: 172px !important; }
   .df-events-and-news .df-content .df-data-text {
     padding: 0px;
     width: 66%; }

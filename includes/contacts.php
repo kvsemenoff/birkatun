@@ -1,3 +1,10 @@
+<section>
+	<div class="container">
+		<div class="df-brad-crumps">
+			<a href="#">Главная</a><span>Развлечения и досуг</span>
+		</div>
+	</div>
+</section>
 <div class="container  nopadding">
 	<div class="df-bg-contact">
 		<h3 class="df-contacts-cap">Контакты</h3>
@@ -23,6 +30,12 @@
 			<div>
 				<span>659650, Алтайский край,</span>
 				<span>с. Алтайское, ул. Советская, д. 94</span>
+			</div>
+		</div>
+		<div class="df-email">
+			<h3>Электронная почта</h3>
+			<div>
+				<span>info@birkatun.ru</span>				
 			</div>
 		</div>
 		<div class="clear"></div>

@@ -1,7 +1,9 @@
 <section>
 	<div class="container">
-		<div class="dd-brad-crumps">
-			<a href="#">Главная</a><span>О парке</span>
+		<div class="df-brad-crumps">
+			<a href="#">Главная</a>
+			<a href="#">Развлечения и досуг</a>
+			<span>Горные сплавы</span>
 		</div>
 	</div>
 </section>
